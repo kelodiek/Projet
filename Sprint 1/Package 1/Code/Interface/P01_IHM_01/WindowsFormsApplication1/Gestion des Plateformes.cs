@@ -21,9 +21,6 @@ namespace WindowsFormsApplication1
         {
             DataGridViewColumn column;
             DataGridViewButtonColumn BColumn = new DataGridViewButtonColumn();
-            BColumn.Name = "Supp";
-            BColumn.Text = "allo";
-            BColumn.UseColumnTextForButtonValue = true;
 
             DataGridView1.Columns.Add("ID","ID");
             DataGridView1.Columns.Add("Code", "Code");
