@@ -52,7 +52,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.button1.Location = new System.Drawing.Point(12, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 47);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 0;
             this.button1.Text = "<--";
             this.button1.UseVisualStyleBackColor = true;
@@ -122,16 +122,16 @@
             // txtInfos
             // 
             this.txtInfos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtInfos.Location = new System.Drawing.Point(257, 352);
+            this.txtInfos.Location = new System.Drawing.Point(81, 392);
             this.txtInfos.MaxLength = 100;
             this.txtInfos.Name = "txtInfos";
-            this.txtInfos.Size = new System.Drawing.Size(450, 114);
+            this.txtInfos.Size = new System.Drawing.Size(560, 114);
             this.txtInfos.TabIndex = 7;
             this.txtInfos.Text = "";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(81, 534);
+            this.button2.Location = new System.Drawing.Point(41, 617);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 45);
             this.button2.TabIndex = 8;
@@ -140,7 +140,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(574, 534);
+            this.button3.Location = new System.Drawing.Point(601, 617);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 45);
             this.button3.TabIndex = 9;
@@ -149,7 +149,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(325, 534);
+            this.button4.Location = new System.Drawing.Point(314, 617);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(104, 45);
             this.button4.TabIndex = 10;
@@ -160,7 +160,7 @@
             // txtCode
             // 
             this.txtCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCode.Location = new System.Drawing.Point(257, 131);
+            this.txtCode.Location = new System.Drawing.Point(191, 136);
             this.txtCode.MaxLength = 10;
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(115, 30);
@@ -170,7 +170,7 @@
             // 
             this.txtId.AutoSize = true;
             this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtId.Location = new System.Drawing.Point(252, 79);
+            this.txtId.Location = new System.Drawing.Point(186, 79);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(23, 25);
             this.txtId.TabIndex = 12;
@@ -179,7 +179,7 @@
             // txtNom
             // 
             this.txtNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNom.Location = new System.Drawing.Point(257, 185);
+            this.txtNom.Location = new System.Drawing.Point(191, 185);
             this.txtNom.MaxLength = 25;
             this.txtNom.Name = "txtNom";
             this.txtNom.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -191,7 +191,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(76, 380);
+            this.label8.Location = new System.Drawing.Point(186, 355);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(175, 25);
             this.label8.TabIndex = 16;
@@ -200,7 +200,7 @@
             // txtEdition
             // 
             this.txtEdition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdition.Location = new System.Drawing.Point(257, 238);
+            this.txtEdition.Location = new System.Drawing.Point(191, 238);
             this.txtEdition.MaxLength = 40;
             this.txtEdition.Name = "txtEdition";
             this.txtEdition.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -211,7 +211,7 @@
             // txtVersion
             // 
             this.txtVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVersion.Location = new System.Drawing.Point(257, 296);
+            this.txtVersion.Location = new System.Drawing.Point(191, 296);
             this.txtVersion.MaxLength = 40;
             this.txtVersion.Name = "txtVersion";
             this.txtVersion.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -223,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 591);
+            this.ClientSize = new System.Drawing.Size(747, 674);
             this.Controls.Add(this.txtVersion);
             this.Controls.Add(this.txtEdition);
             this.Controls.Add(this.label8);
