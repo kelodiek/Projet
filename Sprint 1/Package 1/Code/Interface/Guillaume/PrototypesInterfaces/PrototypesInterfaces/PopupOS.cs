@@ -19,7 +19,7 @@ namespace PrototypesInterfaces
 
         private void PopupOS_Load(object sender, EventArgs e)
         {
-
+            //allo
         }
 
         private void label6_Click(object sender, EventArgs e)
