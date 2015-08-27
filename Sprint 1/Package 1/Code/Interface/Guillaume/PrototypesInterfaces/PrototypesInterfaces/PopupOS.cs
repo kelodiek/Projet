@@ -19,7 +19,7 @@ namespace PrototypesInterfaces
 
         private void PopupOS_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("salut");
         }
 
         private void label6_Click(object sender, EventArgs e)
