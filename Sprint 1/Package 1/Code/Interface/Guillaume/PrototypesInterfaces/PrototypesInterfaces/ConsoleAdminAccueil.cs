@@ -34,5 +34,13 @@ namespace PrototypesInterfaces
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Accueil form = new Accueil();
+            this.Hide();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+        }
     }
 }
