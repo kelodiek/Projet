@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class PopUpSE : Form
+    public partial class frmDetSysExp : Form
     {
-        public PopUpSE()
+        public frmDetSysExp()
         {
             InitializeComponent();
         }

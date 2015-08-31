@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class IntCO : Form
+    public partial class frmGesCon : Form
     {
-        public IntCO()
+        public frmGesCon()
         {
             InitializeComponent();
         }

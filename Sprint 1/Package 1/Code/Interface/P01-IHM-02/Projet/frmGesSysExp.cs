@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class IntSE : Form
+    public partial class frmGesSysExp : Form
     {
-        public IntSE()
+        public frmGesSysExp()
         {
             InitializeComponent();
             

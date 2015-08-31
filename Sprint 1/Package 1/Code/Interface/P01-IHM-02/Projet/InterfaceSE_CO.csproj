@@ -45,34 +45,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntSE.cs">
+    <Compile Include="frmGesSysExp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IntSE.Designer.cs">
-      <DependentUpon>IntSE.cs</DependentUpon>
+    <Compile Include="frmGesSysExp.Designer.cs">
+      <DependentUpon>frmGesSysExp.cs</DependentUpon>
     </Compile>
-    <Compile Include="IntCO.cs">
+    <Compile Include="frmGesCon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IntCO.Designer.cs">
-      <DependentUpon>IntCO.cs</DependentUpon>
+    <Compile Include="frmGesCon.Designer.cs">
+      <DependentUpon>frmGesCon.cs</DependentUpon>
     </Compile>
-    <Compile Include="PopUpSE.cs">
+    <Compile Include="frmDetSysExp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PopUpSE.Designer.cs">
-      <DependentUpon>PopUpSE.cs</DependentUpon>
+    <Compile Include="frmDetSysExp.Designer.cs">
+      <DependentUpon>frmDetSysExp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="IntCO.resx">
-      <DependentUpon>IntCO.cs</DependentUpon>
+    <EmbeddedResource Include="frmGesCon.resx">
+      <DependentUpon>frmGesCon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IntSE.resx">
-      <DependentUpon>IntSE.cs</DependentUpon>
+    <EmbeddedResource Include="frmGesSysExp.resx">
+      <DependentUpon>frmGesSysExp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PopUpSE.resx">
-      <DependentUpon>PopUpSE.cs</DependentUpon>
+    <EmbeddedResource Include="frmDetSysExp.resx">
+      <DependentUpon>frmDetSysExp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

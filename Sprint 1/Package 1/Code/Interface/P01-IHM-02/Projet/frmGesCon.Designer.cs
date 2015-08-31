@@ -1,6 +1,6 @@
 ﻿namespace Projet
 {
-    partial class IntCO
+    partial class frmGesCon
     {
         /// <summary>
         /// Required designer variable.
@@ -100,7 +100,7 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // IntSE
+            // frmGesCon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,7 +112,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblConnection);
-            this.Name = "IntSE";
+            this.Name = "frmGesCon";
             this.Text = "Connexion";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
