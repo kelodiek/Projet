@@ -159,7 +159,7 @@
             this.Controls.Add(this.btnAjoutPlateforme);
             this.Controls.Add(this.DataGridView1);
             this.Name = "Gestion_des_Plateformes";
-            this.Text = "Gestion_des_Plateformes";
+            this.Text = "Gestion des Plateformes";
             this.Load += new System.EventHandler(this.Gestion_des_Plateformes_Load);
             this.ToolStrip1.ResumeLayout(false);
             this.ToolStrip1.PerformLayout();
