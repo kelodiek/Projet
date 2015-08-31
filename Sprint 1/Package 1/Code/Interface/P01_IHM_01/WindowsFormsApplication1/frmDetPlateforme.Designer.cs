@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class frmDetPlateforme
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Button4 = new System.Windows.Forms.Button();
-            this.Button3 = new System.Windows.Forms.Button();
-            this.Button2 = new System.Windows.Forms.Button();
-            this.Button1 = new System.Windows.Forms.Button();
+            this.btnCopier = new System.Windows.Forms.Button();
+            this.btnAnnuler = new System.Windows.Forms.Button();
+            this.btnActiverModif = new System.Windows.Forms.Button();
+            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
             this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
             this.TextBox7 = new System.Windows.Forms.TextBox();
@@ -44,59 +44,63 @@
             this.ComboBox2 = new System.Windows.Forms.ComboBox();
             this.Label4 = new System.Windows.Forms.Label();
             this.ComboBox1 = new System.Windows.Forms.ComboBox();
-            this.TextBox4 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
-            this.TextBox3 = new System.Windows.Forms.TextBox();
+            this.txtCode = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnAjoutOS = new System.Windows.Forms.Button();
+            this.btnSupprimerOS = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Button4
+            // btnCopier
             // 
-            this.Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button4.Location = new System.Drawing.Point(15, 390);
-            this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(76, 35);
-            this.Button4.TabIndex = 62;
-            this.Button4.Text = "Copier";
-            this.Button4.UseVisualStyleBackColor = true;
+            this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCopier.Location = new System.Drawing.Point(15, 436);
+            this.btnCopier.Name = "btnCopier";
+            this.btnCopier.Size = new System.Drawing.Size(76, 35);
+            this.btnCopier.TabIndex = 62;
+            this.btnCopier.Text = "Copier";
+            this.btnCopier.UseVisualStyleBackColor = true;
             // 
-            // Button3
+            // btnAnnuler
             // 
-            this.Button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button3.Location = new System.Drawing.Point(327, 390);
-            this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(109, 35);
-            this.Button3.TabIndex = 61;
-            this.Button3.Text = "Annuler";
-            this.Button3.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnnuler.Location = new System.Drawing.Point(327, 436);
+            this.btnAnnuler.Name = "btnAnnuler";
+            this.btnAnnuler.Size = new System.Drawing.Size(109, 35);
+            this.btnAnnuler.TabIndex = 61;
+            this.btnAnnuler.Text = "Annuler";
+            this.btnAnnuler.UseVisualStyleBackColor = true;
             // 
-            // Button2
+            // btnActiverModif
             // 
-            this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(212, 390);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(109, 35);
-            this.Button2.TabIndex = 60;
-            this.Button2.Text = "Modifier";
-            this.Button2.UseVisualStyleBackColor = true;
+            this.btnActiverModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActiverModif.Location = new System.Drawing.Point(212, 436);
+            this.btnActiverModif.Name = "btnActiverModif";
+            this.btnActiverModif.Size = new System.Drawing.Size(109, 35);
+            this.btnActiverModif.TabIndex = 60;
+            this.btnActiverModif.Text = "Modifier";
+            this.btnActiverModif.UseVisualStyleBackColor = true;
             // 
-            // Button1
+            // btnAjoutPlateforme
             // 
-            this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(97, 390);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(109, 35);
-            this.Button1.TabIndex = 59;
-            this.Button1.Text = "Enregistrer";
-            this.Button1.UseVisualStyleBackColor = true;
+            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(97, 436);
+            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
+            this.btnAjoutPlateforme.Size = new System.Drawing.Size(109, 35);
+            this.btnAjoutPlateforme.TabIndex = 59;
+            this.btnAjoutPlateforme.Text = "Enregistrer";
+            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
             // RichTextBox1
             // 
-            this.RichTextBox1.Location = new System.Drawing.Point(12, 288);
+            this.RichTextBox1.Location = new System.Drawing.Point(12, 334);
             this.RichTextBox1.Name = "RichTextBox1";
             this.RichTextBox1.Size = new System.Drawing.Size(425, 96);
             this.RichTextBox1.TabIndex = 58;
@@ -106,7 +110,7 @@
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(9, 265);
+            this.Label10.Location = new System.Drawing.Point(9, 311);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(223, 20);
             this.Label10.TabIndex = 57;
@@ -199,12 +203,12 @@
             this.ComboBox1.Size = new System.Drawing.Size(102, 24);
             this.ComboBox1.TabIndex = 47;
             // 
-            // TextBox4
+            // txt
             // 
-            this.TextBox4.Location = new System.Drawing.Point(176, 63);
-            this.TextBox4.Name = "TextBox4";
-            this.TextBox4.Size = new System.Drawing.Size(159, 22);
-            this.TextBox4.TabIndex = 46;
+            this.txt.Location = new System.Drawing.Point(176, 63);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(159, 22);
+            this.txt.TabIndex = 46;
             // 
             // Label3
             // 
@@ -216,12 +220,12 @@
             this.Label3.TabIndex = 45;
             this.Label3.Text = "Nom :";
             // 
-            // TextBox3
+            // txtCode
             // 
-            this.TextBox3.Location = new System.Drawing.Point(176, 35);
-            this.TextBox3.Name = "TextBox3";
-            this.TextBox3.Size = new System.Drawing.Size(102, 22);
-            this.TextBox3.TabIndex = 44;
+            this.txtCode.Location = new System.Drawing.Point(176, 35);
+            this.txtCode.Name = "txtCode";
+            this.txtCode.Size = new System.Drawing.Size(102, 22);
+            this.txtCode.TabIndex = 44;
             // 
             // Label2
             // 
@@ -233,12 +237,12 @@
             this.Label2.TabIndex = 43;
             this.Label2.Text = "Code :";
             // 
-            // textBox2
+            // txtID
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 7);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(50, 22);
-            this.textBox2.TabIndex = 42;
+            this.txtID.Location = new System.Drawing.Point(176, 7);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(50, 22);
+            this.txtID.TabIndex = 42;
             // 
             // label7
             // 
@@ -267,15 +271,59 @@
             this.label11.TabIndex = 39;
             this.label11.Text = "CPU :";
             // 
-            // Form1
+            // btnAjoutOS
+            // 
+            this.btnAjoutOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutOS.Location = new System.Drawing.Point(284, 92);
+            this.btnAjoutOS.Name = "btnAjoutOS";
+            this.btnAjoutOS.Size = new System.Drawing.Size(27, 24);
+            this.btnAjoutOS.TabIndex = 63;
+            this.btnAjoutOS.Text = "+";
+            this.btnAjoutOS.UseVisualStyleBackColor = true;
+            // 
+            // btnSupprimerOS
+            // 
+            this.btnSupprimerOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimerOS.Location = new System.Drawing.Point(317, 92);
+            this.btnSupprimerOS.Name = "btnSupprimerOS";
+            this.btnSupprimerOS.Size = new System.Drawing.Size(27, 24);
+            this.btnSupprimerOS.TabIndex = 64;
+            this.btnSupprimerOS.Text = "-";
+            this.btnSupprimerOS.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(176, 269);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 35);
+            this.button1.TabIndex = 65;
+            this.button1.Text = "Afficher";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 276);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.TabIndex = 66;
+            this.label1.Text = "Peripherique  : ";
+            // 
+            // frmDetPlateforme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 433);
-            this.Controls.Add(this.Button4);
-            this.Controls.Add(this.Button3);
-            this.Controls.Add(this.Button2);
-            this.Controls.Add(this.Button1);
+            this.ClientSize = new System.Drawing.Size(456, 475);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSupprimerOS);
+            this.Controls.Add(this.btnAjoutOS);
+            this.Controls.Add(this.btnCopier);
+            this.Controls.Add(this.btnAnnuler);
+            this.Controls.Add(this.btnActiverModif);
+            this.Controls.Add(this.btnAjoutPlateforme);
             this.Controls.Add(this.RichTextBox1);
             this.Controls.Add(this.Label10);
             this.Controls.Add(this.TextBox7);
@@ -288,15 +336,15 @@
             this.Controls.Add(this.ComboBox2);
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.ComboBox1);
-            this.Controls.Add(this.TextBox4);
+            this.Controls.Add(this.txt);
             this.Controls.Add(this.Label3);
-            this.Controls.Add(this.TextBox3);
+            this.Controls.Add(this.txtCode);
             this.Controls.Add(this.Label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label11);
-            this.Name = "Form1";
+            this.Name = "frmDetPlateforme";
             this.Text = "Details";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -305,10 +353,10 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button Button4;
-        internal System.Windows.Forms.Button Button3;
-        internal System.Windows.Forms.Button Button2;
-        internal System.Windows.Forms.Button Button1;
+        internal System.Windows.Forms.Button btnCopier;
+        internal System.Windows.Forms.Button btnAnnuler;
+        internal System.Windows.Forms.Button btnActiverModif;
+        internal System.Windows.Forms.Button btnAjoutPlateforme;
         internal System.Windows.Forms.RichTextBox RichTextBox1;
         internal System.Windows.Forms.Label Label10;
         internal System.Windows.Forms.TextBox TextBox7;
@@ -321,14 +369,18 @@
         internal System.Windows.Forms.ComboBox ComboBox2;
         internal System.Windows.Forms.Label Label4;
         internal System.Windows.Forms.ComboBox ComboBox1;
-        internal System.Windows.Forms.TextBox TextBox4;
+        internal System.Windows.Forms.TextBox txt;
         internal System.Windows.Forms.Label Label3;
-        internal System.Windows.Forms.TextBox TextBox3;
+        internal System.Windows.Forms.TextBox txtCode;
         internal System.Windows.Forms.Label Label2;
-        internal System.Windows.Forms.TextBox textBox2;
+        internal System.Windows.Forms.TextBox txtID;
         internal System.Windows.Forms.Label label7;
         internal System.Windows.Forms.TextBox textBox8;
         internal System.Windows.Forms.Label label11;
+        internal System.Windows.Forms.Button btnAjoutOS;
+        internal System.Windows.Forms.Button btnSupprimerOS;
+        internal System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Label label1;
     }
 }
 

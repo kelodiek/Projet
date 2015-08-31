@@ -37,7 +37,8 @@
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.btnAjoutPlateforme = new System.Windows.Forms.Button();
             this.DataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAjoutOS = new System.Windows.Forms.Button();
+            this.btnDetails = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.ToolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -111,7 +112,7 @@
             // btnAjoutPlateforme
             // 
             this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(858, 453);
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(597, 453);
             this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
             this.btnAjoutPlateforme.Size = new System.Drawing.Size(197, 35);
             this.btnAjoutPlateforme.TabIndex = 40;
@@ -121,28 +122,39 @@
             // DataGridView1
             // 
             this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Location = new System.Drawing.Point(12, 36);
+            this.DataGridView1.Location = new System.Drawing.Point(12, 33);
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowTemplate.Height = 24;
             this.DataGridView1.Size = new System.Drawing.Size(1043, 401);
             this.DataGridView1.TabIndex = 39;
             // 
-            // btnAjoutOS
+            // btnDetails
             // 
-            this.btnAjoutOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutOS.Location = new System.Drawing.Point(727, 453);
-            this.btnAjoutOS.Name = "btnAjoutOS";
-            this.btnAjoutOS.Size = new System.Drawing.Size(125, 35);
-            this.btnAjoutOS.TabIndex = 42;
-            this.btnAjoutOS.Text = "Ajouter un OS";
-            this.btnAjoutOS.UseVisualStyleBackColor = true;
+            this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetails.Location = new System.Drawing.Point(800, 453);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.Size = new System.Drawing.Size(125, 35);
+            this.btnDetails.TabIndex = 43;
+            this.btnDetails.Text = "Details";
+            this.btnDetails.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(931, 453);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 35);
+            this.button1.TabIndex = 44;
+            this.button1.Text = "supprimer";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Gestion_des_Plateformes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 500);
-            this.Controls.Add(this.btnAjoutOS);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.btnAjoutPlateforme);
             this.Controls.Add(this.DataGridView1);
@@ -167,6 +179,7 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
         internal System.Windows.Forms.Button btnAjoutPlateforme;
         internal System.Windows.Forms.DataGridView DataGridView1;
-        internal System.Windows.Forms.Button btnAjoutOS;
+        internal System.Windows.Forms.Button btnDetails;
+        internal System.Windows.Forms.Button button1;
     }
 }

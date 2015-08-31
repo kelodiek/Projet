@@ -44,25 +44,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmAjouterOS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmAjouterOS.Designer.cs">
+      <DependentUpon>frmAjouterOS.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion des Plateformes.cs">
+    <Compile Include="frmDetPlateforme.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestion des Plateformes.Designer.cs">
-      <DependentUpon>Gestion des Plateformes.cs</DependentUpon>
+    <Compile Include="frmDetPlateforme.Designer.cs">
+      <DependentUpon>frmDetPlateforme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestPlateforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestPlateforme.Designer.cs">
+      <DependentUpon>frmGestPlateforme.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmAjouterOS.resx">
+      <DependentUpon>frmAjouterOS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gestion des Plateformes.resx">
-      <DependentUpon>Gestion des Plateformes.cs</DependentUpon>
+    <EmbeddedResource Include="frmDetPlateforme.resx">
+      <DependentUpon>frmDetPlateforme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestPlateforme.resx">
+      <DependentUpon>frmGestPlateforme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

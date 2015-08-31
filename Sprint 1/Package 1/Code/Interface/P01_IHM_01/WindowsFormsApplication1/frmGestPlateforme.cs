@@ -20,17 +20,17 @@ namespace WindowsFormsApplication1
         private void Gestion_des_Plateformes_Load(object sender, EventArgs e)
         {
             DataGridViewColumn column;
-            DataGridViewButtonColumn BColumn = new DataGridViewButtonColumn();
+            //DataGridViewButtonColumn BColumn = new DataGridViewButtonColumn();
 
-            BColumn.Text = "SUPPRIMER";
-            BColumn.UseColumnTextForButtonValue = true;
+            //BColumn.Text = "SUPPRIMER";
+            //BColumn.UseColumnTextForButtonValue = true;
 
             DataGridView1.Columns.Add("ID","ID");
             DataGridView1.Columns.Add("Code", "Code");
             DataGridView1.Columns.Add("Nom", "Nom");
             DataGridView1.Columns.Add("Categ", "Catégorie");
             DataGridView1.Columns.Add("OS", "OS");
-            DataGridView1.Columns.Add(BColumn);
+            //DataGridView1.Columns.Add(BColumn);
 
             DataGridViewRow row = DataGridView1.Rows[0];
             row.Height = 30;
@@ -39,7 +39,6 @@ namespace WindowsFormsApplication1
             column.Width = 50;
             column = DataGridView1.Columns[2];
             column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-
             column = DataGridView1.Columns[3];
             column.Width = 150;
             column = DataGridView1.Columns[4];
