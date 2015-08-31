@@ -44,12 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAjouterOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAjouterOS.Designer.cs">
-      <DependentUpon>frmAjouterOS.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmDetPlateforme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,9 +58,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAjouterOS.resx">
-      <DependentUpon>frmAjouterOS.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmDetPlateforme.resx">
       <DependentUpon>frmDetPlateforme.cs</DependentUpon>
     </EmbeddedResource>
