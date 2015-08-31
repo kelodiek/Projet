@@ -1,0 +1,13 @@
+27 aout 
+
+Élo: trouver couleur et logo
+	Documentation
+	doc standard nomenclature
+Gab: recherche datagridview
+	description narrative
+Oli: interface avec Gui et Al
+Dav: description narrative
+Al: interface avec Gui et Oli
+Gui: interface avec Oli et Al
+
+À faire : nommer le dba

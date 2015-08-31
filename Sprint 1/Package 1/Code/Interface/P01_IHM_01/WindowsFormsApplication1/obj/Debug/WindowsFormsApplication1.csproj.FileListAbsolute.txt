@@ -18,3 +18,13 @@ C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\P01_IHM_01\WindowsFor
 C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Gestion_des_Plateformes.resources
 C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Gestion_des_Plateformes.resources
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_01\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
