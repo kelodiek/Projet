@@ -16,4 +16,28 @@ C:\Users\Utilisateur\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\Prototyp
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.exe.config
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.exe
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.pdb
+<<<<<<< HEAD
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.exe
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.pdb
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.ConsoleAdminAccueil.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.PopupOS.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Properties.Resources.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Accueil.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Popup_Accueil.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.exe.config
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.exe
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.pdb
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.exe
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\bin\Debug\PrototypesInterfaces.pdb
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Accueil.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.ConsoleAdminAccueil.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Popup_Accueil.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.PopupOS.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\Guillaume\PrototypesInterfaces\PrototypesInterfaces\obj\Debug\PrototypesInterfaces.csproj.GenerateResource.Cache
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master

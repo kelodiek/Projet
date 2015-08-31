@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.Designer.cs">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsoleAdminAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConsoleAdminAccueil.Designer.cs">
       <DependentUpon>ConsoleAdminAccueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup Accueil.Designer.cs">
+      <DependentUpon>Popup Accueil.cs</DependentUpon>
     </Compile>
     <Compile Include="PopupOS.cs">
       <SubType>Form</SubType>
@@ -58,8 +70,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsoleAdminAccueil.resx">
       <DependentUpon>ConsoleAdminAccueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup Accueil.resx">
+      <DependentUpon>Popup Accueil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PopupOS.resx">
       <DependentUpon>PopupOS.cs</DependentUpon>
