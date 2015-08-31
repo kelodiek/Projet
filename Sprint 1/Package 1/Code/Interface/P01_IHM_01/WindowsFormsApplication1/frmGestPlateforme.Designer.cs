@@ -118,6 +118,7 @@
             this.btnAjoutPlateforme.TabIndex = 40;
             this.btnAjoutPlateforme.Text = "Ajouter une Plateforme";
             this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
+            this.btnAjoutPlateforme.Click += new System.EventHandler(this.btnAjoutPlateforme_Click);
             // 
             // DataGridView1
             // 

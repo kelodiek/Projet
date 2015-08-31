@@ -44,5 +44,12 @@ namespace WindowsFormsApplication1
             column = DataGridView1.Columns[4];
             column.Width = 150;
         }
+
+        private void btnAjoutPlateforme_Click(object sender, EventArgs e)
+        {
+            frmDetPlateforme form = new frmDetPlateforme();
+
+            form.ShowDialog();
+        }
     }
 }
