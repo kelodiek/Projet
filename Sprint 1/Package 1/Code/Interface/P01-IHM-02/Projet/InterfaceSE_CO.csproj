@@ -57,6 +57,12 @@
     <Compile Include="IntCO.Designer.cs">
       <DependentUpon>IntCO.cs</DependentUpon>
     </Compile>
+    <Compile Include="PopUpSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpSE.Designer.cs">
+      <DependentUpon>PopUpSE.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="IntCO.resx">
@@ -64,6 +70,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IntSE.resx">
       <DependentUpon>IntSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpSE.resx">
+      <DependentUpon>PopUpSE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
