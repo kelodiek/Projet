@@ -22,6 +22,9 @@ namespace WindowsFormsApplication1
             DataGridViewColumn column;
             DataGridViewButtonColumn BColumn = new DataGridViewButtonColumn();
 
+            BColumn.Text = "SUPPRIMER";
+            BColumn.UseColumnTextForButtonValue = true;
+
             DataGridView1.Columns.Add("ID","ID");
             DataGridView1.Columns.Add("Code", "Code");
             DataGridView1.Columns.Add("Nom", "Nom");
@@ -30,12 +33,13 @@ namespace WindowsFormsApplication1
             DataGridView1.Columns.Add(BColumn);
 
             DataGridViewRow row = DataGridView1.Rows[0];
-            row.Height = 50;
+            row.Height = 30;
 
             column = DataGridView1.Columns[0];
             column.Width = 50;
             column = DataGridView1.Columns[2];
-            column.Width = 200;
+            column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+
             column = DataGridView1.Columns[3];
             column.Width = 150;
             column = DataGridView1.Columns[4];

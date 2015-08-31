@@ -35,8 +35,9 @@
             this.ToolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.Button2 = new System.Windows.Forms.Button();
+            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
             this.DataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAjoutOS = new System.Windows.Forms.Button();
             this.ToolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -107,15 +108,15 @@
             this.ToolStripButton5.Size = new System.Drawing.Size(68, 27);
             this.ToolStripButton5.Text = "Quitter";
             // 
-            // Button2
+            // btnAjoutPlateforme
             // 
-            this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(946, 443);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(109, 35);
-            this.Button2.TabIndex = 40;
-            this.Button2.Text = "Ajouter";
-            this.Button2.UseVisualStyleBackColor = true;
+            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(858, 453);
+            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
+            this.btnAjoutPlateforme.Size = new System.Drawing.Size(197, 35);
+            this.btnAjoutPlateforme.TabIndex = 40;
+            this.btnAjoutPlateforme.Text = "Ajouter une Plateforme";
+            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
             // DataGridView1
             // 
@@ -126,13 +127,24 @@
             this.DataGridView1.Size = new System.Drawing.Size(1043, 401);
             this.DataGridView1.TabIndex = 39;
             // 
+            // btnAjoutOS
+            // 
+            this.btnAjoutOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutOS.Location = new System.Drawing.Point(727, 453);
+            this.btnAjoutOS.Name = "btnAjoutOS";
+            this.btnAjoutOS.Size = new System.Drawing.Size(125, 35);
+            this.btnAjoutOS.TabIndex = 42;
+            this.btnAjoutOS.Text = "Ajouter un OS";
+            this.btnAjoutOS.UseVisualStyleBackColor = true;
+            // 
             // Gestion_des_Plateformes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 486);
+            this.ClientSize = new System.Drawing.Size(1064, 500);
+            this.Controls.Add(this.btnAjoutOS);
             this.Controls.Add(this.ToolStrip1);
-            this.Controls.Add(this.Button2);
+            this.Controls.Add(this.btnAjoutPlateforme);
             this.Controls.Add(this.DataGridView1);
             this.Name = "Gestion_des_Plateformes";
             this.Text = "Gestion_des_Plateformes";
@@ -153,7 +165,8 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton3;
         internal System.Windows.Forms.ToolStripButton ToolStripButton4;
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
-        internal System.Windows.Forms.Button Button2;
+        internal System.Windows.Forms.Button btnAjoutPlateforme;
         internal System.Windows.Forms.DataGridView DataGridView1;
+        internal System.Windows.Forms.Button btnAjoutOS;
     }
 }
