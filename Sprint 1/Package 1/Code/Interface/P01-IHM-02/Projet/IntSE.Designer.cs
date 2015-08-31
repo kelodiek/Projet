@@ -29,22 +29,28 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.donéeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sécuritéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.compteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.txtRecherche = new System.Windows.Forms.TextBox();
-            this.btnRecherche = new System.Windows.Forms.Button();
-            this.btnAjouter = new System.Windows.Forms.Button();
-            this.systèmeDExploitationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Édition = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Version = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Supprimer = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.donéeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.systèmeDExploitationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sécuritéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.compteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtRecherche = new System.Windows.Forms.TextBox();
+            this.btnRecherche = new System.Windows.Forms.Button();
+            this.btnAjouter = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.modifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.plateformeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajouterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.modifierToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionUtilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +71,44 @@
             this.dataGridView1.Size = new System.Drawing.Size(695, 326);
             this.dataGridView1.TabIndex = 0;
             // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.MaxInputLength = 10;
+            this.ID.Name = "ID";
+            this.ID.Width = 50;
+            // 
+            // Code
+            // 
+            this.Code.HeaderText = "Code";
+            this.Code.Name = "Code";
+            // 
+            // Nom
+            // 
+            this.Nom.HeaderText = "Nom";
+            this.Nom.Name = "Nom";
+            this.Nom.Width = 125;
+            // 
+            // Édition
+            // 
+            this.Édition.HeaderText = "Édition";
+            this.Édition.Name = "Édition";
+            this.Édition.Width = 175;
+            // 
+            // Version
+            // 
+            this.Version.HeaderText = "Version";
+            this.Version.Name = "Version";
+            this.Version.Width = 150;
+            // 
+            // Supprimer
+            // 
+            this.Supprimer.HeaderText = "Supp.";
+            this.Supprimer.Name = "Supprimer";
+            this.Supprimer.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Supprimer.UseColumnTextForButtonValue = true;
+            this.Supprimer.Width = 50;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -82,13 +126,31 @@
             // donéeToolStripMenuItem
             // 
             this.donéeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.systèmeDExploitationToolStripMenuItem});
+            this.systèmeDExploitationToolStripMenuItem,
+            this.plateformeToolStripMenuItem});
             this.donéeToolStripMenuItem.Name = "donéeToolStripMenuItem";
             this.donéeToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.donéeToolStripMenuItem.Text = "Donnée";
             // 
+            // systèmeDExploitationToolStripMenuItem
+            // 
+            this.systèmeDExploitationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ajouterToolStripMenuItem,
+            this.modifierToolStripMenuItem});
+            this.systèmeDExploitationToolStripMenuItem.Name = "systèmeDExploitationToolStripMenuItem";
+            this.systèmeDExploitationToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
+            this.systèmeDExploitationToolStripMenuItem.Text = "Système d\'Exploitation";
+            // 
+            // ajouterToolStripMenuItem
+            // 
+            this.ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
+            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.ajouterToolStripMenuItem.Text = "Ajouter";
+            // 
             // sécuritéToolStripMenuItem
             // 
+            this.sécuritéToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionUtilisateurToolStripMenuItem});
             this.sécuritéToolStripMenuItem.Name = "sécuritéToolStripMenuItem";
             this.sécuritéToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.sécuritéToolStripMenuItem.Text = "Sécurité";
@@ -132,63 +194,54 @@
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
             // 
-            // systèmeDExploitationToolStripMenuItem
+            // button1
             // 
-            this.systèmeDExploitationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem});
-            this.systèmeDExploitationToolStripMenuItem.Name = "systèmeDExploitationToolStripMenuItem";
-            this.systèmeDExploitationToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
-            this.systèmeDExploitationToolStripMenuItem.Text = "Système d\'Exploitation";
+            this.button1.Location = new System.Drawing.Point(467, 436);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(96, 28);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // ajouterToolStripMenuItem
+            // modifierToolStripMenuItem
             // 
-            this.ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
-            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.ajouterToolStripMenuItem.Text = "Ajouter";
+            this.modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
+            this.modifierToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.modifierToolStripMenuItem.Text = "Modifier";
             // 
-            // ID
+            // plateformeToolStripMenuItem
             // 
-            this.ID.HeaderText = "ID";
-            this.ID.MaxInputLength = 10;
-            this.ID.Name = "ID";
-            this.ID.Width = 50;
+            this.plateformeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ajouterToolStripMenuItem1,
+            this.modifierToolStripMenuItem1});
+            this.plateformeToolStripMenuItem.Name = "plateformeToolStripMenuItem";
+            this.plateformeToolStripMenuItem.Size = new System.Drawing.Size(229, 24);
+            this.plateformeToolStripMenuItem.Text = "Plateforme";
             // 
-            // Code
+            // ajouterToolStripMenuItem1
             // 
-            this.Code.HeaderText = "Code";
-            this.Code.Name = "Code";
+            this.ajouterToolStripMenuItem1.Name = "ajouterToolStripMenuItem1";
+            this.ajouterToolStripMenuItem1.Size = new System.Drawing.Size(175, 24);
+            this.ajouterToolStripMenuItem1.Text = "Ajouter";
             // 
-            // Nom
+            // modifierToolStripMenuItem1
             // 
-            this.Nom.HeaderText = "Nom";
-            this.Nom.Name = "Nom";
-            this.Nom.Width = 125;
+            this.modifierToolStripMenuItem1.Name = "modifierToolStripMenuItem1";
+            this.modifierToolStripMenuItem1.Size = new System.Drawing.Size(175, 24);
+            this.modifierToolStripMenuItem1.Text = "Modifier";
             // 
-            // Édition
+            // gestionUtilisateurToolStripMenuItem
             // 
-            this.Édition.HeaderText = "Édition";
-            this.Édition.Name = "Édition";
-            this.Édition.Width = 175;
-            // 
-            // Version
-            // 
-            this.Version.HeaderText = "Version";
-            this.Version.Name = "Version";
-            this.Version.Width = 150;
-            // 
-            // Supprimer
-            // 
-            this.Supprimer.HeaderText = "Supp.";
-            this.Supprimer.Name = "Supprimer";
-            this.Supprimer.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Supprimer.UseColumnTextForButtonValue = true;
-            this.Supprimer.Width = 50;
+            this.gestionUtilisateurToolStripMenuItem.Name = "gestionUtilisateurToolStripMenuItem";
+            this.gestionUtilisateurToolStripMenuItem.Size = new System.Drawing.Size(199, 24);
+            this.gestionUtilisateurToolStripMenuItem.Text = "Gestion Utilisateur";
             // 
             // IntSE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(754, 495);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.btnRecherche);
             this.Controls.Add(this.txtRecherche);
@@ -196,7 +249,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "IntSE";
-            this.Text = "Systeme Exploitation";
+            this.Text = "Détail - Systeme Exploitation";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -224,6 +277,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Édition;
         private System.Windows.Forms.DataGridViewTextBoxColumn Version;
         private System.Windows.Forms.DataGridViewButtonColumn Supprimer;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem plateformeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem gestionUtilisateurToolStripMenuItem;
     }
 }
 
