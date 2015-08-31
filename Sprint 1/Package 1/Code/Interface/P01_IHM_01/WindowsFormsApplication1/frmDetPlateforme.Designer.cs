@@ -345,7 +345,7 @@
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label11);
             this.Name = "frmDetPlateforme";
-            this.Text = "Details";
+            this.Text = "Details - Plateformes";
             this.ResumeLayout(false);
             this.PerformLayout();
 
