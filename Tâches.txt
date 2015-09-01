@@ -18,3 +18,5 @@ Gu: frm SysExp
 //Message d'erreurs, de confirmation, etc.
 
 À faire : nommer le dba
+
+jeux d'essais = SysExp, Plateforme, Classification, Catégorie, Périphérique, Genre
