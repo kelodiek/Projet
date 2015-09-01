@@ -63,6 +63,16 @@ namespace Projet.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Texcel_logo_v2 {
+            get {
+                object obj = ResourceManager.GetObject("Texcel logo v2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap X_icon {
             get {
                 object obj = ResourceManager.GetObject("X_icon", resourceCulture);
