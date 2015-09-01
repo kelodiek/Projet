@@ -139,6 +139,7 @@
             this.btnDetails.TabIndex = 43;
             this.btnDetails.Text = "Details";
             this.btnDetails.UseVisualStyleBackColor = true;
+            this.btnDetails.Click += new System.EventHandler(this.btnAjoutPlateforme_Click);
             // 
             // button1
             // 

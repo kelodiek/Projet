@@ -219,7 +219,7 @@
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnAjouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.btnAjouter.Location = new System.Drawing.Point(307, 431);
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(140, 32);
@@ -243,8 +243,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(113, 32);
             this.button2.TabIndex = 6;
-            this.button2.Text = "Détail";
+            this.button2.Text = "Détails";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // button3
             // 
