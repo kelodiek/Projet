@@ -315,7 +315,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 475);
+            this.ClientSize = new System.Drawing.Size(457, 475);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSupprimerOS);
@@ -344,6 +344,8 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label11);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDetPlateforme";
             this.Text = "Details - Plateformes";
             this.ResumeLayout(false);

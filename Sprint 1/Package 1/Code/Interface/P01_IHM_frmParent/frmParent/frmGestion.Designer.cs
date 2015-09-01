@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace frmParent
 {
-    partial class Gestion_des_Plateformes
+    partial class frmGestion
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gestion_des_Plateformes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestion));
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
-            this.DataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnDetails = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnDetails = new System.Windows.Forms.Button();
+            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
             this.ToolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // ToolStrip1
@@ -55,7 +53,7 @@
             this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.Size = new System.Drawing.Size(1064, 30);
-            this.ToolStrip1.TabIndex = 41;
+            this.ToolStrip1.TabIndex = 42;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
             // ToolStripButton1
@@ -109,62 +107,49 @@
             this.ToolStripButton5.Size = new System.Drawing.Size(68, 27);
             this.ToolStripButton5.Text = "Quitter";
             // 
-            // btnAjoutPlateforme
+            // button1
             // 
-            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(673, 453);
-            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
-            this.btnAjoutPlateforme.Size = new System.Drawing.Size(125, 35);
-            this.btnAjoutPlateforme.TabIndex = 40;
-            this.btnAjoutPlateforme.Text = "Ajouter";
-            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
-            this.btnAjoutPlateforme.Click += new System.EventHandler(this.btnAjoutPlateforme_Click);
-            // 
-            // DataGridView1
-            // 
-            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Location = new System.Drawing.Point(12, 33);
-            this.DataGridView1.Name = "DataGridView1";
-            this.DataGridView1.RowTemplate.Height = 24;
-            this.DataGridView1.Size = new System.Drawing.Size(1043, 401);
-            this.DataGridView1.TabIndex = 39;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(927, 453);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 35);
+            this.button1.TabIndex = 47;
+            this.button1.Text = "supprimer";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnDetails
             // 
             this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetails.Location = new System.Drawing.Point(800, 453);
+            this.btnDetails.Location = new System.Drawing.Point(796, 453);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(125, 35);
-            this.btnDetails.TabIndex = 43;
+            this.btnDetails.TabIndex = 46;
             this.btnDetails.Text = "Details";
             this.btnDetails.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAjoutPlateforme
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(931, 453);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 35);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "supprimer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(669, 453);
+            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
+            this.btnAjoutPlateforme.Size = new System.Drawing.Size(125, 35);
+            this.btnAjoutPlateforme.TabIndex = 45;
+            this.btnAjoutPlateforme.Text = "Ajouter";
+            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
-            // Gestion_des_Plateformes
+            // frmGestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 500);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDetails);
-            this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.btnAjoutPlateforme);
-            this.Controls.Add(this.DataGridView1);
-            this.Name = "Gestion_des_Plateformes";
-            this.Text = "Gestion des Plateformes";
-            this.Load += new System.EventHandler(this.Gestion_des_Plateformes_Load);
+            this.Controls.Add(this.ToolStrip1);
+            this.Name = "frmGestion";
+            this.Text = "frmGestion";
             this.ToolStrip1.ResumeLayout(false);
             this.ToolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,9 +163,8 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton3;
         internal System.Windows.Forms.ToolStripButton ToolStripButton4;
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
-        internal System.Windows.Forms.Button btnAjoutPlateforme;
-        internal System.Windows.Forms.DataGridView DataGridView1;
-        internal System.Windows.Forms.Button btnDetails;
         internal System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Button btnDetails;
+        internal System.Windows.Forms.Button btnAjoutPlateforme;
     }
 }
