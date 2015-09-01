@@ -32,8 +32,6 @@
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnActiverModif = new System.Windows.Forms.Button();
             this.btnAjoutPlateforme = new System.Windows.Forms.Button();
-            this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.Label10 = new System.Windows.Forms.Label();
             this.TextBox7 = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
             this.TextBox6 = new System.Windows.Forms.TextBox();
@@ -56,12 +54,16 @@
             this.btnSupprimerOS = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.Label10 = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCopier
             // 
             this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(15, 436);
+            this.btnCopier.Location = new System.Drawing.Point(13, 554);
             this.btnCopier.Name = "btnCopier";
             this.btnCopier.Size = new System.Drawing.Size(76, 35);
             this.btnCopier.TabIndex = 62;
@@ -71,7 +73,7 @@
             // btnAnnuler
             // 
             this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(327, 436);
+            this.btnAnnuler.Location = new System.Drawing.Point(325, 554);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(109, 35);
             this.btnAnnuler.TabIndex = 61;
@@ -81,7 +83,7 @@
             // btnActiverModif
             // 
             this.btnActiverModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActiverModif.Location = new System.Drawing.Point(212, 436);
+            this.btnActiverModif.Location = new System.Drawing.Point(210, 554);
             this.btnActiverModif.Name = "btnActiverModif";
             this.btnActiverModif.Size = new System.Drawing.Size(109, 35);
             this.btnActiverModif.TabIndex = 60;
@@ -91,30 +93,12 @@
             // btnAjoutPlateforme
             // 
             this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(97, 436);
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(95, 554);
             this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
             this.btnAjoutPlateforme.Size = new System.Drawing.Size(109, 35);
             this.btnAjoutPlateforme.TabIndex = 59;
             this.btnAjoutPlateforme.Text = "Enregistrer";
             this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
-            // 
-            // RichTextBox1
-            // 
-            this.RichTextBox1.Location = new System.Drawing.Point(12, 334);
-            this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(425, 96);
-            this.RichTextBox1.TabIndex = 58;
-            this.RichTextBox1.Text = "";
-            // 
-            // Label10
-            // 
-            this.Label10.AutoSize = true;
-            this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(9, 311);
-            this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(223, 20);
-            this.Label10.TabIndex = 57;
-            this.Label10.Text = "Information Supplementaire :";
             // 
             // TextBox7
             // 
@@ -294,7 +278,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(176, 269);
+            this.button1.Location = new System.Drawing.Point(175, 265);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 35);
             this.button1.TabIndex = 65;
@@ -305,17 +289,57 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 276);
+            this.label1.Location = new System.Drawing.Point(9, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 20);
             this.label1.TabIndex = 66;
             this.label1.Text = "Peripherique  : ";
             // 
+            // RichTextBox1
+            // 
+            this.RichTextBox1.Location = new System.Drawing.Point(12, 330);
+            this.RichTextBox1.Name = "RichTextBox1";
+            this.RichTextBox1.Size = new System.Drawing.Size(425, 96);
+            this.RichTextBox1.TabIndex = 68;
+            this.RichTextBox1.Text = "";
+            // 
+            // Label10
+            // 
+            this.Label10.AutoSize = true;
+            this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label10.Location = new System.Drawing.Point(9, 307);
+            this.Label10.Name = "Label10";
+            this.Label10.Size = new System.Drawing.Size(110, 20);
+            this.Label10.TabIndex = 67;
+            this.Label10.Text = "Description : ";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(12, 452);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(425, 96);
+            this.richTextBox2.TabIndex = 70;
+            this.richTextBox2.Text = "";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(8, 429);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(246, 20);
+            this.label12.TabIndex = 69;
+            this.label12.Text = "Informations Supplémentaires : ";
+            // 
             // frmDetPlateforme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 475);
+            this.ClientSize = new System.Drawing.Size(457, 595);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.RichTextBox1);
+            this.Controls.Add(this.Label10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSupprimerOS);
@@ -324,8 +348,6 @@
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnActiverModif);
             this.Controls.Add(this.btnAjoutPlateforme);
-            this.Controls.Add(this.RichTextBox1);
-            this.Controls.Add(this.Label10);
             this.Controls.Add(this.TextBox7);
             this.Controls.Add(this.Label9);
             this.Controls.Add(this.TextBox6);
@@ -357,8 +379,6 @@
         internal System.Windows.Forms.Button btnAnnuler;
         internal System.Windows.Forms.Button btnActiverModif;
         internal System.Windows.Forms.Button btnAjoutPlateforme;
-        internal System.Windows.Forms.RichTextBox RichTextBox1;
-        internal System.Windows.Forms.Label Label10;
         internal System.Windows.Forms.TextBox TextBox7;
         internal System.Windows.Forms.Label Label9;
         internal System.Windows.Forms.TextBox TextBox6;
@@ -381,6 +401,10 @@
         internal System.Windows.Forms.Button btnSupprimerOS;
         internal System.Windows.Forms.Button button1;
         internal System.Windows.Forms.Label label1;
+        internal System.Windows.Forms.RichTextBox RichTextBox1;
+        internal System.Windows.Forms.Label Label10;
+        internal System.Windows.Forms.RichTextBox richTextBox2;
+        internal System.Windows.Forms.Label label12;
     }
 }
 
