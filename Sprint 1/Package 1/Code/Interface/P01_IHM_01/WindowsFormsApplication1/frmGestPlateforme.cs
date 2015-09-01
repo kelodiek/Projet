@@ -39,7 +39,7 @@ namespace WindowsFormsApplication1
             column.Width = 50;
             column = DataGridView1.Columns[2];
             column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            column = DataGridView1.Columns[3];
+            scolumn = DataGridView1.Columns[3];
             column.Width = 150;
             column = DataGridView1.Columns[4];
             column.Width = 150;

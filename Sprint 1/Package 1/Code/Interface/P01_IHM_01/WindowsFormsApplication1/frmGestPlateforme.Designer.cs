@@ -111,6 +111,7 @@
             // 
             // btnAjoutPlateforme
             // 
+            this.btnAjoutPlateforme.AutoSize = true;
             this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjoutPlateforme.Location = new System.Drawing.Point(673, 453);
             this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";

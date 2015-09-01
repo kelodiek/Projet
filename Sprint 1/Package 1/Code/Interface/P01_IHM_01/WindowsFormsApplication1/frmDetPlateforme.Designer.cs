@@ -32,29 +32,29 @@
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnActiverModif = new System.Windows.Forms.Button();
             this.btnAjoutPlateforme = new System.Windows.Forms.Button();
-            this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtInfoSup = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
-            this.TextBox7 = new System.Windows.Forms.TextBox();
+            this.txtStokage = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
-            this.TextBox6 = new System.Windows.Forms.TextBox();
+            this.txtRam = new System.Windows.Forms.TextBox();
             this.Label8 = new System.Windows.Forms.Label();
-            this.TextBox5 = new System.Windows.Forms.TextBox();
+            this.txtCartemer = new System.Windows.Forms.TextBox();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.ComboBox2 = new System.Windows.Forms.ComboBox();
             this.Label4 = new System.Windows.Forms.Label();
-            this.ComboBox1 = new System.Windows.Forms.ComboBox();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.cboxOS = new System.Windows.Forms.ComboBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.txtCode = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtCPU = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnAjoutOS = new System.Windows.Forms.Button();
             this.btnSupprimerOS = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAfficherPerif = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -77,6 +77,7 @@
             this.btnAnnuler.TabIndex = 61;
             this.btnAnnuler.Text = "Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
             // 
             // btnActiverModif
             // 
@@ -87,6 +88,7 @@
             this.btnActiverModif.TabIndex = 60;
             this.btnActiverModif.Text = "Modifier";
             this.btnActiverModif.UseVisualStyleBackColor = true;
+            this.btnActiverModif.Click += new System.EventHandler(this.btnActiverModif_Click);
             // 
             // btnAjoutPlateforme
             // 
@@ -98,13 +100,14 @@
             this.btnAjoutPlateforme.Text = "Enregistrer";
             this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
-            // RichTextBox1
+            // txtInfoSup
             // 
-            this.RichTextBox1.Location = new System.Drawing.Point(12, 334);
-            this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(425, 96);
-            this.RichTextBox1.TabIndex = 58;
-            this.RichTextBox1.Text = "";
+            this.txtInfoSup.Enabled = false;
+            this.txtInfoSup.Location = new System.Drawing.Point(12, 334);
+            this.txtInfoSup.Name = "txtInfoSup";
+            this.txtInfoSup.Size = new System.Drawing.Size(425, 96);
+            this.txtInfoSup.TabIndex = 58;
+            this.txtInfoSup.Text = "";
             // 
             // Label10
             // 
@@ -116,12 +119,13 @@
             this.Label10.TabIndex = 57;
             this.Label10.Text = "Information Supplementaire :";
             // 
-            // TextBox7
+            // txtStokage
             // 
-            this.TextBox7.Location = new System.Drawing.Point(176, 236);
-            this.TextBox7.Name = "TextBox7";
-            this.TextBox7.Size = new System.Drawing.Size(213, 22);
-            this.TextBox7.TabIndex = 56;
+            this.txtStokage.Enabled = false;
+            this.txtStokage.Location = new System.Drawing.Point(176, 236);
+            this.txtStokage.Name = "txtStokage";
+            this.txtStokage.Size = new System.Drawing.Size(213, 22);
+            this.txtStokage.TabIndex = 56;
             // 
             // Label9
             // 
@@ -133,12 +137,13 @@
             this.Label9.TabIndex = 55;
             this.Label9.Text = "Espace de stokage :";
             // 
-            // TextBox6
+            // txtRam
             // 
-            this.TextBox6.Location = new System.Drawing.Point(176, 208);
-            this.TextBox6.Name = "TextBox6";
-            this.TextBox6.Size = new System.Drawing.Size(213, 22);
-            this.TextBox6.TabIndex = 54;
+            this.txtRam.Enabled = false;
+            this.txtRam.Location = new System.Drawing.Point(176, 208);
+            this.txtRam.Name = "txtRam";
+            this.txtRam.Size = new System.Drawing.Size(213, 22);
+            this.txtRam.TabIndex = 54;
             // 
             // Label8
             // 
@@ -150,12 +155,13 @@
             this.Label8.TabIndex = 53;
             this.Label8.Text = "RAM :";
             // 
-            // TextBox5
+            // txtCartemer
             // 
-            this.TextBox5.Location = new System.Drawing.Point(176, 180);
-            this.TextBox5.Name = "TextBox5";
-            this.TextBox5.Size = new System.Drawing.Size(213, 22);
-            this.TextBox5.TabIndex = 52;
+            this.txtCartemer.Enabled = false;
+            this.txtCartemer.Location = new System.Drawing.Point(176, 180);
+            this.txtCartemer.Name = "txtCartemer";
+            this.txtCartemer.Size = new System.Drawing.Size(213, 22);
+            this.txtCartemer.TabIndex = 52;
             // 
             // Label6
             // 
@@ -195,20 +201,21 @@
             this.Label4.TabIndex = 48;
             this.Label4.Text = "OS :";
             // 
-            // ComboBox1
+            // cboxOS
             // 
-            this.ComboBox1.FormattingEnabled = true;
-            this.ComboBox1.Location = new System.Drawing.Point(176, 92);
-            this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(102, 24);
-            this.ComboBox1.TabIndex = 47;
+            this.cboxOS.FormattingEnabled = true;
+            this.cboxOS.Location = new System.Drawing.Point(176, 92);
+            this.cboxOS.Name = "cboxOS";
+            this.cboxOS.Size = new System.Drawing.Size(102, 24);
+            this.cboxOS.TabIndex = 47;
             // 
-            // txt
+            // txtNom
             // 
-            this.txt.Location = new System.Drawing.Point(176, 63);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(159, 22);
-            this.txt.TabIndex = 46;
+            this.txtNom.Enabled = false;
+            this.txtNom.Location = new System.Drawing.Point(176, 63);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(159, 22);
+            this.txtNom.TabIndex = 46;
             // 
             // Label3
             // 
@@ -222,6 +229,7 @@
             // 
             // txtCode
             // 
+            this.txtCode.Enabled = false;
             this.txtCode.Location = new System.Drawing.Point(176, 35);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(102, 22);
@@ -239,6 +247,7 @@
             // 
             // txtID
             // 
+            this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(176, 7);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(50, 22);
@@ -254,12 +263,13 @@
             this.label7.TabIndex = 41;
             this.label7.Text = "Identifiant :";
             // 
-            // textBox8
+            // txtCPU
             // 
-            this.textBox8.Location = new System.Drawing.Point(176, 152);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(213, 22);
-            this.textBox8.TabIndex = 40;
+            this.txtCPU.Enabled = false;
+            this.txtCPU.Location = new System.Drawing.Point(176, 152);
+            this.txtCPU.Name = "txtCPU";
+            this.txtCPU.Size = new System.Drawing.Size(213, 22);
+            this.txtCPU.TabIndex = 40;
             // 
             // label11
             // 
@@ -273,6 +283,7 @@
             // 
             // btnAjoutOS
             // 
+            this.btnAjoutOS.Enabled = false;
             this.btnAjoutOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjoutOS.Location = new System.Drawing.Point(284, 92);
             this.btnAjoutOS.Name = "btnAjoutOS";
@@ -283,6 +294,7 @@
             // 
             // btnSupprimerOS
             // 
+            this.btnSupprimerOS.Enabled = false;
             this.btnSupprimerOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSupprimerOS.Location = new System.Drawing.Point(317, 92);
             this.btnSupprimerOS.Name = "btnSupprimerOS";
@@ -291,15 +303,15 @@
             this.btnSupprimerOS.Text = "-";
             this.btnSupprimerOS.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAfficherPerif
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(176, 269);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 35);
-            this.button1.TabIndex = 65;
-            this.button1.Text = "Afficher";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAfficherPerif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAfficherPerif.Location = new System.Drawing.Point(176, 269);
+            this.btnAfficherPerif.Name = "btnAfficherPerif";
+            this.btnAfficherPerif.Size = new System.Drawing.Size(86, 35);
+            this.btnAfficherPerif.TabIndex = 65;
+            this.btnAfficherPerif.Text = "Afficher";
+            this.btnAfficherPerif.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -317,33 +329,34 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 475);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAfficherPerif);
             this.Controls.Add(this.btnSupprimerOS);
             this.Controls.Add(this.btnAjoutOS);
             this.Controls.Add(this.btnCopier);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnActiverModif);
             this.Controls.Add(this.btnAjoutPlateforme);
-            this.Controls.Add(this.RichTextBox1);
+            this.Controls.Add(this.txtInfoSup);
             this.Controls.Add(this.Label10);
-            this.Controls.Add(this.TextBox7);
+            this.Controls.Add(this.txtStokage);
             this.Controls.Add(this.Label9);
-            this.Controls.Add(this.TextBox6);
+            this.Controls.Add(this.txtRam);
             this.Controls.Add(this.Label8);
-            this.Controls.Add(this.TextBox5);
+            this.Controls.Add(this.txtCartemer);
             this.Controls.Add(this.Label6);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.ComboBox2);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.ComboBox1);
-            this.Controls.Add(this.txt);
+            this.Controls.Add(this.cboxOS);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtCPU);
             this.Controls.Add(this.label11);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmDetPlateforme";
@@ -359,29 +372,29 @@
         internal System.Windows.Forms.Button btnAnnuler;
         internal System.Windows.Forms.Button btnActiverModif;
         internal System.Windows.Forms.Button btnAjoutPlateforme;
-        internal System.Windows.Forms.RichTextBox RichTextBox1;
+        internal System.Windows.Forms.RichTextBox txtInfoSup;
         internal System.Windows.Forms.Label Label10;
-        internal System.Windows.Forms.TextBox TextBox7;
+        internal System.Windows.Forms.TextBox txtStokage;
         internal System.Windows.Forms.Label Label9;
-        internal System.Windows.Forms.TextBox TextBox6;
+        internal System.Windows.Forms.TextBox txtRam;
         internal System.Windows.Forms.Label Label8;
-        internal System.Windows.Forms.TextBox TextBox5;
+        internal System.Windows.Forms.TextBox txtCartemer;
         internal System.Windows.Forms.Label Label6;
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.ComboBox ComboBox2;
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.ComboBox ComboBox1;
-        internal System.Windows.Forms.TextBox txt;
+        internal System.Windows.Forms.ComboBox cboxOS;
+        internal System.Windows.Forms.TextBox txtNom;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.TextBox txtCode;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.TextBox txtID;
         internal System.Windows.Forms.Label label7;
-        internal System.Windows.Forms.TextBox textBox8;
+        internal System.Windows.Forms.TextBox txtCPU;
         internal System.Windows.Forms.Label label11;
         internal System.Windows.Forms.Button btnAjoutOS;
         internal System.Windows.Forms.Button btnSupprimerOS;
-        internal System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Button btnAfficherPerif;
         internal System.Windows.Forms.Label label1;
     }
 }
