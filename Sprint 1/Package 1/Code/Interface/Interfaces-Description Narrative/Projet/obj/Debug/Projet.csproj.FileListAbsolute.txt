@@ -1,0 +1,10 @@
+c:\users\utilisateur\documents\visual studio 2013\Projects\Projet\Projet\bin\Debug\Projet.exe.config
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\bin\Debug\Projet.exe
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\bin\Debug\Projet.pdb
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.IntCO.resources
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.IntSE.resources
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.Properties.Resources.resources
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.exe
+C:\Users\Utilisateur\documents\visual studio 2013\Projects\Projet\Projet\obj\Debug\Projet.pdb
