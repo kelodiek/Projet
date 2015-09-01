@@ -32,23 +32,23 @@
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnActiverModif = new System.Windows.Forms.Button();
             this.btnAjoutPlateforme = new System.Windows.Forms.Button();
-            this.TextBox7 = new System.Windows.Forms.TextBox();
+            this.txtStockage = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
-            this.TextBox6 = new System.Windows.Forms.TextBox();
+            this.txtRam = new System.Windows.Forms.TextBox();
             this.Label8 = new System.Windows.Forms.Label();
-            this.TextBox5 = new System.Windows.Forms.TextBox();
+            this.txtCartemere = new System.Windows.Forms.TextBox();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
-            this.ComboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboxCateg = new System.Windows.Forms.ComboBox();
             this.Label4 = new System.Windows.Forms.Label();
-            this.ComboBox1 = new System.Windows.Forms.ComboBox();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.cbox = new System.Windows.Forms.ComboBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.txtCode = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtCPU = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnAjoutOS = new System.Windows.Forms.Button();
             this.btnSupprimerOS = new System.Windows.Forms.Button();
@@ -63,7 +63,7 @@
             // btnCopier
             // 
             this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(13, 554);
+            this.btnCopier.Location = new System.Drawing.Point(12, 659);
             this.btnCopier.Name = "btnCopier";
             this.btnCopier.Size = new System.Drawing.Size(76, 35);
             this.btnCopier.TabIndex = 62;
@@ -73,7 +73,7 @@
             // btnAnnuler
             // 
             this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(325, 554);
+            this.btnAnnuler.Location = new System.Drawing.Point(324, 659);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(109, 35);
             this.btnAnnuler.TabIndex = 61;
@@ -83,7 +83,7 @@
             // btnActiverModif
             // 
             this.btnActiverModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActiverModif.Location = new System.Drawing.Point(210, 554);
+            this.btnActiverModif.Location = new System.Drawing.Point(209, 659);
             this.btnActiverModif.Name = "btnActiverModif";
             this.btnActiverModif.Size = new System.Drawing.Size(109, 35);
             this.btnActiverModif.TabIndex = 60;
@@ -93,19 +93,19 @@
             // btnAjoutPlateforme
             // 
             this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(95, 554);
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(94, 659);
             this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
             this.btnAjoutPlateforme.Size = new System.Drawing.Size(109, 35);
             this.btnAjoutPlateforme.TabIndex = 59;
             this.btnAjoutPlateforme.Text = "Enregistrer";
             this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
-            // TextBox7
+            // txtStockage
             // 
-            this.TextBox7.Location = new System.Drawing.Point(176, 236);
-            this.TextBox7.Name = "TextBox7";
-            this.TextBox7.Size = new System.Drawing.Size(213, 22);
-            this.TextBox7.TabIndex = 56;
+            this.txtStockage.Location = new System.Drawing.Point(176, 236);
+            this.txtStockage.Name = "txtStockage";
+            this.txtStockage.Size = new System.Drawing.Size(213, 22);
+            this.txtStockage.TabIndex = 56;
             // 
             // Label9
             // 
@@ -113,16 +113,16 @@
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label9.Location = new System.Drawing.Point(9, 236);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(161, 20);
+            this.Label9.Size = new System.Drawing.Size(170, 20);
             this.Label9.TabIndex = 55;
-            this.Label9.Text = "Espace de stokage :";
+            this.Label9.Text = "Espace de stockage :";
             // 
-            // TextBox6
+            // txtRam
             // 
-            this.TextBox6.Location = new System.Drawing.Point(176, 208);
-            this.TextBox6.Name = "TextBox6";
-            this.TextBox6.Size = new System.Drawing.Size(213, 22);
-            this.TextBox6.TabIndex = 54;
+            this.txtRam.Location = new System.Drawing.Point(176, 208);
+            this.txtRam.Name = "txtRam";
+            this.txtRam.Size = new System.Drawing.Size(213, 22);
+            this.txtRam.TabIndex = 54;
             // 
             // Label8
             // 
@@ -134,12 +134,12 @@
             this.Label8.TabIndex = 53;
             this.Label8.Text = "RAM :";
             // 
-            // TextBox5
+            // txtCartemere
             // 
-            this.TextBox5.Location = new System.Drawing.Point(176, 180);
-            this.TextBox5.Name = "TextBox5";
-            this.TextBox5.Size = new System.Drawing.Size(213, 22);
-            this.TextBox5.TabIndex = 52;
+            this.txtCartemere.Location = new System.Drawing.Point(176, 180);
+            this.txtCartemere.Name = "txtCartemere";
+            this.txtCartemere.Size = new System.Drawing.Size(213, 22);
+            this.txtCartemere.TabIndex = 52;
             // 
             // Label6
             // 
@@ -161,13 +161,13 @@
             this.Label5.TabIndex = 50;
             this.Label5.Text = "Categorie :";
             // 
-            // ComboBox2
+            // cboxCateg
             // 
-            this.ComboBox2.FormattingEnabled = true;
-            this.ComboBox2.Location = new System.Drawing.Point(176, 122);
-            this.ComboBox2.Name = "ComboBox2";
-            this.ComboBox2.Size = new System.Drawing.Size(159, 24);
-            this.ComboBox2.TabIndex = 49;
+            this.cboxCateg.FormattingEnabled = true;
+            this.cboxCateg.Location = new System.Drawing.Point(176, 122);
+            this.cboxCateg.Name = "cboxCateg";
+            this.cboxCateg.Size = new System.Drawing.Size(168, 24);
+            this.cboxCateg.TabIndex = 49;
             // 
             // Label4
             // 
@@ -179,20 +179,20 @@
             this.Label4.TabIndex = 48;
             this.Label4.Text = "Sys. Exploit. : ";
             // 
-            // ComboBox1
+            // cbox
             // 
-            this.ComboBox1.FormattingEnabled = true;
-            this.ComboBox1.Location = new System.Drawing.Point(176, 92);
-            this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(102, 24);
-            this.ComboBox1.TabIndex = 47;
+            this.cbox.FormattingEnabled = true;
+            this.cbox.Location = new System.Drawing.Point(176, 92);
+            this.cbox.Name = "cbox";
+            this.cbox.Size = new System.Drawing.Size(102, 24);
+            this.cbox.TabIndex = 47;
             // 
-            // txt
+            // txtNom
             // 
-            this.txt.Location = new System.Drawing.Point(176, 63);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(159, 22);
-            this.txt.TabIndex = 46;
+            this.txtNom.Location = new System.Drawing.Point(176, 63);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(168, 22);
+            this.txtNom.TabIndex = 46;
             // 
             // Label3
             // 
@@ -238,12 +238,12 @@
             this.label7.TabIndex = 41;
             this.label7.Text = "Identifiant :";
             // 
-            // textBox8
+            // txtCPU
             // 
-            this.textBox8.Location = new System.Drawing.Point(176, 152);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(213, 22);
-            this.textBox8.TabIndex = 40;
+            this.txtCPU.Location = new System.Drawing.Point(176, 152);
+            this.txtCPU.Name = "txtCPU";
+            this.txtCPU.Size = new System.Drawing.Size(213, 22);
+            this.txtCPU.TabIndex = 40;
             // 
             // label11
             // 
@@ -299,7 +299,7 @@
             // 
             this.RichTextBox1.Location = new System.Drawing.Point(12, 330);
             this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(425, 96);
+            this.RichTextBox1.Size = new System.Drawing.Size(425, 150);
             this.RichTextBox1.TabIndex = 68;
             this.RichTextBox1.Text = "";
             // 
@@ -315,9 +315,9 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(12, 452);
+            this.richTextBox2.Location = new System.Drawing.Point(12, 503);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(425, 96);
+            this.richTextBox2.Size = new System.Drawing.Size(425, 150);
             this.richTextBox2.TabIndex = 70;
             this.richTextBox2.Text = "";
             // 
@@ -325,7 +325,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(8, 429);
+            this.label12.Location = new System.Drawing.Point(8, 480);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(246, 20);
             this.label12.TabIndex = 69;
@@ -335,7 +335,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 595);
+            this.ClientSize = new System.Drawing.Size(457, 698);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.RichTextBox1);
@@ -348,23 +348,23 @@
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnActiverModif);
             this.Controls.Add(this.btnAjoutPlateforme);
-            this.Controls.Add(this.TextBox7);
+            this.Controls.Add(this.txtStockage);
             this.Controls.Add(this.Label9);
-            this.Controls.Add(this.TextBox6);
+            this.Controls.Add(this.txtRam);
             this.Controls.Add(this.Label8);
-            this.Controls.Add(this.TextBox5);
+            this.Controls.Add(this.txtCartemere);
             this.Controls.Add(this.Label6);
             this.Controls.Add(this.Label5);
-            this.Controls.Add(this.ComboBox2);
+            this.Controls.Add(this.cboxCateg);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.ComboBox1);
-            this.Controls.Add(this.txt);
+            this.Controls.Add(this.cbox);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtCPU);
             this.Controls.Add(this.label11);
             this.Name = "frmDetPlateforme";
             this.Text = "Details - Plateformes";
@@ -379,23 +379,23 @@
         internal System.Windows.Forms.Button btnAnnuler;
         internal System.Windows.Forms.Button btnActiverModif;
         internal System.Windows.Forms.Button btnAjoutPlateforme;
-        internal System.Windows.Forms.TextBox TextBox7;
+        internal System.Windows.Forms.TextBox txtStockage;
         internal System.Windows.Forms.Label Label9;
-        internal System.Windows.Forms.TextBox TextBox6;
+        internal System.Windows.Forms.TextBox txtRam;
         internal System.Windows.Forms.Label Label8;
-        internal System.Windows.Forms.TextBox TextBox5;
+        internal System.Windows.Forms.TextBox txtCartemere;
         internal System.Windows.Forms.Label Label6;
         internal System.Windows.Forms.Label Label5;
-        internal System.Windows.Forms.ComboBox ComboBox2;
+        internal System.Windows.Forms.ComboBox cboxCateg;
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.ComboBox ComboBox1;
-        internal System.Windows.Forms.TextBox txt;
+        internal System.Windows.Forms.ComboBox cbox;
+        internal System.Windows.Forms.TextBox txtNom;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.TextBox txtCode;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.TextBox txtID;
         internal System.Windows.Forms.Label label7;
-        internal System.Windows.Forms.TextBox textBox8;
+        internal System.Windows.Forms.TextBox txtCPU;
         internal System.Windows.Forms.Label label11;
         internal System.Windows.Forms.Button btnAjoutOS;
         internal System.Windows.Forms.Button btnSupprimerOS;

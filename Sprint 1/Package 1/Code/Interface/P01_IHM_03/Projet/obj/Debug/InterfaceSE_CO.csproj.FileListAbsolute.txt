@@ -60,3 +60,6 @@ C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Popup_Accueil.re
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.PopupOS.resources
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Properties.Resources.resources
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\bin\Debug\Projet.exe.config
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.exe
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.pdb
