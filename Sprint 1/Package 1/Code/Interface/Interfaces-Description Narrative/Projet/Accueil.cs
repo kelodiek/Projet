@@ -12,12 +12,9 @@ namespace Projet
 {
     public partial class Accueil : Form
     {
-        List<string> lstDispo;
-        int Cpt;
         public Accueil()
         {
             InitializeComponent();
-            lstDispo = new List<string>();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,59 +25,9 @@ namespace Projet
 
         private void Accueil_Load(object sender, EventArgs e)
         {
-            Cpt = 0;
-            lstDispo.Add("NHL 16 - PS4");
-            lstDispo.Add("Diablo 4 - PC");
-            lstDispo.Add("Dead Rising 4 - PC");
-            lstDispo.Add("Dofus - Xbox One");
-            lstDispo.Add("CS : GO - PC");
-            button8.Text = lstDispo[0];
-            button7.Text = lstDispo[1];
-            button6.Text = lstDispo[2];
-            button5.Text = lstDispo[3];
         }
 
-        private void button12_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cpt++;
-                button8.Text = lstDispo[0 + Cpt];
-                button7.Text = lstDispo[1 + Cpt];
-                button6.Text = lstDispo[2 + Cpt];
-                button5.Text = lstDispo[3 + Cpt];
-            }
-            catch (ArgumentOutOfRangeException)
-            {
-                Cpt--;
-                button8.Text = lstDispo[0 + Cpt];
-                button7.Text = lstDispo[1 + Cpt];
-                button6.Text = lstDispo[2 + Cpt];
-                button5.Text = lstDispo[3 + Cpt];
-            }
 
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            try
-                {
-            Cpt--;
-            button8.Text = lstDispo[0 + Cpt];
-            button7.Text = lstDispo[1 + Cpt];
-            button6.Text = lstDispo[2 + Cpt];
-            button5.Text = lstDispo[3 + Cpt];
-                }
-            catch(ArgumentOutOfRangeException)
-            {
-                Cpt++;
-                button8.Text = lstDispo[0 + Cpt];
-                button7.Text = lstDispo[1 + Cpt];
-                button6.Text = lstDispo[2 + Cpt];
-                button5.Text = lstDispo[3 + Cpt];       
-            }
-
-        }
 
         private void consoleAdminToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -88,6 +35,20 @@ namespace Projet
             this.Hide();
             form.Closed += (s, args) => this.Close();
             form.Show();
+        }
+
+
+        private void treeView2_Click(object sender, EventArgs e)
+        {
+            Popup_Accueil f = new Popup_Accueil();
+            f.Show();
+            f.Activate();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Popup_Accueil f = new Popup_Accueil();
+            f.Show();
         }
     }
 }

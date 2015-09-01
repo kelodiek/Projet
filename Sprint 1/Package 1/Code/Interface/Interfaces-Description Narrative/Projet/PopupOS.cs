@@ -19,7 +19,6 @@ namespace Projet
 
         private void PopupOS_Load(object sender, EventArgs e)
         {
-            //allo
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -56,6 +55,11 @@ namespace Projet
             frmGesSysExp form = new frmGesSysExp();
             this.Hide();
             form.Closed += (s, args) => this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
