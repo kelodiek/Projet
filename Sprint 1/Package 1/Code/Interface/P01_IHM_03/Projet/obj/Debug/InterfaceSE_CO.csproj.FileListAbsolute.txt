@@ -47,3 +47,16 @@ C:\Users\Utilisateur\Desktop\Interfaces-Description Narrative\Projet\obj\Debug\I
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\bin\Debug\Projet.exe.config
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.exe
 C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.pdb
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\bin\Debug\Projet.exe
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\bin\Debug\Projet.pdb
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Accueil.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.ConsoleAdminAccueil.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.frmDetPlateforme.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.frmGesCon.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.frmGesSysExp.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Gestion_des_Plateformes.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Popup_Accueil.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.PopupOS.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\Projet.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csproj.GenerateResource.Cache

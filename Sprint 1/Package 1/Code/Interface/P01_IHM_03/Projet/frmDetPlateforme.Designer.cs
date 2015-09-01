@@ -191,9 +191,9 @@
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label4.Location = new System.Drawing.Point(9, 92);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(43, 20);
+            this.Label4.Size = new System.Drawing.Size(115, 20);
             this.Label4.TabIndex = 48;
-            this.Label4.Text = "OS :";
+            this.Label4.Text = "Sys. Exploit. : ";
             // 
             // ComboBox1
             // 

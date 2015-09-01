@@ -224,7 +224,7 @@
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(140, 32);
             this.btnAjouter.TabIndex = 4;
-            this.btnAjouter.Text = "Ajouter un OS";
+            this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
