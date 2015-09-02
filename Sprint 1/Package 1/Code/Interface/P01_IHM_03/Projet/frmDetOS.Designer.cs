@@ -109,7 +109,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(76, 355);
+            this.label6.Location = new System.Drawing.Point(12, 510);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 25);
             this.label6.TabIndex = 6;
@@ -122,7 +122,7 @@
             this.txtInfos.Location = new System.Drawing.Point(10, 538);
             this.txtInfos.MaxLength = 100;
             this.txtInfos.Name = "txtInfos";
-            this.txtInfos.Size = new System.Drawing.Size(495, 114);
+            this.txtInfos.Size = new System.Drawing.Size(510, 114);
             this.txtInfos.TabIndex = 7;
             this.txtInfos.Text = "";
             // 
