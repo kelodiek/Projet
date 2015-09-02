@@ -1,2 +1,11 @@
 c:\users\utilisateur\documents\visual studio 2013\Projects\frmParent\frmParent\bin\Debug\frmParent.exe.config
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\bin\Debug\frmParent.exe.config
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\bin\Debug\frmParent.exe
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\bin\Debug\frmParent.pdb
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.frmDetail.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.frmGestion.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.Properties.Resources.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.exe
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.pdb
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_frmParent\frmParent\obj\Debug\frmParent.csprojResolveAssemblyReference.cache

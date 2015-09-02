@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCopier = new System.Windows.Forms.Button();
-            this.btnAnnuler = new System.Windows.Forms.Button();
-            this.btnActiverModif = new System.Windows.Forms.Button();
-            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
             this.txtStockage = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
             this.txtRam = new System.Windows.Forms.TextBox();
@@ -59,46 +55,6 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // btnCopier
-            // 
-            this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(12, 659);
-            this.btnCopier.Name = "btnCopier";
-            this.btnCopier.Size = new System.Drawing.Size(76, 35);
-            this.btnCopier.TabIndex = 62;
-            this.btnCopier.Text = "Copier";
-            this.btnCopier.UseVisualStyleBackColor = true;
-            // 
-            // btnAnnuler
-            // 
-            this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(324, 659);
-            this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(109, 35);
-            this.btnAnnuler.TabIndex = 61;
-            this.btnAnnuler.Text = "Annuler";
-            this.btnAnnuler.UseVisualStyleBackColor = true;
-            // 
-            // btnActiverModif
-            // 
-            this.btnActiverModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActiverModif.Location = new System.Drawing.Point(209, 659);
-            this.btnActiverModif.Name = "btnActiverModif";
-            this.btnActiverModif.Size = new System.Drawing.Size(109, 35);
-            this.btnActiverModif.TabIndex = 60;
-            this.btnActiverModif.Text = "Modifier";
-            this.btnActiverModif.UseVisualStyleBackColor = true;
-            // 
-            // btnAjoutPlateforme
-            // 
-            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(94, 659);
-            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
-            this.btnAjoutPlateforme.Size = new System.Drawing.Size(109, 35);
-            this.btnAjoutPlateforme.TabIndex = 59;
-            this.btnAjoutPlateforme.Text = "Enregistrer";
-            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
             // 
             // txtStockage
             // 
@@ -278,7 +234,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 265);
+            this.button1.Location = new System.Drawing.Point(176, 265);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 35);
             this.button1.TabIndex = 65;
@@ -299,7 +255,7 @@
             // 
             this.RichTextBox1.Location = new System.Drawing.Point(12, 330);
             this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(425, 150);
+            this.RichTextBox1.Size = new System.Drawing.Size(458, 150);
             this.RichTextBox1.TabIndex = 68;
             this.RichTextBox1.Text = "";
             // 
@@ -315,9 +271,9 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(12, 503);
+            this.richTextBox2.Location = new System.Drawing.Point(12, 513);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(425, 150);
+            this.richTextBox2.Size = new System.Drawing.Size(454, 139);
             this.richTextBox2.TabIndex = 70;
             this.richTextBox2.Text = "";
             // 
@@ -335,7 +291,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 698);
+            this.ClientSize = new System.Drawing.Size(482, 705);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.RichTextBox1);
@@ -344,10 +300,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSupprimerOS);
             this.Controls.Add(this.btnAjoutOS);
-            this.Controls.Add(this.btnCopier);
-            this.Controls.Add(this.btnAnnuler);
-            this.Controls.Add(this.btnActiverModif);
-            this.Controls.Add(this.btnAjoutPlateforme);
             this.Controls.Add(this.txtStockage);
             this.Controls.Add(this.Label9);
             this.Controls.Add(this.txtRam);
@@ -368,6 +320,32 @@
             this.Controls.Add(this.label11);
             this.Name = "frmDetPlateforme";
             this.Text = "Details - Plateformes";
+            this.Controls.SetChildIndex(this.label11, 0);
+            this.Controls.SetChildIndex(this.txtCPU, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.txtID, 0);
+            this.Controls.SetChildIndex(this.Label2, 0);
+            this.Controls.SetChildIndex(this.txtCode, 0);
+            this.Controls.SetChildIndex(this.Label3, 0);
+            this.Controls.SetChildIndex(this.txtNom, 0);
+            this.Controls.SetChildIndex(this.cbox, 0);
+            this.Controls.SetChildIndex(this.Label4, 0);
+            this.Controls.SetChildIndex(this.cboxCateg, 0);
+            this.Controls.SetChildIndex(this.Label5, 0);
+            this.Controls.SetChildIndex(this.Label6, 0);
+            this.Controls.SetChildIndex(this.txtCartemere, 0);
+            this.Controls.SetChildIndex(this.Label8, 0);
+            this.Controls.SetChildIndex(this.txtRam, 0);
+            this.Controls.SetChildIndex(this.Label9, 0);
+            this.Controls.SetChildIndex(this.txtStockage, 0);
+            this.Controls.SetChildIndex(this.btnAjoutOS, 0);
+            this.Controls.SetChildIndex(this.btnSupprimerOS, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.Label10, 0);
+            this.Controls.SetChildIndex(this.RichTextBox1, 0);
+            this.Controls.SetChildIndex(this.label12, 0);
+            this.Controls.SetChildIndex(this.richTextBox2, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,10 +353,6 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button btnCopier;
-        internal System.Windows.Forms.Button btnAnnuler;
-        internal System.Windows.Forms.Button btnActiverModif;
-        internal System.Windows.Forms.Button btnAjoutPlateforme;
         internal System.Windows.Forms.TextBox txtStockage;
         internal System.Windows.Forms.Label Label9;
         internal System.Windows.Forms.TextBox txtRam;

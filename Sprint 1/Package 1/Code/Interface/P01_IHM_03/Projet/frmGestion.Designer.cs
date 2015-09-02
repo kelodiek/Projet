@@ -1,4 +1,4 @@
-﻿namespace InterfaceSE_CO
+﻿namespace Projet
 {
     partial class frmGestion
     {
@@ -54,7 +54,7 @@
             this.ToolStripButton5});
             this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
-            this.ToolStrip1.Size = new System.Drawing.Size(1064, 30);
+            this.ToolStrip1.Size = new System.Drawing.Size(1082, 30);
             this.ToolStrip1.TabIndex = 42;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
@@ -112,7 +112,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(927, 453);
+            this.button1.Location = new System.Drawing.Point(945, 458);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 35);
             this.button1.TabIndex = 47;
@@ -122,7 +122,7 @@
             // btnDetails
             // 
             this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetails.Location = new System.Drawing.Point(796, 453);
+            this.btnDetails.Location = new System.Drawing.Point(814, 458);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(125, 35);
             this.btnDetails.TabIndex = 46;
@@ -132,7 +132,7 @@
             // btnAjoutPlateforme
             // 
             this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(669, 453);
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(687, 458);
             this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
             this.btnAjoutPlateforme.Size = new System.Drawing.Size(125, 35);
             this.btnAjoutPlateforme.TabIndex = 45;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 500);
+            this.ClientSize = new System.Drawing.Size(1082, 505);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);

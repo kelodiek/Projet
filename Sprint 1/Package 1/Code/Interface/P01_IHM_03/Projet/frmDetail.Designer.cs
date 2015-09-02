@@ -31,7 +31,7 @@
             this.btnCopier = new System.Windows.Forms.Button();
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnActiverModif = new System.Windows.Forms.Button();
-            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
+            this.btnEnregistrer = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             // btnAnnuler
             // 
             this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(361, 458);
+            this.btnAnnuler.Location = new System.Drawing.Point(359, 658);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(109, 35);
             this.btnAnnuler.TabIndex = 65;
@@ -58,27 +58,27 @@
             // btnActiverModif
             // 
             this.btnActiverModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActiverModif.Location = new System.Drawing.Point(127, 458);
+            this.btnActiverModif.Location = new System.Drawing.Point(125, 658);
             this.btnActiverModif.Name = "btnActiverModif";
             this.btnActiverModif.Size = new System.Drawing.Size(109, 35);
             this.btnActiverModif.TabIndex = 64;
             this.btnActiverModif.Text = "Modifier";
             this.btnActiverModif.UseVisualStyleBackColor = true;
             // 
-            // btnAjoutPlateforme
+            // btnEnregistrer
             // 
-            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutPlateforme.Location = new System.Drawing.Point(12, 458);
-            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
-            this.btnAjoutPlateforme.Size = new System.Drawing.Size(109, 35);
-            this.btnAjoutPlateforme.TabIndex = 63;
-            this.btnAjoutPlateforme.Text = "Enregistrer";
-            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
+            this.btnEnregistrer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnregistrer.Location = new System.Drawing.Point(10, 658);
+            this.btnEnregistrer.Name = "btnEnregistrer";
+            this.btnEnregistrer.Size = new System.Drawing.Size(109, 35);
+            this.btnEnregistrer.TabIndex = 63;
+            this.btnEnregistrer.Text = "Enregistrer";
+            this.btnEnregistrer.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(242, 458);
+            this.button1.Location = new System.Drawing.Point(240, 658);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(113, 35);
             this.button1.TabIndex = 67;
@@ -89,12 +89,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 505);
+            this.ClientSize = new System.Drawing.Size(482, 705);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCopier);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnActiverModif);
-            this.Controls.Add(this.btnAjoutPlateforme);
+            this.Controls.Add(this.btnEnregistrer);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmDetail";
@@ -108,7 +108,7 @@
         internal System.Windows.Forms.Button btnCopier;
         internal System.Windows.Forms.Button btnAnnuler;
         internal System.Windows.Forms.Button btnActiverModif;
-        internal System.Windows.Forms.Button btnAjoutPlateforme;
+        internal System.Windows.Forms.Button btnEnregistrer;
         internal System.Windows.Forms.Button button1;
     }
 }

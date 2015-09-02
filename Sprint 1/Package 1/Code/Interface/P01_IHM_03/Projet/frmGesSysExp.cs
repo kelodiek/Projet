@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmGesSysExp : Form
+    public partial class frmGesSysExp : frmGestion
     {
         public frmGesSysExp()
         {
@@ -20,7 +20,7 @@ namespace Projet
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {
-            PopupOS form = new PopupOS();
+            frmDetOS form = new frmDetOS();
             form.Show();
         }
 

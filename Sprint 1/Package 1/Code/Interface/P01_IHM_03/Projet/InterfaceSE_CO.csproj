@@ -63,9 +63,7 @@
     <Compile Include="frmDetail.Designer.cs">
       <DependentUpon>frmDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDetPlateforme.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDetPlateforme.cs" />
     <Compile Include="frmDetPlateforme.Designer.cs">
       <DependentUpon>frmDetPlateforme.cs</DependentUpon>
     </Compile>
