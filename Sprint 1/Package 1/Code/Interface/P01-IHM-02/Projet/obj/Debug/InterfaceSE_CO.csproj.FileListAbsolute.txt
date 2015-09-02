@@ -12,3 +12,6 @@ C:\Users\Utilisateur\Desktop\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02
 C:\Users\Utilisateur\Desktop\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\obj\Debug\Projet.PopUpSE.resources
 C:\Users\Utilisateur\Desktop\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\obj\Debug\Projet.Properties.Resources.resources
 C:\Users\Utilisateur\Desktop\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\obj\Debug\InterfaceSE_CO.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\bin\Debug\Projet.exe.config
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\obj\Debug\Projet.exe
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01-IHM-02\Projet\obj\Debug\Projet.pdb
