@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmDetPlateforme : Form
+    public partial class frmDetPlateforme : frmDetail
     {
         public frmDetPlateforme()
         {

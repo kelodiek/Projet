@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class PopupOS : Form
+    public partial class frmDetOS : frmDetail
     {
-        public PopupOS()
+        public frmDetOS()
         {
             InitializeComponent();
         }
@@ -36,7 +36,7 @@ namespace Projet
             Version = txtVersion.Text;
             Infos = txtInfos.Text;
 
-            PopupOS form = new PopupOS();
+            frmDetOS form = new frmDetOS();
 
             form.txtCode.Text = Code;
             form.txtId.Text = (Convert.ToInt32(Id) + 1).ToString();
