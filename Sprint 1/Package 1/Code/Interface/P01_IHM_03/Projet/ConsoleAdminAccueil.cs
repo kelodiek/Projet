@@ -10,63 +10,17 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class ConsoleAdminAccueil : Form
+    public partial class ConsoleAdminAccueil : frmGestion
     {
         public ConsoleAdminAccueil()
         {
             InitializeComponent();
+            this.btnRecherche.Visible = false;
+            this.btnSupprimer.Visible = false;
+            this.btnDetails.Visible = false;
+            this.btnAjout.Visible = false;
+            //this.txtRecherche.visible = false;
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void plateformeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Accueil form = new Accueil();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
-        private void systèmeDExploitationToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            frmGesSysExp form = new frmGesSysExp();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void retourInterfaceTestToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Accueil form = new Accueil();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
-        private void plateformeToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Gestion_des_Plateformes form = new Gestion_des_Plateformes();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
     }
 }

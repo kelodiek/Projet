@@ -23,13 +23,5 @@ namespace Projet
             frmDetSysExp form = new frmDetSysExp();
             form.Show();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ConsoleAdminAccueil form = new ConsoleAdminAccueil();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Projet
 {
-    partial class Gestion_des_Plateformes
+    partial class frmGesPlateforme
     {
         /// <summary>
         /// Required designer variable.
@@ -41,14 +41,14 @@
             this.DataGridView1.Size = new System.Drawing.Size(1061, 381);
             this.DataGridView1.TabIndex = 50;
             // 
-            // Gestion_des_Plateformes
+            // frmGesPlateforme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1082, 505);
             this.Controls.Add(this.DataGridView1);
-            this.Name = "Gestion_des_Plateformes";
-            this.Text = "Gestion des Plateformes";
+            this.Name = "frmGesPlateforme";
+            this.Text = "Gestion - Plateformes";
             this.Load += new System.EventHandler(this.Gestion_des_Plateformes_Load);
             this.Controls.SetChildIndex(this.DataGridView1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();

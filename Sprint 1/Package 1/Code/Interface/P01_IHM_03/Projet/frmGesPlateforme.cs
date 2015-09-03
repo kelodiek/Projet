@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class Gestion_des_Plateformes : frmGestion
+    public partial class frmGesPlateforme : frmGestion
     {
-        public Gestion_des_Plateformes()
+        public frmGesPlateforme()
         {
             InitializeComponent();
         }
