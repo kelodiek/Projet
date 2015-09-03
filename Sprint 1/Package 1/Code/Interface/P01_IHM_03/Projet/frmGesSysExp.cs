@@ -20,7 +20,7 @@ namespace Projet
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {
-            frmDetOS form = new frmDetOS();
+            frmDetSysExp form = new frmDetSysExp();
             form.Show();
         }
 
