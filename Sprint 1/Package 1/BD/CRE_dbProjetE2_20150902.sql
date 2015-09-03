@@ -1,10 +1,25 @@
 use master;
-
-if exists (select * from sysdatabases where name='dbProjetE2')
-  DROP database dbProjetE2
 GO
-CREATE DATABASE dbProjetE2
+DECLARE @dbName varchar(20) 
+SET @dbName = 'dbProjetE2';
+
+DECLARE @dbCreate NVARCHAR(MAX)
+DECLARE @TemplateCreate NVARCHAR(MAX)
+DECLARE @dbDrop NVARCHAR(MAX)
+DECLARE @TemplateDrop NVARCHAR(MAX)
+
+SET @TemplateCreate = N'CREATE DATABASE [{dbName}]'
+SET @dbCreate = REPLACE(@TemplateCreate, '{dbName}', @dbName)
+SET @TemplateDrop = N'DROP DATABASE [{dbName}]'
+SET @dbDrop = REPLACE(@TemplateDrop, '{dbName}', @dbName)
+
+if exists (select * from sysdatabases where name=@dbName)
+  BEGIN
+  PRINT @dbDrop
+  EXECUTE (@dbDrop)
+  END
+  
+PRINT @dbCreate
+EXECUTE (@dbCreate)
 GO
-
-
 
