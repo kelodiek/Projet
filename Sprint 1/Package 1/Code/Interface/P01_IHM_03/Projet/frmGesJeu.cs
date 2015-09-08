@@ -16,5 +16,19 @@ namespace Projet
         {
             InitializeComponent();
         }
+
+        private void frmGesJeu_Load(object sender, EventArgs e)
+        {
+            DataGridViewColumn Column;
+
+            dataGridJeu.Columns.Add("Nom", "Nom");
+            dataGridJeu.Columns.Add("Date", "Date de Sortie");
+            dataGridJeu.Columns.Add("Genre", "Genres");
+            dataGridJeu.Columns.Add("Theme", "Thème");
+            dataGridJeu.Columns.Add("Mode", "Mode");
+
+            Column = dataGridJeu.Columns[0];
+            Column.Width = 50;
+        }
     }
 }

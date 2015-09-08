@@ -66,7 +66,6 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\bin\Debug\Projet.exe
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\bin\Debug\Projet.pdb
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.Accueil.resources
-C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.ConsoleAdminAccueil.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetail.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetPlateforme.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesCon.resources
@@ -78,3 +77,7 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csprojResolveAssemblyReference.cache
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetSysExp.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesPlateforme.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmCreerGenre.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetJeu.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesJeu.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmAccueilAdmin.resources

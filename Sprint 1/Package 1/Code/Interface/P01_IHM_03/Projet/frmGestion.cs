@@ -21,30 +21,34 @@ namespace Projet
         {
             InitializeComponent();
         }
-
-        private void btnSysExpToolStrip_Click(object sender, EventArgs e)
-        {
-
-        }
         private void donneesToolStrip_Click(object sender, EventArgs e)
         {
             var F = new Form();
-            var B = (ToolStripMenuItem)sender;
+            string B = ((ToolStripMenuItem)sender).Name;
 
-            if (B == btnSysExpToolStrip)
+            switch (B)
             {
-                this.Hide();
-                F = new frmGesSysExp();
-                F.Show();
+                case "btnSysExpToolStrip":
+                    F = new frmGesSysExp(); 
+                    break;
+                case "btnPlateToolStrip":
+                    F = new frmGesPlateforme();
+                    break;
+                case "btnJeuToolStrip":
+                    F = new frmGesJeu();
+                    break;
+                default:
+                    break;
             }
-            if (B == btnPlateToolStrip)
-            {
-                this.Hide();
-                F = new frmGesPlateforme();
-                F.Show();
-            }
+            this.Hide();
+            F.Show();
             F.Closed += (s, args) => this.Close();
 
+        }
+
+        private void btnQuitterToolStrip_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

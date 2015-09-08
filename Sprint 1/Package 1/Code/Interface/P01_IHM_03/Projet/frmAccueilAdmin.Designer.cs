@@ -1,6 +1,6 @@
 ﻿namespace Projet
 {
-    partial class ConsoleAdminAccueil
+    partial class frmAccueilAdmin
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -42,7 +42,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1742, 815);
+            this.ClientSize = new System.Drawing.Size(1082, 505);
             this.Name = "ConsoleAdminAccueil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Console d\'Administration";

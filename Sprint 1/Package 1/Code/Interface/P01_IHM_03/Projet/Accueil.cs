@@ -31,7 +31,7 @@ namespace Projet
 
         private void consoleAdminToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ConsoleAdminAccueil form = new ConsoleAdminAccueil();
+            frmAccueilAdmin form = new frmAccueilAdmin();
             this.Hide();
             form.Closed += (s, args) => this.Close();
             form.Show();

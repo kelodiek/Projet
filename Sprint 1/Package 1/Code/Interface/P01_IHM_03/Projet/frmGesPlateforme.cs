@@ -20,29 +20,24 @@ namespace Projet
         private void Gestion_des_Plateformes_Load(object sender, EventArgs e)
         {
             DataGridViewColumn column;
-            //DataGridViewButtonColumn BColumn = new DataGridViewButtonColumn();
-
-            //BColumn.Text = "SUPPRIMER";
-            //BColumn.UseColumnTextForButtonValue = true;
 
             DataGridView1.Columns.Add("ID","ID");
             DataGridView1.Columns.Add("Code", "Code");
             DataGridView1.Columns.Add("Nom", "Nom");
             DataGridView1.Columns.Add("Categ", "Catégorie");
             DataGridView1.Columns.Add("OS", "OS");
-            //DataGridView1.Columns.Add(BColumn);
-
-            DataGridViewRow row = DataGridView1.Rows[0];
-            row.Height = 30;
+            DataGridView1.Columns.Add("Desc", "Description");
 
             column = DataGridView1.Columns[0];
             column.Width = 50;
+            column = DataGridView1.Columns[1];
+            column.Width = 50;
             column = DataGridView1.Columns[2];
-            column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            column.Width = 150;
             column = DataGridView1.Columns[3];
             column.Width = 150;
-            column = DataGridView1.Columns[4];
-            column.Width = 150;
+            column = DataGridView1.Columns[5];
+            column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
 
         private void btnAjoutPlateforme_Click(object sender, EventArgs e)
@@ -53,7 +48,7 @@ namespace Projet
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ConsoleAdminAccueil form = new ConsoleAdminAccueil();
+            frmAccueilAdmin form = new frmAccueilAdmin();
             this.Hide();
             form.Closed += (s, args) => this.Close();
             form.Show();
