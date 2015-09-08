@@ -39,7 +39,6 @@
             this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
             this.btnAjoutGenre = new System.Windows.Forms.Button();
-            this.TextBox7 = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.lstTheme = new System.Windows.Forms.ComboBox();
@@ -51,6 +50,8 @@
             this.lblID = new System.Windows.Forms.Label();
             this.txtEtat = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAjoutMode
@@ -155,13 +156,6 @@
             this.btnAjoutGenre.UseVisualStyleBackColor = true;
             this.btnAjoutGenre.Click += new System.EventHandler(this.btnAjoutGenre_Click);
             // 
-            // TextBox7
-            // 
-            this.TextBox7.Location = new System.Drawing.Point(147, 408);
-            this.TextBox7.Name = "TextBox7";
-            this.TextBox7.Size = new System.Drawing.Size(200, 22);
-            this.TextBox7.TabIndex = 88;
-            // 
             // Label9
             // 
             this.Label9.AutoSize = true;
@@ -260,11 +254,31 @@
             this.label11.TabIndex = 77;
             this.label11.Text = "État :";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(147, 402);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
+            this.comboBox1.TabIndex = 100;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(357, 402);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(27, 24);
+            this.button2.TabIndex = 101;
+            this.button2.Text = "+";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // frmDetJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 705);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnAjoutMode);
             this.Controls.Add(this.lstMode);
             this.Controls.Add(this.label2);
@@ -276,7 +290,6 @@
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.Label10);
             this.Controls.Add(this.btnAjoutGenre);
-            this.Controls.Add(this.TextBox7);
             this.Controls.Add(this.Label9);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.lstTheme);
@@ -301,7 +314,6 @@
             this.Controls.SetChildIndex(this.lstTheme, 0);
             this.Controls.SetChildIndex(this.Label5, 0);
             this.Controls.SetChildIndex(this.Label9, 0);
-            this.Controls.SetChildIndex(this.TextBox7, 0);
             this.Controls.SetChildIndex(this.btnAjoutGenre, 0);
             this.Controls.SetChildIndex(this.Label10, 0);
             this.Controls.SetChildIndex(this.txtDesc, 0);
@@ -313,6 +325,8 @@
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.lstMode, 0);
             this.Controls.SetChildIndex(this.btnAjoutMode, 0);
+            this.Controls.SetChildIndex(this.comboBox1, 0);
+            this.Controls.SetChildIndex(this.button2, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -331,7 +345,6 @@
         internal System.Windows.Forms.RichTextBox txtDesc;
         internal System.Windows.Forms.Label Label10;
         internal System.Windows.Forms.Button btnAjoutGenre;
-        internal System.Windows.Forms.TextBox TextBox7;
         internal System.Windows.Forms.Label Label9;
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.ComboBox lstTheme;
@@ -343,5 +356,7 @@
         internal System.Windows.Forms.Label lblID;
         internal System.Windows.Forms.TextBox txtEtat;
         internal System.Windows.Forms.Label label11;
+        internal System.Windows.Forms.ComboBox comboBox1;
+        internal System.Windows.Forms.Button button2;
     }
 }

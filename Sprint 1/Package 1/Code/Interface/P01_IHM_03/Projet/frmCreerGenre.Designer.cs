@@ -77,18 +77,18 @@
             // 
             // btnRetirer
             // 
-            this.btnRetirer.Location = new System.Drawing.Point(244, 182);
+            this.btnRetirer.Location = new System.Drawing.Point(243, 182);
             this.btnRetirer.Name = "btnRetirer";
-            this.btnRetirer.Size = new System.Drawing.Size(75, 23);
+            this.btnRetirer.Size = new System.Drawing.Size(79, 75);
             this.btnRetirer.TabIndex = 11;
             this.btnRetirer.Text = "<";
             this.btnRetirer.UseVisualStyleBackColor = true;
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(244, 117);
+            this.btnAjouter.Location = new System.Drawing.Point(244, 101);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
+            this.btnAjouter.Size = new System.Drawing.Size(78, 75);
             this.btnAjouter.TabIndex = 10;
             this.btnAjouter.Text = ">";
             this.btnAjouter.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             this.lstSelect.Size = new System.Drawing.Size(223, 260);
             this.lstSelect.TabIndex = 8;
             // 
-            // frmCreer
+            // frmCreerGenre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,7 +124,7 @@
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.lstDispo);
             this.Controls.Add(this.lstSelect);
-            this.Name = "frmCreer";
+            this.Name = "frmCreerGenre";
             this.Text = "frmCreer";
             this.ResumeLayout(false);
             this.PerformLayout();

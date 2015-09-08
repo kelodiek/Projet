@@ -28,78 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GridJeux = new System.Windows.Forms.DataGridView();
-            this.gridNom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gridDateSortie = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gridGenre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gridTheme = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gridMode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gridVersion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.GridJeux)).BeginInit();
+            this.dataGridJeu = new System.Windows.Forms.DataGridView();
+            this.btnVersion = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridJeu)).BeginInit();
             this.SuspendLayout();
             // 
-            // GridJeux
+            // dataGridJeu
             // 
-            this.GridJeux.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridJeux.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.gridNom,
-            this.gridDateSortie,
-            this.gridGenre,
-            this.gridTheme,
-            this.gridMode,
-            this.gridVersion});
-            this.GridJeux.Location = new System.Drawing.Point(12, 71);
-            this.GridJeux.Name = "GridJeux";
-            this.GridJeux.RowTemplate.Height = 24;
-            this.GridJeux.Size = new System.Drawing.Size(1058, 381);
-            this.GridJeux.TabIndex = 51;
+            this.dataGridJeu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridJeu.Location = new System.Drawing.Point(12, 71);
+            this.dataGridJeu.Name = "dataGridJeu";
+            this.dataGridJeu.RowTemplate.Height = 24;
+            this.dataGridJeu.Size = new System.Drawing.Size(1058, 381);
+            this.dataGridJeu.TabIndex = 51;
             // 
-            // gridNom
+            // btnVersion
             // 
-            this.gridNom.HeaderText = "Nom";
-            this.gridNom.Name = "gridNom";
-            this.gridNom.Width = 150;
-            // 
-            // gridDateSortie
-            // 
-            this.gridDateSortie.HeaderText = "Date de Sortie";
-            this.gridDateSortie.Name = "gridDateSortie";
-            this.gridDateSortie.Width = 150;
-            // 
-            // gridGenre
-            // 
-            this.gridGenre.HeaderText = "Genre";
-            this.gridGenre.Name = "gridGenre";
-            this.gridGenre.Width = 125;
-            // 
-            // gridTheme
-            // 
-            this.gridTheme.HeaderText = "Thème";
-            this.gridTheme.Name = "gridTheme";
-            this.gridTheme.Width = 150;
-            // 
-            // gridMode
-            // 
-            this.gridMode.HeaderText = "Mode";
-            this.gridMode.Name = "gridMode";
-            this.gridMode.Width = 150;
-            // 
-            // gridVersion
-            // 
-            this.gridVersion.HeaderText = "Version";
-            this.gridVersion.Name = "gridVersion";
-            this.gridVersion.Width = 150;
+            this.btnVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.btnVersion.Location = new System.Drawing.Point(541, 458);
+            this.btnVersion.Name = "btnVersion";
+            this.btnVersion.Size = new System.Drawing.Size(140, 35);
+            this.btnVersion.TabIndex = 52;
+            this.btnVersion.Text = "Afficher Version";
+            this.btnVersion.UseVisualStyleBackColor = true;
             // 
             // frmGesJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1082, 505);
-            this.Controls.Add(this.GridJeux);
+            this.Controls.Add(this.btnVersion);
+            this.Controls.Add(this.dataGridJeu);
             this.Name = "frmGesJeu";
-            this.Text = "frmGesJeu";
-            this.Controls.SetChildIndex(this.GridJeux, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.GridJeux)).EndInit();
+            this.Text = "Gestion - Jeu";
+            this.Load += new System.EventHandler(this.frmGesJeu_Load);
+            this.Controls.SetChildIndex(this.dataGridJeu, 0);
+            this.Controls.SetChildIndex(this.btnVersion, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridJeu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,12 +72,7 @@
 
         #endregion
 
-        internal System.Windows.Forms.DataGridView GridJeux;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridNom;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridDateSortie;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridGenre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridTheme;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridMode;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gridVersion;
+        internal System.Windows.Forms.DataGridView dataGridJeu;
+        private System.Windows.Forms.Button btnVersion;
     }
 }
