@@ -29,6 +29,14 @@ namespace Projet
 
             Column = dataGridJeu.Columns[0];
             Column.Width = 50;
+            Column = dataGridJeu.Columns[1];
+            Column.Width = 100;
+            Column = dataGridJeu.Columns[2];
+            Column.Width = 75;
+            Column = dataGridJeu.Columns[3];
+            Column.Width = 75;
+            Column = dataGridJeu.Columns[4];
+            Column.Width = 100;
         }
     }
 }
