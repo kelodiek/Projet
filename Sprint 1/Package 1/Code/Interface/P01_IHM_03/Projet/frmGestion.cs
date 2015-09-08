@@ -23,26 +23,29 @@ namespace Projet
         }
         private void donneesToolStrip_Click(object sender, EventArgs e)
         {
-            var F = new Form();
-            string B = ((ToolStripMenuItem)sender).Name;
+            var formOuvert = new Form();
+            string nomButton = ((ToolStripMenuItem)sender).Name;
 
-            switch (B)
+            switch (nomButton)
             {
                 case "btnSysExpToolStrip":
-                    F = new frmGesSysExp(); 
+                    formOuvert = new frmGesSysExp(); 
                     break;
                 case "btnPlateToolStrip":
-                    F = new frmGesPlateforme();
+                    formOuvert = new frmGesPlateforme();
                     break;
                 case "btnJeuToolStrip":
-                    F = new frmGesJeu();
+                    formOuvert = new frmGesJeu();
+                    break;
+                case "btnClassToolStrip":
+                    formOuvert = new frmGesClass();
                     break;
                 default:
                     break;
             }
             this.Hide();
-            F.Show();
-            F.Closed += (s, args) => this.Close();
+            formOuvert.Show();
+            formOuvert.Closed += (s, args) => this.Close();
 
         }
 

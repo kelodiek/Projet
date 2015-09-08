@@ -28,7 +28,15 @@ namespace Projet
             dataGridJeu.Columns.Add("Mode", "Mode");
 
             Column = dataGridJeu.Columns[0];
-            Column.Width = 50;
+            Column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column = dataGridJeu.Columns[1];
+            Column.Width = 150;
+            Column = dataGridJeu.Columns[2];
+            Column.Width = 300;
+            Column = dataGridJeu.Columns[3];
+            Column.Width = 300;
+            Column = dataGridJeu.Columns[4];
+            Column.Width = 150;
         }
     }
 }
