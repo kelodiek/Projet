@@ -87,6 +87,12 @@
     <Compile Include="frmDetSysExp.Designer.cs">
       <DependentUpon>frmDetSysExp.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGesClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGesClass.Designer.cs">
+      <DependentUpon>frmGesClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGesJeu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDetSysExp.resx">
       <DependentUpon>frmDetSysExp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGesClass.resx">
+      <DependentUpon>frmGesClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGesCon.resx">
       <DependentUpon>frmGesCon.cs</DependentUpon>

@@ -39,11 +39,11 @@
             this.btnPlateToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnGenreToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClassToolStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnJeuToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuSecuriteToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuTestToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.retourInterfaceTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuQuitterToolStrip = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnJeuToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnQuitterToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDecoToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -85,7 +85,6 @@
             this.txtRecherche.Name = "txtRecherche";
             this.txtRecherche.Size = new System.Drawing.Size(149, 22);
             this.txtRecherche.TabIndex = 48;
-            this.txtRecherche.Visible = false;
             // 
             // btnRecherche
             // 
@@ -149,6 +148,14 @@
             this.btnClassToolStrip.Name = "btnClassToolStrip";
             this.btnClassToolStrip.Size = new System.Drawing.Size(252, 28);
             this.btnClassToolStrip.Text = "Classification";
+            this.btnClassToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
+            // 
+            // btnJeuToolStrip
+            // 
+            this.btnJeuToolStrip.Name = "btnJeuToolStrip";
+            this.btnJeuToolStrip.Size = new System.Drawing.Size(252, 28);
+            this.btnJeuToolStrip.Text = "Jeu";
+            this.btnJeuToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
             // 
             // btnMenuSecuriteToolStrip
             // 
@@ -183,13 +190,6 @@
             this.btnMenuQuitterToolStrip.Size = new System.Drawing.Size(76, 27);
             this.btnMenuQuitterToolStrip.Text = "Quitter";
             this.btnMenuQuitterToolStrip.Click += new System.EventHandler(this.btnQuitterToolStrip_Click);
-            // 
-            // btnJeuToolStrip
-            // 
-            this.btnJeuToolStrip.Name = "btnJeuToolStrip";
-            this.btnJeuToolStrip.Size = new System.Drawing.Size(252, 28);
-            this.btnJeuToolStrip.Text = "Jeu";
-            this.btnJeuToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
             // 
             // btnQuitterToolStrip
             // 
