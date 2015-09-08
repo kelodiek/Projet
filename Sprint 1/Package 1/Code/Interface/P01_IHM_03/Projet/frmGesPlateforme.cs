@@ -38,8 +38,13 @@ namespace Projet
             column.Width = 150;
             column = DataGridView1.Columns[5];
             column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            btnDetails.Click += new EventHandler(btnDetails_Click);
         }
-
+        private void btnDetails_Click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetPlateforme();
+            frmDetails.Show();
+        }
         private void btnAjoutPlateforme_Click(object sender, EventArgs e)
         {
             frmDetPlateforme form = new frmDetPlateforme();

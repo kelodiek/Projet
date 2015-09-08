@@ -15,6 +15,13 @@ namespace Projet
         public frmDetPlateforme()
         {
             InitializeComponent();
+
+            btnAnnuler.Click += new EventHandler(btnAnnuler_Click);
+        }
+        private void btnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
         }
     }
 }
