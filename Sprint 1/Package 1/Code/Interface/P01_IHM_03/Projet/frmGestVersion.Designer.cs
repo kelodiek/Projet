@@ -1,6 +1,6 @@
-﻿namespace jesuistanne
+﻿namespace Projet
 {
-    partial class frmGestClassification
+    partial class frmGestVersion
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestClassification));
-            this.btnSupprimerClassification = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestVersion));
+            this.btnSupprimerVersion = new System.Windows.Forms.Button();
             this.btnDetails = new System.Windows.Forms.Button();
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -37,29 +37,29 @@
             this.ToolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.btnAjoutClassification = new System.Windows.Forms.Button();
-            this.GridClassification = new System.Windows.Forms.DataGridView();
+            this.btnAjoutVersion = new System.Windows.Forms.Button();
+            this.GridVersion = new System.Windows.Forms.DataGridView();
             this.ToolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GridClassification)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridVersion)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnSupprimerClassification
+            // btnSupprimerVersion
             // 
-            this.btnSupprimerClassification.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupprimerClassification.Location = new System.Drawing.Point(931, 465);
-            this.btnSupprimerClassification.Name = "btnSupprimerClassification";
-            this.btnSupprimerClassification.Size = new System.Drawing.Size(125, 35);
-            this.btnSupprimerClassification.TabIndex = 64;
-            this.btnSupprimerClassification.Text = "Supprimer";
-            this.btnSupprimerClassification.UseVisualStyleBackColor = true;
+            this.btnSupprimerVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimerVersion.Location = new System.Drawing.Point(931, 464);
+            this.btnSupprimerVersion.Name = "btnSupprimerVersion";
+            this.btnSupprimerVersion.Size = new System.Drawing.Size(125, 35);
+            this.btnSupprimerVersion.TabIndex = 59;
+            this.btnSupprimerVersion.Text = "Supprimer";
+            this.btnSupprimerVersion.UseVisualStyleBackColor = true;
             // 
             // btnDetails
             // 
             this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetails.Location = new System.Drawing.Point(800, 465);
+            this.btnDetails.Location = new System.Drawing.Point(800, 464);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(125, 35);
-            this.btnDetails.TabIndex = 63;
+            this.btnDetails.TabIndex = 58;
             this.btnDetails.Text = "Details";
             this.btnDetails.UseVisualStyleBackColor = true;
             // 
@@ -75,7 +75,7 @@
             this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.Size = new System.Drawing.Size(1064, 30);
-            this.ToolStrip1.TabIndex = 62;
+            this.ToolStrip1.TabIndex = 57;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
             // ToolStripButton1
@@ -129,43 +129,42 @@
             this.ToolStripButton5.Size = new System.Drawing.Size(68, 27);
             this.ToolStripButton5.Text = "Quitter";
             // 
-            // btnAjoutClassification
+            // btnAjoutVersion
             // 
-            this.btnAjoutClassification.AutoSize = true;
-            this.btnAjoutClassification.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutClassification.Location = new System.Drawing.Point(673, 465);
-            this.btnAjoutClassification.Name = "btnAjoutClassification";
-            this.btnAjoutClassification.Size = new System.Drawing.Size(125, 35);
-            this.btnAjoutClassification.TabIndex = 61;
-            this.btnAjoutClassification.Text = "Ajouter";
-            this.btnAjoutClassification.UseVisualStyleBackColor = true;
-            this.btnAjoutClassification.Click += new System.EventHandler(this.btnAjoutClassification_Click);
+            this.btnAjoutVersion.AutoSize = true;
+            this.btnAjoutVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutVersion.Location = new System.Drawing.Point(673, 464);
+            this.btnAjoutVersion.Name = "btnAjoutVersion";
+            this.btnAjoutVersion.Size = new System.Drawing.Size(125, 35);
+            this.btnAjoutVersion.TabIndex = 56;
+            this.btnAjoutVersion.Text = "Ajouter";
+            this.btnAjoutVersion.UseVisualStyleBackColor = true;
             // 
-            // GridClassification
+            // GridVersion
             // 
-            this.GridClassification.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridClassification.Location = new System.Drawing.Point(12, 45);
-            this.GridClassification.Name = "GridClassification";
-            this.GridClassification.RowTemplate.Height = 24;
-            this.GridClassification.Size = new System.Drawing.Size(1043, 401);
-            this.GridClassification.TabIndex = 60;
-            this.GridClassification.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridClassification_CellContentClick);
+            this.GridVersion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridVersion.Location = new System.Drawing.Point(12, 44);
+            this.GridVersion.Name = "GridVersion";
+            this.GridVersion.RowTemplate.Height = 24;
+            this.GridVersion.Size = new System.Drawing.Size(1043, 401);
+            this.GridVersion.TabIndex = 55;
+            this.GridVersion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridVersion_CellContentClick);
             // 
-            // frmGestClassification
+            // frmGestVersion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 500);
-            this.Controls.Add(this.btnSupprimerClassification);
+            this.Controls.Add(this.btnSupprimerVersion);
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.ToolStrip1);
-            this.Controls.Add(this.btnAjoutClassification);
-            this.Controls.Add(this.GridClassification);
-            this.Name = "frmGestClassification";
-            this.Text = "Gestion des Classifications";
+            this.Controls.Add(this.btnAjoutVersion);
+            this.Controls.Add(this.GridVersion);
+            this.Name = "frmGestVersion";
+            this.Text = "Gestion des Versions";
             this.ToolStrip1.ResumeLayout(false);
             this.ToolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GridClassification)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridVersion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,7 +172,7 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button btnSupprimerClassification;
+        internal System.Windows.Forms.Button btnSupprimerVersion;
         internal System.Windows.Forms.Button btnDetails;
         internal System.Windows.Forms.ToolStrip ToolStrip1;
         internal System.Windows.Forms.ToolStripButton ToolStripButton1;
@@ -181,7 +180,7 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton3;
         internal System.Windows.Forms.ToolStripButton ToolStripButton4;
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
-        internal System.Windows.Forms.Button btnAjoutClassification;
-        internal System.Windows.Forms.DataGridView GridClassification;
+        internal System.Windows.Forms.Button btnAjoutVersion;
+        internal System.Windows.Forms.DataGridView GridVersion;
     }
 }

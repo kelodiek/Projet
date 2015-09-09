@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace jesuistanne
+namespace Projet
 {
-    public partial class frmDetClassification : Form
+    public partial class frmDetVersion : Form
     {
-        public frmDetClassification()
+        public frmDetVersion()
         {
             InitializeComponent();
         }

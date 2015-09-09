@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace jesuistanne
+namespace Projet
 {
     public partial class frmGenre : Form
     {

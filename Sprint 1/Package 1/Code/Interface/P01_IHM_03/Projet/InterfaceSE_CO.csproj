@@ -57,6 +57,54 @@
     <Compile Include="frmAccueilAdmin.Designer.cs">
       <DependentUpon>frmAccueilAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDetClassification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetClassification.Designer.cs">
+      <DependentUpon>frmDetClassification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetGenre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetGenre.Designer.cs">
+      <DependentUpon>frmDetGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetTheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetTheme.Designer.cs">
+      <DependentUpon>frmDetTheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetVersion.Designer.cs">
+      <DependentUpon>frmDetVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestClassification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestClassification.Designer.cs">
+      <DependentUpon>frmGestClassification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestGenre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestGenre.Designer.cs">
+      <DependentUpon>frmGestGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestTheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestTheme.Designer.cs">
+      <DependentUpon>frmGestTheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestVersion.Designer.cs">
+      <DependentUpon>frmGestVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSelection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +184,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAccueilAdmin.resx">
       <DependentUpon>frmAccueilAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetClassification.resx">
+      <DependentUpon>frmDetClassification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetGenre.resx">
+      <DependentUpon>frmDetGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetTheme.resx">
+      <DependentUpon>frmDetTheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetVersion.resx">
+      <DependentUpon>frmDetVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestClassification.resx">
+      <DependentUpon>frmGestClassification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestGenre.resx">
+      <DependentUpon>frmGestGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestTheme.resx">
+      <DependentUpon>frmGestTheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestVersion.resx">
+      <DependentUpon>frmGestVersion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSelection.resx">
       <DependentUpon>frmSelection.cs</DependentUpon>

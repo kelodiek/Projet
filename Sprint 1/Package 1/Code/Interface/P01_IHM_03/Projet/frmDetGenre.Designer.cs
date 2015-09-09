@@ -1,6 +1,6 @@
-﻿namespace jesuistanne
+﻿namespace Projet
 {
-    partial class frmDetTheme
+    partial class frmDetGenre
     {
         /// <summary>
         /// Required designer variable.
@@ -42,99 +42,99 @@
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(89, 107);
+            this.txtNom.Location = new System.Drawing.Point(89, 106);
             this.txtNom.MaxLength = 30;
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(219, 22);
-            this.txtNom.TabIndex = 92;
+            this.txtNom.TabIndex = 82;
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(89, 66);
+            this.txtCode.Location = new System.Drawing.Point(89, 65);
             this.txtCode.MaxLength = 30;
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(199, 22);
-            this.txtCode.TabIndex = 91;
+            this.txtCode.TabIndex = 81;
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(89, 27);
+            this.txtId.Location = new System.Drawing.Point(89, 26);
             this.txtId.MaxLength = 10;
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 22);
-            this.txtId.TabIndex = 90;
+            this.txtId.TabIndex = 80;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(24, 107);
+            this.label3.Location = new System.Drawing.Point(24, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 89;
+            this.label3.TabIndex = 79;
             this.label3.Text = "Nom : ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(24, 66);
+            this.label2.Location = new System.Drawing.Point(24, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
-            this.label2.TabIndex = 88;
+            this.label2.TabIndex = 78;
             this.label2.Text = "Code : ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(24, 27);
+            this.label1.Location = new System.Drawing.Point(24, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 20);
-            this.label1.TabIndex = 87;
+            this.label1.TabIndex = 77;
             this.label1.Text = "Id : ";
             // 
             // btnAnnuler
             // 
             this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(334, 144);
+            this.btnAnnuler.Location = new System.Drawing.Point(334, 143);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(101, 33);
-            this.btnAnnuler.TabIndex = 86;
+            this.btnAnnuler.TabIndex = 76;
             this.btnAnnuler.Text = "Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
             // 
             // btnModifier
             // 
             this.btnModifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModifier.Location = new System.Drawing.Point(227, 144);
+            this.btnModifier.Location = new System.Drawing.Point(227, 143);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(101, 33);
-            this.btnModifier.TabIndex = 85;
+            this.btnModifier.TabIndex = 75;
             this.btnModifier.Text = "Modifier";
             this.btnModifier.UseVisualStyleBackColor = true;
             // 
             // btnCopier
             // 
             this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(12, 144);
+            this.btnCopier.Location = new System.Drawing.Point(12, 143);
             this.btnCopier.Name = "btnCopier";
             this.btnCopier.Size = new System.Drawing.Size(101, 33);
-            this.btnCopier.TabIndex = 84;
+            this.btnCopier.TabIndex = 74;
             this.btnCopier.Text = "Copier";
             this.btnCopier.UseVisualStyleBackColor = true;
             // 
             // btnEnregistrer
             // 
             this.btnEnregistrer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(120, 144);
+            this.btnEnregistrer.Location = new System.Drawing.Point(120, 143);
             this.btnEnregistrer.Name = "btnEnregistrer";
             this.btnEnregistrer.Size = new System.Drawing.Size(101, 33);
-            this.btnEnregistrer.TabIndex = 83;
+            this.btnEnregistrer.TabIndex = 73;
             this.btnEnregistrer.Text = "Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             // 
-            // frmDetTheme
+            // frmDetGenre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,8 +149,8 @@
             this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.btnCopier);
             this.Controls.Add(this.btnEnregistrer);
-            this.Name = "frmDetTheme";
-            this.Text = "Détails - Thème";
+            this.Name = "frmDetGenre";
+            this.Text = "Détails - Genre";
             this.ResumeLayout(false);
             this.PerformLayout();
 

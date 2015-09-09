@@ -1,4 +1,4 @@
-﻿namespace jesuistanne
+﻿namespace Projet
 {
     partial class frmDetClassification
     {

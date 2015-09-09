@@ -1,6 +1,6 @@
-﻿namespace jesuistanne
+﻿namespace Projet
 {
-    partial class frmGestTheme
+    partial class frmGestClassification
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestTheme));
-            this.btnSupprimerTheme = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestClassification));
+            this.btnSupprimerClassification = new System.Windows.Forms.Button();
             this.btnDetails = new System.Windows.Forms.Button();
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -37,32 +37,29 @@
             this.ToolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.btnAjoutTheme = new System.Windows.Forms.Button();
-            this.GridTheme = new System.Windows.Forms.DataGridView();
-            this.IdTheme = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NomTheme = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CommentaireTheme = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAjoutClassification = new System.Windows.Forms.Button();
+            this.GridClassification = new System.Windows.Forms.DataGridView();
             this.ToolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GridTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridClassification)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnSupprimerTheme
+            // btnSupprimerClassification
             // 
-            this.btnSupprimerTheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupprimerTheme.Location = new System.Drawing.Point(931, 462);
-            this.btnSupprimerTheme.Name = "btnSupprimerTheme";
-            this.btnSupprimerTheme.Size = new System.Drawing.Size(125, 35);
-            this.btnSupprimerTheme.TabIndex = 54;
-            this.btnSupprimerTheme.Text = "Supprimer";
-            this.btnSupprimerTheme.UseVisualStyleBackColor = true;
+            this.btnSupprimerClassification.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimerClassification.Location = new System.Drawing.Point(931, 465);
+            this.btnSupprimerClassification.Name = "btnSupprimerClassification";
+            this.btnSupprimerClassification.Size = new System.Drawing.Size(125, 35);
+            this.btnSupprimerClassification.TabIndex = 64;
+            this.btnSupprimerClassification.Text = "Supprimer";
+            this.btnSupprimerClassification.UseVisualStyleBackColor = true;
             // 
             // btnDetails
             // 
             this.btnDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetails.Location = new System.Drawing.Point(800, 462);
+            this.btnDetails.Location = new System.Drawing.Point(800, 465);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(125, 35);
-            this.btnDetails.TabIndex = 53;
+            this.btnDetails.TabIndex = 63;
             this.btnDetails.Text = "Details";
             this.btnDetails.UseVisualStyleBackColor = true;
             // 
@@ -78,7 +75,7 @@
             this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.Size = new System.Drawing.Size(1064, 30);
-            this.ToolStrip1.TabIndex = 52;
+            this.ToolStrip1.TabIndex = 62;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
             // ToolStripButton1
@@ -132,61 +129,43 @@
             this.ToolStripButton5.Size = new System.Drawing.Size(68, 27);
             this.ToolStripButton5.Text = "Quitter";
             // 
-            // btnAjoutTheme
+            // btnAjoutClassification
             // 
-            this.btnAjoutTheme.AutoSize = true;
-            this.btnAjoutTheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutTheme.Location = new System.Drawing.Point(673, 462);
-            this.btnAjoutTheme.Name = "btnAjoutTheme";
-            this.btnAjoutTheme.Size = new System.Drawing.Size(125, 35);
-            this.btnAjoutTheme.TabIndex = 51;
-            this.btnAjoutTheme.Text = "Ajouter";
-            this.btnAjoutTheme.UseVisualStyleBackColor = true;
+            this.btnAjoutClassification.AutoSize = true;
+            this.btnAjoutClassification.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutClassification.Location = new System.Drawing.Point(673, 465);
+            this.btnAjoutClassification.Name = "btnAjoutClassification";
+            this.btnAjoutClassification.Size = new System.Drawing.Size(125, 35);
+            this.btnAjoutClassification.TabIndex = 61;
+            this.btnAjoutClassification.Text = "Ajouter";
+            this.btnAjoutClassification.UseVisualStyleBackColor = true;
+            this.btnAjoutClassification.Click += new System.EventHandler(this.btnAjoutClassification_Click);
             // 
-            // GridTheme
+            // GridClassification
             // 
-            this.GridTheme.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridTheme.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IdTheme,
-            this.NomTheme,
-            this.CommentaireTheme});
-            this.GridTheme.Location = new System.Drawing.Point(12, 42);
-            this.GridTheme.Name = "GridTheme";
-            this.GridTheme.RowTemplate.Height = 24;
-            this.GridTheme.Size = new System.Drawing.Size(1043, 401);
-            this.GridTheme.TabIndex = 50;
-            this.GridTheme.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridTheme_CellContentClick);
+            this.GridClassification.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridClassification.Location = new System.Drawing.Point(12, 45);
+            this.GridClassification.Name = "GridClassification";
+            this.GridClassification.RowTemplate.Height = 24;
+            this.GridClassification.Size = new System.Drawing.Size(1043, 401);
+            this.GridClassification.TabIndex = 60;
+            this.GridClassification.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridClassification_CellContentClick);
             // 
-            // IdTheme
-            // 
-            this.IdTheme.HeaderText = "Id";
-            this.IdTheme.Name = "IdTheme";
-            // 
-            // NomTheme
-            // 
-            this.NomTheme.HeaderText = "Nom";
-            this.NomTheme.Name = "NomTheme";
-            // 
-            // CommentaireTheme
-            // 
-            this.CommentaireTheme.HeaderText = "Commentaire";
-            this.CommentaireTheme.Name = "CommentaireTheme";
-            // 
-            // frmGestTheme
+            // frmGestClassification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 500);
-            this.Controls.Add(this.btnSupprimerTheme);
+            this.Controls.Add(this.btnSupprimerClassification);
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.ToolStrip1);
-            this.Controls.Add(this.btnAjoutTheme);
-            this.Controls.Add(this.GridTheme);
-            this.Name = "frmGestTheme";
-            this.Text = "Gestion des Thèmes";
+            this.Controls.Add(this.btnAjoutClassification);
+            this.Controls.Add(this.GridClassification);
+            this.Name = "frmGestClassification";
+            this.Text = "Gestion des Classifications";
             this.ToolStrip1.ResumeLayout(false);
             this.ToolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GridTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridClassification)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,7 +173,7 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button btnSupprimerTheme;
+        internal System.Windows.Forms.Button btnSupprimerClassification;
         internal System.Windows.Forms.Button btnDetails;
         internal System.Windows.Forms.ToolStrip ToolStrip1;
         internal System.Windows.Forms.ToolStripButton ToolStripButton1;
@@ -202,10 +181,7 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton3;
         internal System.Windows.Forms.ToolStripButton ToolStripButton4;
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
-        internal System.Windows.Forms.Button btnAjoutTheme;
-        internal System.Windows.Forms.DataGridView GridTheme;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IdTheme;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NomTheme;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CommentaireTheme;
+        internal System.Windows.Forms.Button btnAjoutClassification;
+        internal System.Windows.Forms.DataGridView GridClassification;
     }
 }
