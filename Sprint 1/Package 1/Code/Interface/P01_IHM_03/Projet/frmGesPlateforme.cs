@@ -15,6 +15,10 @@ namespace Projet
         public frmGesPlateforme()
         {
             InitializeComponent();
+
+            btnDetails.Click += new EventHandler(btnDetails_Click);
+
+            btnAjout.Click += new EventHandler(btnAjout_Click);
         }
 
         private void Gestion_des_Plateformes_Load(object sender, EventArgs e)
@@ -38,25 +42,35 @@ namespace Projet
             column.Width = 150;
             column = DataGridView1.Columns[5];
             column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            btnDetails.Click += new EventHandler(btnDetails_Click);
+            
         }
         private void btnDetails_Click(object sender, EventArgs e)
         {
             var frmDetails = new frmDetPlateforme();
-            frmDetails.Show();
-        }
-        private void btnAjoutPlateforme_Click(object sender, EventArgs e)
-        {
-            frmDetPlateforme form = new frmDetPlateforme();
-            form.Show();
-        }
 
-        private void button2_Click(object sender, EventArgs e)
+            frmDetails.txtID.Enabled = false;
+            frmDetails.txtCode.Enabled = false;
+            frmDetails.txtCartemere.Enabled = false;
+            frmDetails.txtCPU.Enabled = false;
+            frmDetails.txtNom.Enabled = false;
+            frmDetails.txtRam.Enabled = false;
+            frmDetails.txtStockage.Enabled = false;
+            frmDetails.rTxtDesc.Enabled = false;
+            frmDetails.rTxtInfoSup.Enabled = false;
+
+            frmDetails.cboxCateg.Enabled = false;
+            frmDetails.cboxSysExp.Enabled = false;
+
+            frmDetails.btnSupprimerOS.Enabled = false;
+            frmDetails.btnAjoutOS.Enabled = false;
+            frmDetails.btnEnregistrer.Enabled = false;
+
+            frmDetails.ShowDialog();
+        }
+        private void btnAjout_Click(object sender, EventArgs e)
         {
-            frmAccueilAdmin form = new frmAccueilAdmin();
-            this.Hide();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            var frmDetails = new frmDetPlateforme();
+            frmDetails.ShowDialog();
         }
     }
 }

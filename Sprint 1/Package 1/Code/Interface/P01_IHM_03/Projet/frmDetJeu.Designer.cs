@@ -38,21 +38,21 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
-            this.btnAjoutGenre = new System.Windows.Forms.Button();
             this.Label9 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.lstTheme = new System.Windows.Forms.ComboBox();
             this.Label4 = new System.Windows.Forms.Label();
-            this.lstGenre = new System.Windows.Forms.ComboBox();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.lblID = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnAjoutVersion = new System.Windows.Forms.Button();
+            this.btnAjoutPlate = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtGenre = new System.Windows.Forms.TextBox();
+            this.btnAjoutGenre = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAjoutMode
@@ -146,17 +146,6 @@
             this.Label10.TabIndex = 90;
             this.Label10.Text = "Description du Jeu : ";
             // 
-            // btnAjoutGenre
-            // 
-            this.btnAjoutGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutGenre.Location = new System.Drawing.Point(357, 281);
-            this.btnAjoutGenre.Name = "btnAjoutGenre";
-            this.btnAjoutGenre.Size = new System.Drawing.Size(27, 24);
-            this.btnAjoutGenre.TabIndex = 89;
-            this.btnAjoutGenre.Text = "+";
-            this.btnAjoutGenre.UseVisualStyleBackColor = true;
-            this.btnAjoutGenre.Click += new System.EventHandler(this.btnAjoutGenre_Click);
-            // 
             // Label9
             // 
             this.Label9.AutoSize = true;
@@ -194,14 +183,6 @@
             this.Label4.Size = new System.Drawing.Size(70, 20);
             this.Label4.TabIndex = 84;
             this.Label4.Text = "Genre : ";
-            // 
-            // lstGenre
-            // 
-            this.lstGenre.FormattingEnabled = true;
-            this.lstGenre.Location = new System.Drawing.Point(147, 279);
-            this.lstGenre.Name = "lstGenre";
-            this.lstGenre.Size = new System.Drawing.Size(200, 24);
-            this.lstGenre.TabIndex = 83;
             // 
             // txtNom
             // 
@@ -246,25 +227,25 @@
             this.comboBox1.Size = new System.Drawing.Size(200, 24);
             this.comboBox1.TabIndex = 100;
             // 
-            // button2
+            // btnAjoutVersion
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(357, 374);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(27, 24);
-            this.button2.TabIndex = 101;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAjoutVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutVersion.Location = new System.Drawing.Point(357, 374);
+            this.btnAjoutVersion.Name = "btnAjoutVersion";
+            this.btnAjoutVersion.Size = new System.Drawing.Size(27, 24);
+            this.btnAjoutVersion.TabIndex = 101;
+            this.btnAjoutVersion.Text = "+";
+            this.btnAjoutVersion.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnAjoutPlate
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(357, 404);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(27, 24);
-            this.button3.TabIndex = 104;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnAjoutPlate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutPlate.Location = new System.Drawing.Point(357, 404);
+            this.btnAjoutPlate.Name = "btnAjoutPlate";
+            this.btnAjoutPlate.Size = new System.Drawing.Size(27, 24);
+            this.btnAjoutPlate.TabIndex = 104;
+            this.btnAjoutPlate.Text = "+";
+            this.btnAjoutPlate.UseVisualStyleBackColor = true;
             // 
             // comboBox2
             // 
@@ -284,15 +265,35 @@
             this.label6.TabIndex = 102;
             this.label6.Text = "Plateforme : ";
             // 
+            // txtGenre
+            // 
+            this.txtGenre.Enabled = false;
+            this.txtGenre.Location = new System.Drawing.Point(147, 279);
+            this.txtGenre.Name = "txtGenre";
+            this.txtGenre.Size = new System.Drawing.Size(200, 22);
+            this.txtGenre.TabIndex = 105;
+            // 
+            // btnAjoutGenre
+            // 
+            this.btnAjoutGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutGenre.Location = new System.Drawing.Point(357, 279);
+            this.btnAjoutGenre.Name = "btnAjoutGenre";
+            this.btnAjoutGenre.Size = new System.Drawing.Size(27, 24);
+            this.btnAjoutGenre.TabIndex = 106;
+            this.btnAjoutGenre.Text = "+";
+            this.btnAjoutGenre.UseVisualStyleBackColor = true;
+            // 
             // frmDetJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 705);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnAjoutGenre);
+            this.Controls.Add(this.txtGenre);
+            this.Controls.Add(this.btnAjoutPlate);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAjoutVersion);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnAjoutMode);
             this.Controls.Add(this.lstMode);
@@ -304,12 +305,10 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.Label10);
-            this.Controls.Add(this.btnAjoutGenre);
             this.Controls.Add(this.Label9);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.lstTheme);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.lstGenre);
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.txtID);
@@ -320,12 +319,10 @@
             this.Controls.SetChildIndex(this.txtID, 0);
             this.Controls.SetChildIndex(this.Label3, 0);
             this.Controls.SetChildIndex(this.txtNom, 0);
-            this.Controls.SetChildIndex(this.lstGenre, 0);
             this.Controls.SetChildIndex(this.Label4, 0);
             this.Controls.SetChildIndex(this.lstTheme, 0);
             this.Controls.SetChildIndex(this.Label5, 0);
             this.Controls.SetChildIndex(this.Label9, 0);
-            this.Controls.SetChildIndex(this.btnAjoutGenre, 0);
             this.Controls.SetChildIndex(this.Label10, 0);
             this.Controls.SetChildIndex(this.txtDesc, 0);
             this.Controls.SetChildIndex(this.label12, 0);
@@ -337,10 +334,12 @@
             this.Controls.SetChildIndex(this.lstMode, 0);
             this.Controls.SetChildIndex(this.btnAjoutMode, 0);
             this.Controls.SetChildIndex(this.comboBox1, 0);
-            this.Controls.SetChildIndex(this.button2, 0);
+            this.Controls.SetChildIndex(this.btnAjoutVersion, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.comboBox2, 0);
-            this.Controls.SetChildIndex(this.button3, 0);
+            this.Controls.SetChildIndex(this.btnAjoutPlate, 0);
+            this.Controls.SetChildIndex(this.txtGenre, 0);
+            this.Controls.SetChildIndex(this.btnAjoutGenre, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -358,20 +357,20 @@
         internal System.Windows.Forms.Label label12;
         internal System.Windows.Forms.RichTextBox txtDesc;
         internal System.Windows.Forms.Label Label10;
-        internal System.Windows.Forms.Button btnAjoutGenre;
         internal System.Windows.Forms.Label Label9;
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.ComboBox lstTheme;
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.ComboBox lstGenre;
         internal System.Windows.Forms.TextBox txtNom;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.TextBox txtID;
         internal System.Windows.Forms.Label lblID;
         internal System.Windows.Forms.ComboBox comboBox1;
-        internal System.Windows.Forms.Button button2;
-        internal System.Windows.Forms.Button button3;
+        internal System.Windows.Forms.Button btnAjoutVersion;
+        internal System.Windows.Forms.Button btnAjoutPlate;
         internal System.Windows.Forms.ComboBox comboBox2;
         internal System.Windows.Forms.Label label6;
+        internal System.Windows.Forms.TextBox txtGenre;
+        internal System.Windows.Forms.Button btnAjoutGenre;
     }
 }

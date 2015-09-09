@@ -37,7 +37,7 @@
             this.Label5 = new System.Windows.Forms.Label();
             this.cboxCateg = new System.Windows.Forms.ComboBox();
             this.Label4 = new System.Windows.Forms.Label();
-            this.cbox = new System.Windows.Forms.ComboBox();
+            this.cboxSysExp = new System.Windows.Forms.ComboBox();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.txtCode = new System.Windows.Forms.TextBox();
@@ -48,11 +48,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.btnAjoutOS = new System.Windows.Forms.Button();
             this.btnSupprimerOS = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rTxtDesc = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.rTxtInfoSup = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -135,13 +133,13 @@
             this.Label4.TabIndex = 48;
             this.Label4.Text = "Sys. Exploit. : ";
             // 
-            // cbox
+            // cboxSysExp
             // 
-            this.cbox.FormattingEnabled = true;
-            this.cbox.Location = new System.Drawing.Point(176, 92);
-            this.cbox.Name = "cbox";
-            this.cbox.Size = new System.Drawing.Size(102, 24);
-            this.cbox.TabIndex = 47;
+            this.cboxSysExp.FormattingEnabled = true;
+            this.cboxSysExp.Location = new System.Drawing.Point(176, 92);
+            this.cboxSysExp.Name = "cboxSysExp";
+            this.cboxSysExp.Size = new System.Drawing.Size(102, 24);
+            this.cboxSysExp.TabIndex = 47;
             // 
             // txtNom
             // 
@@ -231,57 +229,37 @@
             this.btnSupprimerOS.Text = "-";
             this.btnSupprimerOS.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // rTxtDesc
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(176, 265);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 35);
-            this.button1.TabIndex = 65;
-            this.button1.Text = "Afficher";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 272);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
-            this.label1.TabIndex = 66;
-            this.label1.Text = "Peripherique  : ";
-            // 
-            // RichTextBox1
-            // 
-            this.RichTextBox1.Location = new System.Drawing.Point(12, 330);
-            this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(458, 150);
-            this.RichTextBox1.TabIndex = 68;
-            this.RichTextBox1.Text = "";
+            this.rTxtDesc.Location = new System.Drawing.Point(12, 296);
+            this.rTxtDesc.Name = "rTxtDesc";
+            this.rTxtDesc.Size = new System.Drawing.Size(458, 178);
+            this.rTxtDesc.TabIndex = 68;
+            this.rTxtDesc.Text = "";
             // 
             // Label10
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(9, 307);
+            this.Label10.Location = new System.Drawing.Point(9, 273);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(110, 20);
             this.Label10.TabIndex = 67;
             this.Label10.Text = "Description : ";
             // 
-            // richTextBox2
+            // rTxtInfoSup
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(12, 513);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(454, 139);
-            this.richTextBox2.TabIndex = 70;
-            this.richTextBox2.Text = "";
+            this.rTxtInfoSup.Location = new System.Drawing.Point(12, 500);
+            this.rTxtInfoSup.Name = "rTxtInfoSup";
+            this.rTxtInfoSup.Size = new System.Drawing.Size(454, 152);
+            this.rTxtInfoSup.TabIndex = 70;
+            this.rTxtInfoSup.Text = "";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(8, 480);
+            this.label12.Location = new System.Drawing.Point(9, 477);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(246, 20);
             this.label12.TabIndex = 69;
@@ -292,12 +270,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 705);
-            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.rTxtInfoSup);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.RichTextBox1);
+            this.Controls.Add(this.rTxtDesc);
             this.Controls.Add(this.Label10);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSupprimerOS);
             this.Controls.Add(this.btnAjoutOS);
             this.Controls.Add(this.txtStockage);
@@ -309,7 +285,7 @@
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.cboxCateg);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.cbox);
+            this.Controls.Add(this.cboxSysExp);
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.txtCode);
@@ -318,6 +294,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtCPU);
             this.Controls.Add(this.label11);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmDetPlateforme";
             this.Text = "Details - Plateformes";
             this.Controls.SetChildIndex(this.label11, 0);
@@ -328,7 +305,7 @@
             this.Controls.SetChildIndex(this.txtCode, 0);
             this.Controls.SetChildIndex(this.Label3, 0);
             this.Controls.SetChildIndex(this.txtNom, 0);
-            this.Controls.SetChildIndex(this.cbox, 0);
+            this.Controls.SetChildIndex(this.cboxSysExp, 0);
             this.Controls.SetChildIndex(this.Label4, 0);
             this.Controls.SetChildIndex(this.cboxCateg, 0);
             this.Controls.SetChildIndex(this.Label5, 0);
@@ -340,12 +317,10 @@
             this.Controls.SetChildIndex(this.txtStockage, 0);
             this.Controls.SetChildIndex(this.btnAjoutOS, 0);
             this.Controls.SetChildIndex(this.btnSupprimerOS, 0);
-            this.Controls.SetChildIndex(this.button1, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.Label10, 0);
-            this.Controls.SetChildIndex(this.RichTextBox1, 0);
+            this.Controls.SetChildIndex(this.rTxtDesc, 0);
             this.Controls.SetChildIndex(this.label12, 0);
-            this.Controls.SetChildIndex(this.richTextBox2, 0);
+            this.Controls.SetChildIndex(this.rTxtInfoSup, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -362,7 +337,7 @@
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.ComboBox cboxCateg;
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.ComboBox cbox;
+        internal System.Windows.Forms.ComboBox cboxSysExp;
         internal System.Windows.Forms.TextBox txtNom;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.TextBox txtCode;
@@ -373,11 +348,9 @@
         internal System.Windows.Forms.Label label11;
         internal System.Windows.Forms.Button btnAjoutOS;
         internal System.Windows.Forms.Button btnSupprimerOS;
-        internal System.Windows.Forms.Button button1;
-        internal System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.RichTextBox RichTextBox1;
+        internal System.Windows.Forms.RichTextBox rTxtDesc;
         internal System.Windows.Forms.Label Label10;
-        internal System.Windows.Forms.RichTextBox richTextBox2;
+        internal System.Windows.Forms.RichTextBox rTxtInfoSup;
         internal System.Windows.Forms.Label label12;
     }
 }
