@@ -19,7 +19,7 @@ namespace Projet
 
         private void btnAjoutGenre_Click(object sender, EventArgs e)
         {
-            frmCreerGenre f = new frmCreerGenre();
+            frmSelection f = new frmSelection();
             f.Show();
         }
     }

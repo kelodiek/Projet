@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmCreerGenre : Form
+    public partial class frmSelection : Form
     {
-        public frmCreerGenre()
+        public frmSelection()
         {
             InitializeComponent();
         }

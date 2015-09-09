@@ -59,9 +59,7 @@ namespace Projet
             frmDetails.rTxtInfoSup.Enabled = false;
 
             frmDetails.cboxCateg.Enabled = false;
-            frmDetails.cboxSysExp.Enabled = false;
 
-            frmDetails.btnSupprimerOS.Enabled = false;
             frmDetails.btnAjoutOS.Enabled = false;
             frmDetails.btnEnregistrer.Enabled = false;
 
@@ -70,6 +68,12 @@ namespace Projet
         private void btnAjout_Click(object sender, EventArgs e)
         {
             var frmDetails = new frmDetPlateforme();
+            
+            frmDetails.txtID.Enabled = false;
+
+            frmDetails.btnActiverModif.Enabled = false;
+            frmDetails.btnActiverModif.Visible = false;
+
             frmDetails.ShowDialog();
         }
     }

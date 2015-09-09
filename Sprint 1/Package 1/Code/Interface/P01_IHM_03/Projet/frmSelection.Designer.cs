@@ -1,6 +1,6 @@
 ﻿namespace Projet
 {
-    partial class frmCreerGenre
+    partial class frmSelection
     {
         /// <summary>
         /// Required designer variable.

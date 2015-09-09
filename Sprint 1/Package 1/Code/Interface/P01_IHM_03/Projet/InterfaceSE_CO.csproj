@@ -57,11 +57,11 @@
     <Compile Include="frmAccueilAdmin.Designer.cs">
       <DependentUpon>frmAccueilAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCreerGenre.cs">
+    <Compile Include="frmSelection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCreerGenre.Designer.cs">
-      <DependentUpon>frmCreerGenre.cs</DependentUpon>
+    <Compile Include="frmSelection.Designer.cs">
+      <DependentUpon>frmSelection.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDetail.cs">
       <SubType>Form</SubType>
@@ -137,8 +137,8 @@
     <EmbeddedResource Include="frmAccueilAdmin.resx">
       <DependentUpon>frmAccueilAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCreerGenre.resx">
-      <DependentUpon>frmCreerGenre.cs</DependentUpon>
+    <EmbeddedResource Include="frmSelection.resx">
+      <DependentUpon>frmSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDetail.resx">
       <DependentUpon>frmDetail.cs</DependentUpon>
