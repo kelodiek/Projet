@@ -37,7 +37,6 @@
             this.ToolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.btnAjoutVersion = new System.Windows.Forms.Button();
             this.GridVersion = new System.Windows.Forms.DataGridView();
             this.ToolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridVersion)).BeginInit();
@@ -129,17 +128,6 @@
             this.ToolStripButton5.Size = new System.Drawing.Size(68, 27);
             this.ToolStripButton5.Text = "Quitter";
             // 
-            // btnAjoutVersion
-            // 
-            this.btnAjoutVersion.AutoSize = true;
-            this.btnAjoutVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutVersion.Location = new System.Drawing.Point(673, 464);
-            this.btnAjoutVersion.Name = "btnAjoutVersion";
-            this.btnAjoutVersion.Size = new System.Drawing.Size(125, 35);
-            this.btnAjoutVersion.TabIndex = 56;
-            this.btnAjoutVersion.Text = "Ajouter";
-            this.btnAjoutVersion.UseVisualStyleBackColor = true;
-            // 
             // GridVersion
             // 
             this.GridVersion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -158,7 +146,6 @@
             this.Controls.Add(this.btnSupprimerVersion);
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.ToolStrip1);
-            this.Controls.Add(this.btnAjoutVersion);
             this.Controls.Add(this.GridVersion);
             this.Name = "frmGestVersion";
             this.Text = "Gestion des Versions";
@@ -180,7 +167,6 @@
         internal System.Windows.Forms.ToolStripButton ToolStripButton3;
         internal System.Windows.Forms.ToolStripButton ToolStripButton4;
         internal System.Windows.Forms.ToolStripButton ToolStripButton5;
-        internal System.Windows.Forms.Button btnAjoutVersion;
         internal System.Windows.Forms.DataGridView GridVersion;
     }
 }

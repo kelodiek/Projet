@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 // - Fenetre de gestion de version a pas d'ajout
-// - Genre/Theme/Classification/Version = interface de gestion
 
 namespace Projet
 {
