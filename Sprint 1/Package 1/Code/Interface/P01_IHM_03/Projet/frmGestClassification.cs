@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmGestClassification : Form
+    public partial class frmGestClassification : frmGestion
     {
         public frmGestClassification()
         {
             InitializeComponent();
+            this.btnAjout.Click += new EventHandler(btnAjoutClassification_Click);
         }
 
         private void GridClasification_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -37,12 +38,18 @@ namespace Projet
 
         private void btnAjoutClassification_Click(object sender, EventArgs e)
         {
+            var frmDetails = new frmDetClassification();
 
+            frmDetails.ShowDialog();
         }
-
-        private void GridClassification_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnDetails_Click(object sender, EventArgs e)
         {
+            var frmDetails = new frmDetClassification();
 
+            frmDetails.txt.enable = false;
+
+            frmDetails.ShowDialog();
         }
+
     }
 }

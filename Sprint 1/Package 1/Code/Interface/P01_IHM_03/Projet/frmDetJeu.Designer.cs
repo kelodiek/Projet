@@ -45,12 +45,15 @@
             this.lblID = new System.Windows.Forms.Label();
             this.cboxGenre = new System.Windows.Forms.ComboBox();
             this.lstBoxTheme = new System.Windows.Forms.ListBox();
+            this.lstBoxPlate = new System.Windows.Forms.ListBox();
+            this.btnAjoutPlateforme = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAjoutTheme
             // 
             this.btnAjoutTheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutTheme.Location = new System.Drawing.Point(93, 339);
+            this.btnAjoutTheme.Location = new System.Drawing.Point(114, 339);
             this.btnAjoutTheme.Name = "btnAjoutTheme";
             this.btnAjoutTheme.Size = new System.Drawing.Size(27, 24);
             this.btnAjoutTheme.TabIndex = 99;
@@ -61,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(12, 309);
+            this.label2.Location = new System.Drawing.Point(10, 309);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 97;
@@ -86,9 +89,9 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(10, 454);
+            this.richTextBox2.Location = new System.Drawing.Point(10, 542);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(460, 198);
+            this.richTextBox2.Size = new System.Drawing.Size(460, 110);
             this.richTextBox2.TabIndex = 93;
             this.richTextBox2.Text = "";
             // 
@@ -96,7 +99,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(12, 431);
+            this.label12.Location = new System.Drawing.Point(12, 519);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(246, 20);
             this.label12.TabIndex = 92;
@@ -124,7 +127,7 @@
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(12, 339);
+            this.Label5.Location = new System.Drawing.Point(10, 339);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(75, 20);
             this.Label5.TabIndex = 86;
@@ -142,7 +145,7 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(12, 279);
+            this.Label4.Location = new System.Drawing.Point(10, 279);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(70, 20);
             this.Label4.TabIndex = 84;
@@ -200,11 +203,43 @@
             this.lstBoxTheme.Size = new System.Drawing.Size(200, 84);
             this.lstBoxTheme.TabIndex = 108;
             // 
+            // lstBoxPlate
+            // 
+            this.lstBoxPlate.FormattingEnabled = true;
+            this.lstBoxPlate.ItemHeight = 16;
+            this.lstBoxPlate.Location = new System.Drawing.Point(147, 429);
+            this.lstBoxPlate.Name = "lstBoxPlate";
+            this.lstBoxPlate.Size = new System.Drawing.Size(200, 84);
+            this.lstBoxPlate.TabIndex = 111;
+            // 
+            // btnAjoutPlateforme
+            // 
+            this.btnAjoutPlateforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutPlateforme.Location = new System.Drawing.Point(114, 429);
+            this.btnAjoutPlateforme.Name = "btnAjoutPlateforme";
+            this.btnAjoutPlateforme.Size = new System.Drawing.Size(27, 24);
+            this.btnAjoutPlateforme.TabIndex = 110;
+            this.btnAjoutPlateforme.Text = "+";
+            this.btnAjoutPlateforme.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(10, 429);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 20);
+            this.label6.TabIndex = 109;
+            this.label6.Text = "Plateforme : ";
+            // 
             // frmDetJeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 705);
+            this.Controls.Add(this.lstBoxPlate);
+            this.Controls.Add(this.btnAjoutPlateforme);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.lstBoxTheme);
             this.Controls.Add(this.cboxGenre);
             this.Controls.Add(this.btnAjoutTheme);
@@ -241,6 +276,9 @@
             this.Controls.SetChildIndex(this.btnAjoutTheme, 0);
             this.Controls.SetChildIndex(this.cboxGenre, 0);
             this.Controls.SetChildIndex(this.lstBoxTheme, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.btnAjoutPlateforme, 0);
+            this.Controls.SetChildIndex(this.lstBoxPlate, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,5 +303,8 @@
         internal System.Windows.Forms.Label lblID;
         internal System.Windows.Forms.ComboBox cboxGenre;
         private System.Windows.Forms.ListBox lstBoxTheme;
+        private System.Windows.Forms.ListBox lstBoxPlate;
+        internal System.Windows.Forms.Button btnAjoutPlateforme;
+        internal System.Windows.Forms.Label label6;
     }
 }

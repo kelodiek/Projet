@@ -32,7 +32,7 @@
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnActiverModif = new System.Windows.Forms.Button();
             this.btnEnregistrer = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSupprimer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCopier
@@ -54,6 +54,7 @@
             this.btnAnnuler.TabIndex = 65;
             this.btnAnnuler.Text = "Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
             // 
             // btnActiverModif
             // 
@@ -75,22 +76,22 @@
             this.btnEnregistrer.Text = "Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnSupprimer
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(240, 658);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 35);
-            this.button1.TabIndex = 67;
-            this.button1.Text = "Supprimer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimer.Location = new System.Drawing.Point(240, 658);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(113, 35);
+            this.btnSupprimer.TabIndex = 67;
+            this.btnSupprimer.Text = "Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = true;
             // 
             // frmDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 705);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnCopier);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnActiverModif);
@@ -98,7 +99,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmDetail";
-            this.Text = "Form1";
+            this.Text = "Details";
             this.ResumeLayout(false);
 
         }
@@ -109,7 +110,7 @@
         internal System.Windows.Forms.Button btnAnnuler;
         internal System.Windows.Forms.Button btnActiverModif;
         internal System.Windows.Forms.Button btnEnregistrer;
-        internal System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Button btnSupprimer;
     }
 }
 

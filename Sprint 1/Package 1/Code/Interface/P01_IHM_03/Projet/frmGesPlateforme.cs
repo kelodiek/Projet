@@ -16,9 +16,9 @@ namespace Projet
         {
             InitializeComponent();
 
-            btnDetails.Click += new EventHandler(btnDetails_Click);
+            this.btnDetails.Click += new EventHandler(btnDetails_Click);
 
-            btnAjout.Click += new EventHandler(btnAjout_Click);
+            this.btnAjout.Click += new EventHandler(btnAjout_Click);
         }
 
         private void Gestion_des_Plateformes_Load(object sender, EventArgs e)
@@ -42,7 +42,6 @@ namespace Projet
             column.Width = 150;
             column = DataGridView1.Columns[5];
             column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            
         }
         private void btnDetails_Click(object sender, EventArgs e)
         {

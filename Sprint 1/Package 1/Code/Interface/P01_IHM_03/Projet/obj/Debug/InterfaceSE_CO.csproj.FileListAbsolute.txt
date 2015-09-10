@@ -79,8 +79,6 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetJeu.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesJeu.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmAccueilAdmin.resources
-C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csprojResolveAssemblyReference.cache
-C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesClass.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetClassification.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetGenre.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetTheme.resources

@@ -16,5 +16,10 @@ namespace Projet
         {
             InitializeComponent();
         }
+
+        private void btnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

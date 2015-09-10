@@ -38,7 +38,7 @@ namespace Projet
                     formOuvert = new frmGesJeu();
                     break;
                 case "btnClassToolStrip":
-                    formOuvert = new frmGesClass();
+                    formOuvert = new frmGestClassification();
                     break;
                 default:
                     break;

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmDetClassification : Form
+    public partial class frmDetClassification : frmDetail
     {
         public frmDetClassification()
         {
