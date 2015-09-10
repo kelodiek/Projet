@@ -88,3 +88,4 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGestTheme.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGestVersion.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmSelection.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csprojResolveAssemblyReference.cache
