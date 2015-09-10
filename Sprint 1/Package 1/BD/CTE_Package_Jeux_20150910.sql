@@ -21,5 +21,9 @@ ADD CONSTRAINT PK_tblClassification_CoteESRB	PRIMARY KEY(CoteESRB)
 PRINT 'Création de la contrainte PK_tblClassification_CoteESRB reussie'
 GO
 
+ALTER TABLE Jeux.tblMode
+ADD CONSTRAINT PK_tblMode_IdMode	PRIMARY KEY(IdMode)
+PRINT 'Création de la contrainte PK_tblMode_IdMode reussie'
+GO
 GO
 use master;
