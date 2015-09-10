@@ -57,9 +57,9 @@ PRINT 'Création de Jeux.tblTheme complétée'
 GO
 CREATE TABLE Jeux.tblClassification
 (
-CoteESRB	VARCHAR(3)	NOT NULL,
-NomESRB		VARCHAR(30)	NOT NULL,
-DescESRB	VARCHAR(40)	NOT NULL
+CoteESRB		VARCHAR(3)	NOT NULL,
+NomESRB			VARCHAR(30)	NOT NULL,
+DescESRB		VARCHAR(40)	NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblClassification complétée'
@@ -67,9 +67,9 @@ PRINT 'Création de Jeux.tblClassification complétée'
 GO
 CREATE TABLE Jeux.tblMode
 (
-IdMode		INT			NOT NULL	IDENTITY(1,1),
-NomMode		VARCHAR(20)	NOT NULL,
-DescMode	VARCHAR(250)NOT NULL
+IdMode			INT			NOT NULL	IDENTITY(1,1),
+NomMode			VARCHAR(20)	NOT NULL,
+DescMode		VARCHAR(250)NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblMode complétée'
@@ -77,9 +77,9 @@ PRINT 'Création de Jeux.tblMode complétée'
 GO
 CREATE TABLE Jeux.tblGenre
 (
-IdGenre		INT			NOT NULL	IDENTITY(1,1),
-NomGenre	VARCHAR(35)	NOT NULL,
-ComGenre	VARCHAR(250)NULL
+IdGenre			INT			NOT NULL	IDENTITY(1,1),
+NomGenre		VARCHAR(35)	NOT NULL,
+ComGenre		VARCHAR(250)NULL
 )
 GO
 PRINT 'Création de Jeux.tblGenre complétée'
@@ -98,7 +98,8 @@ RAM					VARCHAR(60)	NULL,
 Stockage			VARCHAR(60)	NULL,
 DescPlateforme		VARCHAR(250)NOT NULL,
 InfoSupPlateforme	TEXT		NULL,
-Tag					TEXT		NOT NULL
+Tag					TEXT		NOT NULL,
+CodeCategorie		VARCHAR(7)	NULL
 )
 GO
 PRINT 'Création de Jeux.tblPlateforme complétée'
@@ -106,11 +107,14 @@ PRINT 'Création de Jeux.tblPlateforme complétée'
 GO
 CREATE TABLE Jeux.tblJeu
 (
-IdJeu				INT			NOT NULL	IDENTITY(1,1),
-NomJeu				VARCHAR(30)	NOT NULL,
-DescJeu				VARCHAR(250)NOT NULL,
-Actif				BINARY(1)	NOT NULL,
-Tag					TEXT		NOT NULL
+IdJeu			INT			NOT NULL	IDENTITY(1,1),
+NomJeu			VARCHAR(30)	NOT NULL,
+DescJeu			VARCHAR(250)NOT NULL,
+Actif			BINARY(1)	NOT NULL,
+Tag				TEXT		NOT NULL,
+CodeESRB		VARCHAR(3)	NULL,
+IdGenre			INT			NULL,
+IdMode			INT			NULL
 )
 GO
 PRINT 'Création de Jeux.tblJeu complétée'
@@ -120,20 +124,17 @@ PRINT 'Création de Jeux.tblJeu complétée'
 GO
 CREATE TABLE Jeux.tblPlateformeSysExp
 (
-IdPlateforme		INT			NOT NULL,
-IdSysExp			INT			NOT NULLs
+IdPlateforme	INT			NOT NULL,
+IdSysExp		INT			NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblPlateformeSysExp complétée'
 
-
-/*---------------RENDU LA--------------------*/
 GO
 CREATE TABLE Jeux.tblThemeJeu
 (
-IdGenre		INT			NOT NULL	IDENTITY(1,1),
-NomGenre	VARCHAR(35)	NOT NULL,
-ComGenre	VARCHAR(250)NULL
+IdTheme			INT			NOT NULL,
+IdJeu			INT			NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblThemeJeu complétée'
@@ -141,9 +142,14 @@ PRINT 'Création de Jeux.tblThemeJeu complétée'
 GO
 CREATE TABLE Jeux.tblVersion
 (
-IdGenre		INT			NOT NULL	IDENTITY(1,1),
-NomGenre	VARCHAR(35)	NOT NULL,
-ComGenre	VARCHAR(250)NULL
+CodeVersion			INT			NOT NULL	IDENTITY(1,1),
+NomVersion			VARCHAR(35)	NOT NULL,
+DescVersion			VARCHAR(250)NULL,
+StadeDeveloppement	VARCHAR(30)	NOT NULL,
+DateVersion			DATE		NOT NULL,
+DateSortiePrevue	DATE		NULL,
+Tag					TEXT		NOT NULL,
+IdJeu				INT			NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblVersion complétée'
@@ -151,9 +157,8 @@ PRINT 'Création de Jeux.tblVersion complétée'
 GO
 CREATE TABLE Jeux.tblJeuSemblable
 (
-IdGenre		INT			NOT NULL	IDENTITY(1,1),
-NomGenre	VARCHAR(35)	NOT NULL,
-ComGenre	VARCHAR(250)NULL
+IdJeuBase		INT			NOT NULL,
+IdJeuSemblable	INT			NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblJeuSemblable complétée'
@@ -161,9 +166,8 @@ PRINT 'Création de Jeux.tblJeuSemblable complétée'
 GO
 CREATE TABLE Jeux.tblPlateformeJeu
 (
-IdGenre		INT			NOT NULL	IDENTITY(1,1),
-NomGenre	VARCHAR(35)	NOT NULL,
-ComGenre	VARCHAR(250)NULL
+IdPlateforme	INT			NOT NULL,
+IdJeu			INT			NOT NULL
 )
 GO
 PRINT 'Création de Jeux.tblPlateformeJeu complétée'
