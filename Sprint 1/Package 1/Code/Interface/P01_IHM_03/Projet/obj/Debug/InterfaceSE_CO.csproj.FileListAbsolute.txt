@@ -84,8 +84,11 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetTheme.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetVersion.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGestClassification.resources
-C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGenre.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGestTheme.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGestVersion.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmSelection.resources
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\InterfaceSE_CO.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesGenre.resources
+=======
+>>>>>>> origin/master

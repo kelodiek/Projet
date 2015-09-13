@@ -285,7 +285,7 @@
             this.Controls.Add(this.label11);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmDetPlateforme";
-            this.Text = "Details - Plateformes";
+            this.Text = "Détails - Plateformes";
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.txtCPU, 0);
             this.Controls.SetChildIndex(this.label7, 0);

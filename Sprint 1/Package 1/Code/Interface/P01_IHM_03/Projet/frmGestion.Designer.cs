@@ -142,6 +142,7 @@
             this.btnGenreToolStrip.Name = "btnGenreToolStrip";
             this.btnGenreToolStrip.Size = new System.Drawing.Size(252, 28);
             this.btnGenreToolStrip.Text = "Genre";
+            this.btnGenreToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
             // 
             // btnClassToolStrip
             // 

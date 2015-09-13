@@ -40,6 +40,9 @@ namespace Projet
                 case "btnClassToolStrip":
                     formOuvert = new frmGestClassification();
                     break;
+                case "btnGenreToolStrip":
+                    formOuvert = new frmGesGenre();
+                    break;
                 default:
                     break;
             }

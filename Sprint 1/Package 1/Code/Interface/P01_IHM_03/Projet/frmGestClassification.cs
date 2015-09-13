@@ -15,7 +15,8 @@ namespace Projet
         public frmGestClassification()
         {
             InitializeComponent();
-            this.btnAjout.Click += new EventHandler(btnAjoutClassification_Click);
+            this.btnAjout.Click += new EventHandler(btnAjoutClass_Click);
+            this.btnDetails.Click += new EventHandler(btnDetailsClass_Click);
         }
 
         private void GridClasification_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -36,17 +37,19 @@ namespace Projet
             column.Width = 30;
         }
 
-        private void btnAjoutClassification_Click(object sender, EventArgs e)
+        private void btnAjoutClass_Click(object sender, EventArgs e)
         {
             var frmDetails = new frmDetClassification();
+
+            frmDetails.modifierChamp("a");
 
             frmDetails.ShowDialog();
         }
-        private void btnDetails_Click(object sender, EventArgs e)
+        private void btnDetailsClass_Click(object sender, EventArgs e)
         {
             var frmDetails = new frmDetClassification();
 
-            frmDetails.txt.enable = false;
+            frmDetails.modifierChamp("m");
 
             frmDetails.ShowDialog();
         }

@@ -16,5 +16,22 @@ namespace Projet
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="code"> "a" pour ajouter, "m" pour modification</param>
+        public void modifierChamp(string code)
+        {
+            if (code == "a")
+            {
+                this.btnActiverModif.Visible = false;
+            }
+            else
+            {
+                this.txtCote.Enabled = false;
+                this.txtDescription.Enabled = false;
+                this.txtNom.Enabled = false;
+            }
+        }
     }
 }

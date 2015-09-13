@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmGenre : Form
+    public partial class frmGesGenre : frmGestion
     {
-        public frmGenre()
+        public frmGesGenre()
         {
             InitializeComponent();
+            this.btnAjout.Click += new EventHandler(ajoutGenre_click);
+            this.btnDetails.Click += new EventHandler(detailsGenre_click);
         }
 
         private void GridGenre_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -33,6 +35,22 @@ namespace Projet
             column.Width = 30;
             column = GridGenre.Columns[2];
             column.Width = 30;
+        }
+        private void detailsGenre_click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetGenre();
+
+            frmDetails.modifierChamp("m");
+
+            frmDetails.ShowDialog();
+        }
+        private void ajoutGenre_click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetGenre();
+
+            frmDetails.modifierChamp("a");
+
+            frmDetails.ShowDialog();
         }
     }
 }

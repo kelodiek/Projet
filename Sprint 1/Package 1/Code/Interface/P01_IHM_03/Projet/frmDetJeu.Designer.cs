@@ -31,10 +31,10 @@
             this.btnAjoutTheme = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.dateSortie = new System.Windows.Forms.DateTimePicker();
+            this.rtxtInfoSup = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtDesc = new System.Windows.Forms.RichTextBox();
+            this.rtxtDesc = new System.Windows.Forms.RichTextBox();
             this.Label10 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.cboxMode = new System.Windows.Forms.ComboBox();
@@ -80,20 +80,20 @@
             this.label1.TabIndex = 95;
             this.label1.Text = "Date de Sortie : ";
             // 
-            // dateTimePicker1
+            // dateSortie
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(147, 251);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 94;
+            this.dateSortie.Location = new System.Drawing.Point(147, 251);
+            this.dateSortie.Name = "dateSortie";
+            this.dateSortie.Size = new System.Drawing.Size(200, 22);
+            this.dateSortie.TabIndex = 94;
             // 
-            // richTextBox2
+            // rtxtInfoSup
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(10, 542);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(460, 110);
-            this.richTextBox2.TabIndex = 93;
-            this.richTextBox2.Text = "";
+            this.rtxtInfoSup.Location = new System.Drawing.Point(10, 542);
+            this.rtxtInfoSup.Name = "rtxtInfoSup";
+            this.rtxtInfoSup.Size = new System.Drawing.Size(460, 110);
+            this.rtxtInfoSup.TabIndex = 93;
+            this.rtxtInfoSup.Text = "";
             // 
             // label12
             // 
@@ -105,13 +105,13 @@
             this.label12.TabIndex = 92;
             this.label12.Text = "Informations Supplémentaires : ";
             // 
-            // txtDesc
+            // rtxtDesc
             // 
-            this.txtDesc.Location = new System.Drawing.Point(10, 85);
-            this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(458, 160);
-            this.txtDesc.TabIndex = 91;
-            this.txtDesc.Text = "";
+            this.rtxtDesc.Location = new System.Drawing.Point(10, 85);
+            this.rtxtDesc.Name = "rtxtDesc";
+            this.rtxtDesc.Size = new System.Drawing.Size(458, 160);
+            this.rtxtDesc.TabIndex = 91;
+            this.rtxtDesc.Text = "";
             // 
             // Label10
             // 
@@ -245,10 +245,10 @@
             this.Controls.Add(this.btnAjoutTheme);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.dateSortie);
+            this.Controls.Add(this.rtxtInfoSup);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.txtDesc);
+            this.Controls.Add(this.rtxtDesc);
             this.Controls.Add(this.Label10);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.cboxMode);
@@ -267,10 +267,10 @@
             this.Controls.SetChildIndex(this.cboxMode, 0);
             this.Controls.SetChildIndex(this.Label5, 0);
             this.Controls.SetChildIndex(this.Label10, 0);
-            this.Controls.SetChildIndex(this.txtDesc, 0);
+            this.Controls.SetChildIndex(this.rtxtDesc, 0);
             this.Controls.SetChildIndex(this.label12, 0);
-            this.Controls.SetChildIndex(this.richTextBox2, 0);
-            this.Controls.SetChildIndex(this.dateTimePicker1, 0);
+            this.Controls.SetChildIndex(this.rtxtInfoSup, 0);
+            this.Controls.SetChildIndex(this.dateSortie, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.btnAjoutTheme, 0);
@@ -289,10 +289,10 @@
         internal System.Windows.Forms.Button btnAjoutTheme;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        internal System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.DateTimePicker dateSortie;
+        internal System.Windows.Forms.RichTextBox rtxtInfoSup;
         internal System.Windows.Forms.Label label12;
-        internal System.Windows.Forms.RichTextBox txtDesc;
+        internal System.Windows.Forms.RichTextBox rtxtDesc;
         internal System.Windows.Forms.Label Label10;
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.ComboBox cboxMode;

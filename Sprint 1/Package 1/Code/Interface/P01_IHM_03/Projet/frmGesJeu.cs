@@ -15,6 +15,8 @@ namespace Projet
         public frmGesJeu()
         {
             InitializeComponent();
+            this.btnAjout.Click += new EventHandler(ajoutJeu_Click);
+            this.btnDetails.Click += new EventHandler(detailsJeu_Click);
         }
 
         private void frmGesJeu_Load(object sender, EventArgs e)
@@ -37,6 +39,22 @@ namespace Projet
             Column.Width = 300;
             Column = dataGridJeu.Columns[4];
             Column.Width = 150;
+        }
+        public void detailsJeu_Click(object sender,EventArgs e)
+        {
+            var frmDetails = new frmDetJeu();
+            
+            frmDetails.modifierChamp("m");
+
+            frmDetails.ShowDialog();
+        }
+        public void ajoutJeu_Click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetJeu();
+
+            frmDetails.modifierChamp("a");
+
+            frmDetails.ShowDialog();
         }
     }
 }
