@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtInfos = new System.Windows.Forms.RichTextBox();
+            this.rtxtInfos = new System.Windows.Forms.RichTextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,15 +42,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtInfos
+            // rtxtInfos
             // 
-            this.txtInfos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtInfos.Location = new System.Drawing.Point(10, 173);
-            this.txtInfos.MaxLength = 100;
-            this.txtInfos.Name = "txtInfos";
-            this.txtInfos.Size = new System.Drawing.Size(460, 135);
-            this.txtInfos.TabIndex = 74;
-            this.txtInfos.Text = "";
+            this.rtxtInfos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.rtxtInfos.Location = new System.Drawing.Point(10, 173);
+            this.rtxtInfos.MaxLength = 100;
+            this.rtxtInfos.Name = "rtxtInfos";
+            this.rtxtInfos.Size = new System.Drawing.Size(460, 135);
+            this.rtxtInfos.TabIndex = 74;
+            this.rtxtInfos.Text = "";
             // 
             // Label3
             // 
@@ -151,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 705);
+            this.ClientSize = new System.Drawing.Size(482, 353);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtVersion);
             this.Controls.Add(this.label4);
@@ -163,10 +163,10 @@
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtInfos);
+            this.Controls.Add(this.rtxtInfos);
             this.Name = "frmDetSysExp";
             this.Text = "frmDetSysExp";
-            this.Controls.SetChildIndex(this.txtInfos, 0);
+            this.Controls.SetChildIndex(this.rtxtInfos, 0);
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.Label2, 0);
             this.Controls.SetChildIndex(this.Label3, 0);
@@ -181,11 +181,16 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+
+            this.btnEnregistrer.Location = new System.Drawing.Point(10, 314);
+            this.btnActiverModif.Location = new System.Drawing.Point(125, 314);
+            this.btnAnnuler.Location = new System.Drawing.Point(359, 314);
+            this.btnSupprimer.Location = new System.Drawing.Point(240, 314);
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox txtInfos;
+        private System.Windows.Forms.RichTextBox rtxtInfos;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Label label7;

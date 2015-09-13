@@ -34,15 +34,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAnnuler = new System.Windows.Forms.Button();
-            this.btnModifier = new System.Windows.Forms.Button();
-            this.btnCopier = new System.Windows.Forms.Button();
-            this.btnEnregistrer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(89, 107);
+            this.txtNom.Location = new System.Drawing.Point(89, 69);
             this.txtNom.MaxLength = 30;
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(219, 22);
@@ -50,7 +46,7 @@
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(89, 66);
+            this.txtCode.Location = new System.Drawing.Point(89, 41);
             this.txtCode.MaxLength = 30;
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(199, 22);
@@ -58,7 +54,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(89, 27);
+            this.txtId.Location = new System.Drawing.Point(89, 12);
             this.txtId.MaxLength = 10;
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 22);
@@ -68,7 +64,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(24, 107);
+            this.label3.Location = new System.Drawing.Point(12, 69);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 20);
             this.label3.TabIndex = 89;
@@ -78,7 +74,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(24, 66);
+            this.label2.Location = new System.Drawing.Point(12, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 88;
@@ -88,72 +84,38 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(24, 27);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 20);
             this.label1.TabIndex = 87;
             this.label1.Text = "Id : ";
             // 
-            // btnAnnuler
-            // 
-            this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(334, 144);
-            this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(101, 33);
-            this.btnAnnuler.TabIndex = 86;
-            this.btnAnnuler.Text = "Annuler";
-            this.btnAnnuler.UseVisualStyleBackColor = true;
-            // 
-            // btnModifier
-            // 
-            this.btnModifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModifier.Location = new System.Drawing.Point(227, 144);
-            this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(101, 33);
-            this.btnModifier.TabIndex = 85;
-            this.btnModifier.Text = "Modifier";
-            this.btnModifier.UseVisualStyleBackColor = true;
-            // 
-            // btnCopier
-            // 
-            this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(12, 144);
-            this.btnCopier.Name = "btnCopier";
-            this.btnCopier.Size = new System.Drawing.Size(101, 33);
-            this.btnCopier.TabIndex = 84;
-            this.btnCopier.Text = "Copier";
-            this.btnCopier.UseVisualStyleBackColor = true;
-            // 
-            // btnEnregistrer
-            // 
-            this.btnEnregistrer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(120, 144);
-            this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(101, 33);
-            this.btnEnregistrer.TabIndex = 83;
-            this.btnEnregistrer.Text = "Enregistrer";
-            this.btnEnregistrer.UseVisualStyleBackColor = true;
-            // 
             // frmDetTheme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 188);
+            this.ClientSize = new System.Drawing.Size(485, 182);
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAnnuler);
-            this.Controls.Add(this.btnModifier);
-            this.Controls.Add(this.btnCopier);
-            this.Controls.Add(this.btnEnregistrer);
             this.Name = "frmDetTheme";
             this.Text = "Détails - Thème";
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.txtId, 0);
+            this.Controls.SetChildIndex(this.txtCode, 0);
+            this.Controls.SetChildIndex(this.txtNom, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            this.btnEnregistrer.Location = new System.Drawing.Point(10, 143);
+            this.btnActiverModif.Location = new System.Drawing.Point(125, 143);
+            this.btnAnnuler.Location = new System.Drawing.Point(359, 143);
+            this.btnSupprimer.Location = new System.Drawing.Point(240, 143);
         }
 
         #endregion
@@ -164,9 +126,5 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.Button btnAnnuler;
-        internal System.Windows.Forms.Button btnModifier;
-        internal System.Windows.Forms.Button btnCopier;
-        internal System.Windows.Forms.Button btnEnregistrer;
     }
 }

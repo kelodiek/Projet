@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmDetTheme : Form
+    public partial class frmDetTheme : frmDetail
     {
         public frmDetTheme()
         {
             InitializeComponent();
+        }
+        public void modifierChamp(string code)
+        {
+            if (code == "a")
+            {
+                this.btnActiverModif.Visible = false;
+            }
+            else
+            {
+                this.txtId.Enabled = false;
+                this.txtNom.Enabled = false;
+                this.txtCode.Enabled = false;
+
+                this.btnEnregistrer.Enabled = false;
+            }
         }
     }
 }

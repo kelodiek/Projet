@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmGestTheme : Form
+    public partial class frmGestTheme : frmGestion
     {
         public frmGestTheme()
         {
             InitializeComponent();
+            btnAjout.Click += new EventHandler(ajoutTheme_Click);
+            btnDetails.Click += new EventHandler(detailTheme_Click);
         }
 
         private void GridTheme_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -32,7 +34,23 @@ namespace Projet
             column = GridTheme.Columns[1];
             column.Width = 30;
             column = GridTheme.Columns[2];
-            column.Width = 30;
+            column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+        }
+        private void ajoutTheme_Click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetTheme();
+
+            frmDetails.modifierChamp("a");
+
+            frmDetails.Show();
+        }
+        private void detailTheme_Click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetTheme();
+
+            frmDetails.modifierChamp("m");
+
+            frmDetails.Show();
         }
     }
 }

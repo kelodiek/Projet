@@ -49,6 +49,7 @@ namespace Projet
             // Quand tu vas retrouver ca Olivier tu t'arrangera pour utiliser ca pis modifier 
             // les parties de modification en consequence(si tu le fait pas t'es juste une grosse 
             // vache pis tu peux aller chier)
+
             //foreach (Control item in this.Controls)
             //{
             //    item.Enabled = false;

@@ -40,6 +40,7 @@
             this.btnGenreToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClassToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnJeuToolStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnThemeToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuSecuriteToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuTestToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.retourInterfaceTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -117,7 +118,8 @@
             this.btnPlateToolStrip,
             this.btnGenreToolStrip,
             this.btnClassToolStrip,
-            this.btnJeuToolStrip});
+            this.btnJeuToolStrip,
+            this.btnThemeToolStrip});
             this.btnMenuDonneToolStrip.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnMenuDonneToolStrip.Name = "btnMenuDonneToolStrip";
             this.btnMenuDonneToolStrip.Size = new System.Drawing.Size(89, 27);
@@ -157,6 +159,13 @@
             this.btnJeuToolStrip.Size = new System.Drawing.Size(252, 28);
             this.btnJeuToolStrip.Text = "Jeu";
             this.btnJeuToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
+            // 
+            // btnThemeToolStrip
+            // 
+            this.btnThemeToolStrip.Name = "btnThemeToolStrip";
+            this.btnThemeToolStrip.Size = new System.Drawing.Size(252, 28);
+            this.btnThemeToolStrip.Text = "Theme";
+            this.btnThemeToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
             // 
             // btnMenuSecuriteToolStrip
             // 
@@ -244,5 +253,6 @@
         private System.Windows.Forms.ToolStripMenuItem btnJeuToolStrip;
         private System.Windows.Forms.ToolStripMenuItem btnQuitterToolStrip;
         private System.Windows.Forms.ToolStripMenuItem btnDecoToolStrip;
+        private System.Windows.Forms.ToolStripMenuItem btnThemeToolStrip;
     }
 }

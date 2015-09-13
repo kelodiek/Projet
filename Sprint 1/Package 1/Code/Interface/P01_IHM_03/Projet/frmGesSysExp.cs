@@ -15,13 +15,24 @@ namespace Projet
         public frmGesSysExp()
         {
             InitializeComponent();
-            
+            btnAjout.Click += new EventHandler(ajoutSysExp_Click);
+            btnDetails.Click += new EventHandler(detailSysExp_Click);
         }
-
-        private void btnAjouter_Click(object sender, EventArgs e)
+        private void ajoutSysExp_Click(object sender, EventArgs e)
         {
-            frmDetSysExp form = new frmDetSysExp();
-            form.Show();
+            var frmDetails = new frmDetSysExp();
+
+            frmDetails.modifierChamp("a");
+
+            frmDetails.Show();
+        }
+        private void detailSysExp_Click(object sender, EventArgs e)
+        {
+            var frmDetails = new frmDetSysExp();
+
+            frmDetails.modifierChamp("m");
+
+            frmDetails.Show();
         }
     }
 }
