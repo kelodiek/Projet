@@ -10,11 +10,11 @@
 
 !6	tblGenre	Complet	FINI		script terminé		OL
 
-7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE
+7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
-!8	tblJeu		Base	FINI		SCRIPT A FAIRE		GS
+!8	tblJeu		Base	FINI		SCRIPT A FAIRE		GS		AVEC TAG
 
-8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE
+8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
 9	tblPlateformeSysExpClet	FINI		SCRIPT A FAIRE
 
@@ -22,9 +22,9 @@
 
 10	tblThemeJeu	Complet	FINI	        script terminé
 
-11	tblVersion	Base	INCOMPLET	SCRIPT A FAIRE
+11	tblVersion	Base	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
-11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE
+11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
 12	tblJeuSemblable	Base	FINI		SCRIPT A FAIRE
 
