@@ -38,7 +38,7 @@
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(89, 69);
+            this.txtNom.Location = new System.Drawing.Point(114, 67);
             this.txtNom.MaxLength = 30;
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(219, 22);
@@ -46,7 +46,7 @@
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(89, 41);
+            this.txtCode.Location = new System.Drawing.Point(114, 39);
             this.txtCode.MaxLength = 30;
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(199, 22);
@@ -54,7 +54,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(89, 12);
+            this.txtId.Location = new System.Drawing.Point(114, 10);
             this.txtId.MaxLength = 10;
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 22);
@@ -86,9 +86,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 20);
+            this.label1.Size = new System.Drawing.Size(96, 20);
             this.label1.TabIndex = 87;
-            this.label1.Text = "Id : ";
+            this.label1.Text = "Identifiant : ";
             // 
             // frmDetTheme
             // 
@@ -112,10 +112,6 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
-            this.btnEnregistrer.Location = new System.Drawing.Point(10, 143);
-            this.btnActiverModif.Location = new System.Drawing.Point(125, 143);
-            this.btnAnnuler.Location = new System.Drawing.Point(359, 143);
-            this.btnSupprimer.Location = new System.Drawing.Point(240, 143);
         }
 
         #endregion

@@ -21,5 +21,14 @@ namespace Projet
         {
             this.Close();
         }
+
+        private void btnActiverModif_Click(object sender, EventArgs e)
+        {
+            foreach (Control item in this.Controls)
+            {
+                item.Enabled = true;
+            }
+            ((Button)sender).Enabled = false;
+        }
     }
 }

@@ -65,6 +65,7 @@
             this.btnActiverModif.TabIndex = 64;
             this.btnActiverModif.Text = "Modifier";
             this.btnActiverModif.UseVisualStyleBackColor = true;
+            this.btnActiverModif.Click += new System.EventHandler(this.btnActiverModif_Click);
             // 
             // btnEnregistrer
             // 

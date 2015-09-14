@@ -94,9 +94,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 20);
+            this.label1.Size = new System.Drawing.Size(96, 20);
             this.label1.TabIndex = 97;
-            this.label1.Text = "Id : ";
+            this.label1.Text = "Identifiant : ";
             // 
             // label4
             // 
@@ -206,10 +206,6 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
-            this.btnEnregistrer.Location = new System.Drawing.Point(10, 342);
-            this.btnActiverModif.Location = new System.Drawing.Point(125, 342);
-            this.btnAnnuler.Location = new System.Drawing.Point(359, 342);
-            this.btnSupprimer.Location = new System.Drawing.Point(240, 342);
         }
 
         #endregion

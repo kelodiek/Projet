@@ -41,20 +41,20 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 17);
+            this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 68;
-            this.label1.Text = "ID :";
+            this.label1.Text = "Identifiant :";
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(62, 12);
+            this.txtID.Location = new System.Drawing.Point(95, 12);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 22);
             this.txtID.TabIndex = 69;
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(62, 40);
+            this.txtNom.Location = new System.Drawing.Point(95, 40);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(193, 22);
             this.txtNom.TabIndex = 71;
