@@ -1,0 +1,35 @@
+1	tblSysExp	Complet	FINI		SCRIPT A FAIRE		
+
+2	tblCategorie	Complet	INCOMPLET	SCRIPT A FAIRE
+
+3	tblTheme	Complet	FINI		SCRIPT A FAIRE		OL
+
+4	tblClassificationCmplet	FINI		script terminé		El
+
+5	tblMode		Complet	FINI		script terminé		OL
+
+6	tblGenre	Complet	FINI		script terminé		OL
+
+7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE
+
+8	tblJeu		Base	FINI		SCRIPT A FAIRE
+
+8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE
+
+9	tblPlateformeSysExpClet	INCOMPLET	SCRIPT A FAIRE
+
+10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE
+
+10	tblThemeJeu	Complet	INCOMPLET	SCRIPT A FAIRE
+
+11	tblVersion	Base	INCOMPLET	SCRIPT A FAIRE
+
+11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE
+
+12	tblJeuSemblable	Base	INCOMPLET	SCRIPT A FAIRE
+
+12	tblJeuSemblable Complet	INCOMPLET	SCRIPT A FAIRE
+
+13	tblPlateformeJeuBase	FINI		SCRIPT A FAIRE
+
+13	tblPlateformeJeuComplet	INCOMPLET	SCRIPT A FAIRE
