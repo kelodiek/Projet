@@ -22,7 +22,7 @@
 
 10	tblThemeJeu	Complet	FINI	        script terminé
 
-11	tblVersion	Base	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
+11	tblVersion	Base	FINI		SCRIPT A FAIRE				AVEC TAG
 
 11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
