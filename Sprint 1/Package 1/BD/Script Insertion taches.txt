@@ -20,7 +20,7 @@
 
 !10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE
 
-10	tblThemeJeu	Complet	INCOMPLET	SCRIPT A FAIRE
+10	tblThemeJeu	Complet	FINI	        script terminé
 
 11	tblVersion	Base	INCOMPLET	SCRIPT A FAIRE
 
