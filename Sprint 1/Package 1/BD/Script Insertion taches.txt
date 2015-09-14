@@ -16,7 +16,7 @@
 
 8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE
 
-9	tblPlateformeSysExpClet	INCOMPLET	SCRIPT A FAIRE
+9	tblPlateformeSysExpClet	FINI		SCRIPT A FAIRE
 
 !10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE
 
