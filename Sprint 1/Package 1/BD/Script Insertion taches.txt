@@ -1,4 +1,4 @@
-!1	tblSysExp	Complet	FINI		SCRIPT A FAIRE		
+!1	tblSysExp	Complet	FINI		SCRIPT A FAIRE		OL
 
 2	tblCategorie	Complet	INCOMPLET	SCRIPT A FAIRE
 
@@ -12,7 +12,7 @@
 
 7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE
 
-!8	tblJeu		Base	FINI		SCRIPT A FAIRE
+!8	tblJeu		Base	FINI		SCRIPT A FAIRE		GS
 
 8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE
 
@@ -30,6 +30,6 @@
 
 12	tblJeuSemblable Complet	INCOMPLET	SCRIPT A FAIRE
 
-13	tblPlateformeJeuBase	FINI		SCRIPT A FAIRE		GS
+13	tblPlateformeJeuBase	FINI		SCRIPT A FAIRE		
 
 13	tblPlateformeJeuComplet	INCOMPLET	SCRIPT A FAIRE
