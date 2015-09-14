@@ -26,7 +26,7 @@
 
 11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE
 
-12	tblJeuSemblable	Base	INCOMPLET	SCRIPT A FAIRE
+12	tblJeuSemblable	Base	FINI		SCRIPT A FAIRE
 
 12	tblJeuSemblable Complet	INCOMPLET	SCRIPT A FAIRE
 
