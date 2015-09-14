@@ -2,19 +2,19 @@ use dbProjetE2Test;
 GO
 IF EXISTS (SELECT * FROM sys.schemas WHERE name = 'Jeux')
 BEGIN
-	EXEC( 'DROP TABLE Jeux.tblSysExp' );
-	EXEC( 'DROP TABLE Jeux.tblCategorie' );
-	EXEC( 'DROP TABLE Jeux.tblTheme' );
-	EXEC( 'DROP TABLE Jeux.tblClassification' );
-	EXEC( 'DROP TABLE Jeux.tblMode' );	
-	EXEC( 'DROP TABLE Jeux.tblGenre' );
-	EXEC( 'DROP TABLE Jeux.tblPlateforme' );
-	EXEC( 'DROP TABLE Jeux.tblJeu' );
-	EXEC( 'DROP TABLE Jeux.tblPlateformeSysExp' );
-	EXEC( 'DROP TABLE Jeux.tblThemeJeu' );
-	EXEC( 'DROP TABLE Jeux.tblVersion' );	
-	EXEC( 'DROP TABLE Jeux.tblJeuSemblable' );
 	EXEC( 'DROP TABLE Jeux.tblPlateformeJeu' );
+	EXEC( 'DROP TABLE Jeux.tblJeuSemblable' );	
+	EXEC( 'DROP TABLE Jeux.tblVersion' );	
+	EXEC( 'DROP TABLE Jeux.tblThemeJeu' );	
+	EXEC( 'DROP TABLE Jeux.tblPlateformeSysExp' );	
+	EXEC( 'DROP TABLE Jeux.tblJeu' );	
+	EXEC( 'DROP TABLE Jeux.tblPlateforme' );	
+	EXEC( 'DROP TABLE Jeux.tblGenre' );	
+	EXEC( 'DROP TABLE Jeux.tblMode' );	
+	EXEC( 'DROP TABLE Jeux.tblClassification' );	
+	EXEC( 'DROP TABLE Jeux.tblTheme' );	
+	EXEC( 'DROP TABLE Jeux.tblCategorie' );	
+	EXEC( 'DROP TABLE Jeux.tblSysExp' );
 		
 	EXEC( 'DROP SCHEMA Jeux' );
 END
@@ -112,7 +112,7 @@ NomJeu			VARCHAR(30)	NOT NULL,
 DescJeu			VARCHAR(350)NOT NULL,
 Actif			BINARY(1)	NOT NULL,
 Tag				TEXT		NOT NULL,
-CodeESRB		VARCHAR(3)	NULL,
+CoteESRB		VARCHAR(3)	NULL,
 IdGenre			INT			NULL,
 IdMode			INT			NULL
 )
