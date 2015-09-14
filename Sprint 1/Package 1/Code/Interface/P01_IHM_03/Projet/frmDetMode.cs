@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projet
 {
-    public partial class frmDetVersion : frmDetail
+    public partial class frmDetMode : frmDetail
     {
-        public frmDetVersion()
+        public frmDetMode()
         {
             InitializeComponent();
         }
@@ -24,15 +24,9 @@ namespace Projet
             }
             else
             {
-                this.txtId.Enabled = false;
-                this.txtNom.Enabled = false;
-                this.txtCode.Enabled = false;
-                this.txtStade.Enabled = false;
+                this.txtID.Enabled = false;
                 this.rtxtDesc.Enabled = false;
-                this.dateSortie.Enabled = false;
-                this.dateVersion.Enabled = false;
-
-                this.btnEnregistrer.Enabled = false;
+                this.txtNom.Enabled = false;
             }
         }
     }

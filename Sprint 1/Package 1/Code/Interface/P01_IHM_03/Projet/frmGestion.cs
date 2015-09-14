@@ -46,6 +46,12 @@ namespace Projet
                 case "btnThemeToolStrip":
                     formOuvert = new frmGestTheme();
                     break;
+                case "btnVersionToolStrip":
+                    formOuvert = new frmGestVersion();
+                    break;
+                case "btnModeToolStrip":
+                    formOuvert = new frmGesMode();
+                    break;
                 default:
                     break;
             }

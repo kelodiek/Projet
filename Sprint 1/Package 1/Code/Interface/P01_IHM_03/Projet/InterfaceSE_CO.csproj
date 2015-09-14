@@ -69,6 +69,12 @@
     <Compile Include="frmDetGenre.Designer.cs">
       <DependentUpon>frmDetGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDetMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetMode.Designer.cs">
+      <DependentUpon>frmDetMode.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDetTheme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,12 @@
     </Compile>
     <Compile Include="frmDetVersion.Designer.cs">
       <DependentUpon>frmDetVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGesMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGesMode.Designer.cs">
+      <DependentUpon>frmGesMode.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGestClassification.cs">
       <SubType>Form</SubType>
@@ -185,11 +197,17 @@
     <EmbeddedResource Include="frmDetGenre.resx">
       <DependentUpon>frmDetGenre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDetMode.resx">
+      <DependentUpon>frmDetMode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDetTheme.resx">
       <DependentUpon>frmDetTheme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDetVersion.resx">
       <DependentUpon>frmDetVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGesMode.resx">
+      <DependentUpon>frmGesMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestClassification.resx">
       <DependentUpon>frmGestClassification.cs</DependentUpon>

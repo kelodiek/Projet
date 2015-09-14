@@ -41,12 +41,14 @@
             this.btnClassToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnJeuToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnThemeToolStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnVersionToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuSecuriteToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuTestToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.retourInterfaceTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuQuitterToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnQuitterToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDecoToolStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnModeToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,7 +121,9 @@
             this.btnGenreToolStrip,
             this.btnClassToolStrip,
             this.btnJeuToolStrip,
-            this.btnThemeToolStrip});
+            this.btnThemeToolStrip,
+            this.btnVersionToolStrip,
+            this.btnModeToolStrip});
             this.btnMenuDonneToolStrip.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnMenuDonneToolStrip.Name = "btnMenuDonneToolStrip";
             this.btnMenuDonneToolStrip.Size = new System.Drawing.Size(89, 27);
@@ -167,6 +171,13 @@
             this.btnThemeToolStrip.Text = "Theme";
             this.btnThemeToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
             // 
+            // btnVersionToolStrip
+            // 
+            this.btnVersionToolStrip.Name = "btnVersionToolStrip";
+            this.btnVersionToolStrip.Size = new System.Drawing.Size(252, 28);
+            this.btnVersionToolStrip.Text = "Version";
+            this.btnVersionToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
+            // 
             // btnMenuSecuriteToolStrip
             // 
             this.btnMenuSecuriteToolStrip.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -213,6 +224,13 @@
             this.btnDecoToolStrip.Size = new System.Drawing.Size(180, 28);
             this.btnDecoToolStrip.Text = "Deconnexion";
             // 
+            // btnModeToolStrip
+            // 
+            this.btnModeToolStrip.Name = "btnModeToolStrip";
+            this.btnModeToolStrip.Size = new System.Drawing.Size(252, 28);
+            this.btnModeToolStrip.Text = "Mode";
+            this.btnModeToolStrip.Click += new System.EventHandler(this.donneesToolStrip_Click);
+            // 
             // frmGestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -254,5 +272,7 @@
         private System.Windows.Forms.ToolStripMenuItem btnQuitterToolStrip;
         private System.Windows.Forms.ToolStripMenuItem btnDecoToolStrip;
         private System.Windows.Forms.ToolStripMenuItem btnThemeToolStrip;
+        private System.Windows.Forms.ToolStripMenuItem btnVersionToolStrip;
+        private System.Windows.Forms.ToolStripMenuItem btnModeToolStrip;
     }
 }

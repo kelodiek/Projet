@@ -92,3 +92,5 @@ C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P
 C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesGenre.resources
 =======
 >>>>>>> origin/master
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmDetMode.resources
+C:\Users\Utilisateur\Documents\GitHub\Projet\Sprint 1\Package 1\Code\Interface\P01_IHM_03\Projet\obj\Debug\Projet.frmGesMode.resources

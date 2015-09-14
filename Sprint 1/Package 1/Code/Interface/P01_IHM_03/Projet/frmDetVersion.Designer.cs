@@ -34,19 +34,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAnnuler = new System.Windows.Forms.Button();
-            this.btnModifier = new System.Windows.Forms.Button();
-            this.btnCopier = new System.Windows.Forms.Button();
-            this.btnEnregistrer = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtStade = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateVersion = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.btnSupprimer = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.dateSortie = new System.Windows.Forms.DateTimePicker();
+            this.rtxtDesc = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // txtNom
@@ -103,46 +98,6 @@
             this.label1.TabIndex = 97;
             this.label1.Text = "Id : ";
             // 
-            // btnAnnuler
-            // 
-            this.btnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnnuler.Location = new System.Drawing.Point(344, 343);
-            this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(101, 33);
-            this.btnAnnuler.TabIndex = 96;
-            this.btnAnnuler.Text = "Annuler";
-            this.btnAnnuler.UseVisualStyleBackColor = true;
-            // 
-            // btnModifier
-            // 
-            this.btnModifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModifier.Location = new System.Drawing.Point(119, 343);
-            this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(101, 33);
-            this.btnModifier.TabIndex = 95;
-            this.btnModifier.Text = "Modifier";
-            this.btnModifier.UseVisualStyleBackColor = true;
-            // 
-            // btnCopier
-            // 
-            this.btnCopier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopier.Location = new System.Drawing.Point(344, 3);
-            this.btnCopier.Name = "btnCopier";
-            this.btnCopier.Size = new System.Drawing.Size(101, 33);
-            this.btnCopier.TabIndex = 94;
-            this.btnCopier.Text = "Copier";
-            this.btnCopier.UseVisualStyleBackColor = true;
-            // 
-            // btnEnregistrer
-            // 
-            this.btnEnregistrer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(12, 343);
-            this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(101, 33);
-            this.btnEnregistrer.TabIndex = 93;
-            this.btnEnregistrer.Text = "Enregistrer";
-            this.btnEnregistrer.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -153,13 +108,13 @@
             this.label4.TabIndex = 103;
             this.label4.Text = "Description : ";
             // 
-            // textBox2
+            // txtStade
             // 
-            this.textBox2.Location = new System.Drawing.Point(129, 93);
-            this.textBox2.MaxLength = 50;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(263, 22);
-            this.textBox2.TabIndex = 106;
+            this.txtStade.Location = new System.Drawing.Point(129, 93);
+            this.txtStade.MaxLength = 50;
+            this.txtStade.Name = "txtStade";
+            this.txtStade.Size = new System.Drawing.Size(263, 22);
+            this.txtStade.TabIndex = 106;
             // 
             // label5
             // 
@@ -171,12 +126,12 @@
             this.label5.TabIndex = 105;
             this.label5.Text = "Stade : ";
             // 
-            // dateTimePicker1
+            // dateVersion
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(140, 282);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 107;
+            this.dateVersion.Location = new System.Drawing.Point(140, 282);
+            this.dateVersion.Name = "dateVersion";
+            this.dateVersion.Size = new System.Drawing.Size(200, 22);
+            this.dateVersion.TabIndex = 107;
             // 
             // label6
             // 
@@ -198,43 +153,32 @@
             this.label7.TabIndex = 110;
             this.label7.Text = "Date Sortie : ";
             // 
-            // dateTimePicker2
+            // dateSortie
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(140, 313);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker2.TabIndex = 109;
+            this.dateSortie.Location = new System.Drawing.Point(140, 313);
+            this.dateSortie.Name = "dateSortie";
+            this.dateSortie.Size = new System.Drawing.Size(200, 22);
+            this.dateSortie.TabIndex = 109;
             // 
-            // btnSupprimer
+            // rtxtDesc
             // 
-            this.btnSupprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupprimer.Location = new System.Drawing.Point(239, 343);
-            this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(101, 33);
-            this.btnSupprimer.TabIndex = 111;
-            this.btnSupprimer.Text = "Supprimer";
-            this.btnSupprimer.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(16, 145);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(429, 131);
-            this.richTextBox1.TabIndex = 112;
-            this.richTextBox1.Text = "";
+            this.rtxtDesc.Location = new System.Drawing.Point(16, 145);
+            this.rtxtDesc.Name = "rtxtDesc";
+            this.rtxtDesc.Size = new System.Drawing.Size(457, 131);
+            this.rtxtDesc.TabIndex = 112;
+            this.rtxtDesc.Text = "";
             // 
             // frmDetVersion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 388);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.btnSupprimer);
+            this.ClientSize = new System.Drawing.Size(485, 388);
+            this.Controls.Add(this.rtxtDesc);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dateSortie);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dateVersion);
+            this.Controls.Add(this.txtStade);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtNom);
@@ -243,15 +187,29 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAnnuler);
-            this.Controls.Add(this.btnModifier);
-            this.Controls.Add(this.btnCopier);
-            this.Controls.Add(this.btnEnregistrer);
             this.Name = "frmDetVersion";
             this.Text = "Détails - Version";
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.txtId, 0);
+            this.Controls.SetChildIndex(this.txtCode, 0);
+            this.Controls.SetChildIndex(this.txtNom, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
+            this.Controls.SetChildIndex(this.label5, 0);
+            this.Controls.SetChildIndex(this.txtStade, 0);
+            this.Controls.SetChildIndex(this.dateVersion, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.dateSortie, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.rtxtDesc, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            this.btnEnregistrer.Location = new System.Drawing.Point(10, 342);
+            this.btnActiverModif.Location = new System.Drawing.Point(125, 342);
+            this.btnAnnuler.Location = new System.Drawing.Point(359, 342);
+            this.btnSupprimer.Location = new System.Drawing.Point(240, 342);
         }
 
         #endregion
@@ -262,18 +220,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.Button btnAnnuler;
-        internal System.Windows.Forms.Button btnModifier;
-        internal System.Windows.Forms.Button btnCopier;
-        internal System.Windows.Forms.Button btnEnregistrer;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtStade;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateVersion;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        internal System.Windows.Forms.Button btnSupprimer;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.DateTimePicker dateSortie;
+        private System.Windows.Forms.RichTextBox rtxtDesc;
     }
 }
