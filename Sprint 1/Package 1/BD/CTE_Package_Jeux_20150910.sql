@@ -82,5 +82,40 @@ ALTER TABLE Jeux.tblThemeJeu
 ADD CONSTRAINT FK_tblThemeJeu_tblJeu_IdJeu	FOREIGN KEY(IdJeu) REFERENCES Jeux.tblJeu(IdJeu)
 PRINT '10- Création de la contrainte FK_tblThemeJeu_tblJeu_IdJeu reussie'
 GO
+
+ALTER TABLE Jeux.tblVersion
+ADD CONSTRAINT PK_tblVersion_CodeVersion	PRIMARY KEY(CodeVersion)
+PRINT '11- Création de la contrainte PK_tblVersion_CodeVersion reussie'
 GO
+ALTER TABLE Jeux.tblVersion
+ADD CONSTRAINT FK_tblVersion_tblJeu_IdJeu	FOREIGN KEY(IdJeu) REFERENCES Jeux.tblJeu(IdJeu)
+PRINT '11- Création de la contrainte FK_tblVersion_tblJeu_IdJeu reussie'
+GO
+
+ALTER TABLE Jeux.tblJeuSemblable
+ADD CONSTRAINT PK_tblJeuSemblable_IdJeuBase_IdJeuSemblable	PRIMARY KEY(IdJeuBase, IdJeuSemblable)
+PRINT '12- Création de la contrainte PK_tblJeuSemblable_IdJeuBase_IdJeuSemblable reussie'
+GO
+ALTER TABLE Jeux.tblJeuSemblable
+ADD CONSTRAINT FK_tblJeuSemblable_tblJeu_IdJeuBase	FOREIGN KEY(IdJeuBase) REFERENCES Jeux.tblJeu(IdJeu)
+PRINT '12- Création de la contrainte FK_tblJeuSemblable_tblJeu_IdJeuBase reussie'
+GO
+ALTER TABLE Jeux.tblJeuSemblable
+ADD CONSTRAINT FK_tblJeuSemblable_tblJeu_IdJeuSemblable	FOREIGN KEY(IdJeuSemblable) REFERENCES Jeux.tblJeu(IdJeu)
+PRINT '12- Création de la contrainte FK_tblJeuSemblable_tblJeu_IdJeuSemblable reussie'
+GO
+
+ALTER TABLE Jeux.tblPlateformeJeu
+ADD CONSTRAINT PK_tblPlateformeJeu_IdPlateforme_IdJeu	PRIMARY KEY(IdPlateforme, IdJeu)
+PRINT '12- Création de la contrainte PK_tblPlateformeJeu_IdPlateforme_IdJeu reussie'
+GO
+ALTER TABLE Jeux.tblPlateformeJeu
+ADD CONSTRAINT FK_tblPlateformeJeu_tblPlateforme_IdPlateforme	FOREIGN KEY(IdPlateforme) REFERENCES Jeux.tblPlateforme(IdPlateforme)
+PRINT '12- Création de la contrainte FK_tblPlateformeJeu_tblPlateforme_IdPlateforme reussie'
+GO
+ALTER TABLE Jeux.tblPlateformeJeu
+ADD CONSTRAINT FK_tblPlateformeJeu_tblJeu_IdJeu	FOREIGN KEY(IdJeu) REFERENCES Jeux.tblJeu(IdJeu)
+PRINT '12- Création de la contrainte FK_tblPlateformeJeu_tblJeu_IdJeu reussie'
+GO
+
 use master;
