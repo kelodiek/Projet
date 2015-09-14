@@ -69,16 +69,16 @@ INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VAL
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10ELTSB','Windows 10','Entreprise LTSB','64bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10Edu','Windows 10','Education','64bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10Mob','Windows 10','Mobile','64bit');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10MobEt','Windows 10','Mobile Entreprise','64bit
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10MobEt','Windows 10','Mobile Entreprise','64bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10Core','Windows 10','Core','64bit');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('XBoxOS','XBox OS','Xbox One','Système d'exploitation XBox On');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Ps4OS','Orbis OS','Ps4','Système d'exploitation Ps4');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Ps3OS','Cell OS','Ps3','Système d'exploitation Ps3');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('XBoxDash','Xbox 360 DashBoard','Xbox 360','Système d'exploitation XBox 360');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('WiiUSys','Wii U System Software','Wii U','Système d'exploitation Wii U');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('3DSSys','3DS System Software','3DS','Système d'exploitation 3DS');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS9','iOS','9','Système d'exploitation pour mobile Apple');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('And5','Android','Lollipop 5.0','Système d'exploitation Android');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS8','iOS','8','Système d'exploitation pour mobile Apple');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('PSVitaOS','PlayStation Vita operating system','Version 3','Système d'exploitation PS Vita');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('OSX','OS','X','Système d'exploitation MAC');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('XBoxOS','XBox OS','Xbox One','Système d''exploitation XBox On');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Ps4OS','Orbis OS','Ps4','Système d''exploitation Ps4');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Ps3OS','Cell OS','Ps3','Système d''exploitation Ps3');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('XBoxDash','Xbox 360 DashBoard','Xbox 360','Système d''exploitation XBox 360');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('WiiUSys','Wii U System Software','Wii U','Système d''exploitation Wii U');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('3DSSys','3DS System Software','3DS','Système d''exploitation 3DS');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS9','iOS','9','Système d''exploitation pour mobile Apple');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('And5','Android','Lollipop 5.0','Système d''exploitation Android');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS8','iOS','8','Système d''exploitation pour mobile Apple');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('PSVitaOS','PlayStation Vita operating system','Version 3','Système d''exploitation PS Vita');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('OSX','OS','X','Système d''exploitation MAC');

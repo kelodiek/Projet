@@ -1,8 +1,8 @@
-!1	tblSysExp	Complet	FINI		SCRIPT A FAIRE		OL
+!1	tblSysExp	Complet	FINI		script terminé		OL
 
 2	tblCategorie	Complet	INCOMPLET	SCRIPT A FAIRE
 
-!3	tblTheme	Complet	FINI		SCRIPT A FAIRE		OL
+!3	tblTheme	Complet	FINI		script terminé		OL
 
 !4	tblClassificationCmplet	FINI		script terminé		El
 
