@@ -80,5 +80,5 @@ INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VAL
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS9','iOS','9','Système d''exploitation pour mobile Apple');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('And5','Android','Lollipop 5.0','Système d''exploitation Android');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('iOS8','iOS','8','Système d''exploitation pour mobile Apple');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('PSVitaOS','PlayStation Vita operating system','Version 3','Système d''exploitation PS Vita');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('PSVitaOS','PSVita OS','Version 3','Système d''exploitation PS Vita');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('OSX','OS','X','Système d''exploitation MAC');
