@@ -1,6 +1,6 @@
 !1	tblSysExp	Complet	FINI		script terminé		OL
 
-2	tblCategorie	Complet	FINI		SCRIPT A FAIRE		GA
+2	tblCategorie	Complet	FINI		script terminé		GA
 
 !3	tblTheme	Complet	FINI		script terminé		OL
 
