@@ -1,6 +1,6 @@
 !1	tblSysExp	Complet	FINI		script terminé		OL
 
-2	tblCategorie	Complet	INCOMPLET	SCRIPT A FAIRE
+2	tblCategorie	Complet	FINI		SCRIPT A FAIRE
 
 !3	tblTheme	Complet	FINI		script terminé		OL
 
@@ -10,7 +10,7 @@
 
 !6	tblGenre	Complet	FINI		script terminé		OL
 
-7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
+7	tblPlateforme	Complet	FINI		SCRIPT A FAIRE				AVEC TAG
 
 !8	tblJeu		Base	FINI		SCRIPT A FAIRE		GS		AVEC TAG
 
