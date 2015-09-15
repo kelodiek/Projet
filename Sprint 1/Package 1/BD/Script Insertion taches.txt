@@ -18,7 +18,7 @@
 
 9	tblPlateformeSysExpClet	FINI		SCRIPT A FAIRE		OL
 
-!10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE
+!10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE		GA
 
 10	tblThemeJeu	Complet	INCOMPLET	SCRIPT A FAIRE
 
