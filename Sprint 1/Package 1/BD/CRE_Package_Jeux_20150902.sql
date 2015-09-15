@@ -98,7 +98,7 @@ RAM					VARCHAR(60)	NULL,
 Stockage			VARCHAR(60)	NULL,
 DescPlateforme		VARCHAR(250)NOT NULL,
 InfoSupPlateforme	TEXT		NULL,
-Tag					TEXT		NOT NULL,
+Tag					TEXT		NULL,
 CodeCategorie		VARCHAR(7)	NULL
 )
 GO
@@ -108,10 +108,10 @@ GO
 CREATE TABLE Jeux.tblJeu
 (
 IdJeu			INT			NOT NULL	IDENTITY(1,1),
-NomJeu			VARCHAR(30)	NOT NULL,
+NomJeu			VARCHAR(50)	NOT NULL,
 DescJeu			VARCHAR(350)NOT NULL,
 Actif			BINARY(1)	NOT NULL,
-Tag				TEXT		NOT NULL,
+Tag				TEXT		NULL,
 CoteESRB		VARCHAR(3)	NULL,
 IdGenre			INT			NULL,
 IdMode			INT			NULL
@@ -148,7 +148,7 @@ DescVersion			VARCHAR(250)NULL,
 StadeDeveloppement	VARCHAR(30)	NOT NULL,
 DateVersion			DATE		NOT NULL,
 DateSortiePrevue	DATE		NULL,
-Tag					TEXT		NOT NULL,
+Tag					TEXT		NULL,
 IdJeu				INT			NOT NULL
 )
 GO
