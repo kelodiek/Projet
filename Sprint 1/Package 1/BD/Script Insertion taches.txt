@@ -24,7 +24,7 @@
 
 11	tblVersion	Base	FINI		script terminé		GA		AVEC TAG
 
-11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
+11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE		GS		AVEC TAG
 
 12	tblJeuSemblable	Base	FINI		script terminé		OL
 
