@@ -335,3 +335,4 @@ INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Voyance / Divination');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Western');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Zombies');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Zoo');
+USE master;

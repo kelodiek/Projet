@@ -42,3 +42,4 @@ INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Stratégie Wargame');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Sport');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Course');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Rythme');
+USE master;
