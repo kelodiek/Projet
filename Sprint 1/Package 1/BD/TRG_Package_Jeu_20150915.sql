@@ -2,18 +2,23 @@ use dbProjetE2Test;
 GO
 
 
-IF OBJECT_ID('Jeux.trigInstblJeuTag', 'TR') IS NOT NULL
+IF OBJECT_ID('Jeux.trigInstblJeuTagtblJeu', 'TR') IS NOT NULL
 BEGIN
-    DROP TRIGGER Jeux.trigInstblJeuTag;
+    DROP TRIGGER Jeux.trigInstblJeuTagtblJeu;
 END
 
-IF OBJECT_ID('Jeux.trigInstblPlateformeTag', 'TR') IS NOT NULL
+IF OBJECT_ID('Jeux.trigInstblPlateformeTagtblPlateforme', 'TR') IS NOT NULL
 BEGIN
-    DROP TRIGGER Jeux.trigInstblPlateformeTag;
+    DROP TRIGGER Jeux.trigInstblPlateformeTagtblPlateforme;
+END
+
+IF OBJECT_ID('Jeux.trigInstblThemeJeuTagtblJeu', 'TR') IS NOT NULL
+BEGIN
+    DROP TRIGGER Jeux.trigInstblThemeJeuTagtblJeu;
 END
 
 GO
-CREATE TRIGGER Jeux.trigInstblJeuTag	ON Jeux.tblJeu
+CREATE TRIGGER Jeux.trigInstblJeuTagtblJeu	ON Jeux.tblJeu
 AFTER INSERT
 AS
 BEGIN
@@ -47,11 +52,11 @@ WHERE IdJeu = @IdJeu
 
 END;
 GO   
-PRINT 'Création du Trigger Jeux.trigInstblJeuTag réussie'
+PRINT 'Création du Trigger Jeux.trigInstblJeuTagtblJeu réussie'
     
     
 GO
-CREATE TRIGGER Jeux.trigInstblPlateformeTag	ON Jeux.tblPlateforme
+CREATE TRIGGER Jeux.trigInstblPlateformeTagtblPlateforme	ON Jeux.tblPlateforme
 AFTER INSERT
 AS
 BEGIN
@@ -87,5 +92,38 @@ WHERE IdPlateforme = @IdPlateforme
 
 END;
 GO   
-PRINT 'Création du Trigger Jeux.trigInstblPlateformeTag réussie'    
+PRINT 'Création du Trigger Jeux.trigInstblPlateformeTagtblPlateforme réussie'    
+GO
+
+
+CREATE TRIGGER Jeux.trigInstblThemeJeuTagtblJeu	ON Jeux.tblThemeJeu
+AFTER INSERT
+AS
+BEGIN
+DECLARE 
+ @IdTheme AS INT,
+ @IdJeu AS INT,
+ @NomTheme AS  VARCHAR(40),
+ @Tag AS NVARCHAR(4000)
+
+ 
+SELECT @IdJeu = IdJeu, @IdTheme = IdTheme
+FROM inserted
+
+SELECT @NomTheme = NomTheme
+FROM Jeux.tblTheme
+WHERE IdTheme = @IdTheme
+
+SELECT @Tag = CAST(Tag AS NVARCHAR(4000))
+FROM Jeux.tblJeu
+WHERE IdJeu = @IdJeu
+
+UPDATE Jeux.tblJeu
+SET Tag = (@Tag + ' ' + @NomTheme)
+WHERE IdJeu = @IdJeu
+
+END;
+GO   
+PRINT 'Création du Trigger Jeux.trigInstblThemeJeuTagtblJeu réussie'
+
 
