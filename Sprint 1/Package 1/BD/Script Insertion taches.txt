@@ -30,6 +30,6 @@
 
 12	tblJeuSemblable Complet	INCOMPLET	SCRIPT A FAIRE
 
-13	tblPlateformeJeuBase	FINI		SCRIPT A FAIRE		AL
+13	tblPlateformeJeuBase	FINI		script terminé		AL
 
 13	tblPlateformeJeuComplet	INCOMPLET	SCRIPT A FAIRE
