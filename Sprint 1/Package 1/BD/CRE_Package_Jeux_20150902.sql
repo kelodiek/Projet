@@ -110,7 +110,7 @@ CREATE TABLE Jeux.tblJeu
 IdJeu			INT			NOT NULL	IDENTITY(1,1),
 NomJeu			VARCHAR(50)	NOT NULL,
 DescJeu			VARCHAR(350)NOT NULL,
-Actif			BINARY(1)	NOT NULL,
+Actif			BIT			NOT NULL,
 Tag				TEXT		NULL,
 CoteESRB		VARCHAR(3)	NULL,
 IdGenre			INT			NULL,
@@ -143,7 +143,7 @@ GO
 CREATE TABLE Jeux.tblVersion
 (
 CodeVersion			INT			NOT NULL	IDENTITY(1,1),
-NomVersion			VARCHAR(35)	NOT NULL,
+NomVersion			VARCHAR(50)	NOT NULL,
 DescVersion			VARCHAR(250)NULL,
 StadeDeveloppement	VARCHAR(30)	NOT NULL,
 DateVersion			DATE		NOT NULL,
