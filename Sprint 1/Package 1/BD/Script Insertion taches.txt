@@ -16,7 +16,7 @@
 
 8	tblJeu		Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
-9	tblPlateformeSysExpClet	FINI		SCRIPT A FAIRE		OL
+9	tblPlateformeSysExpClet	FINI		script terminé		OL
 
 !10	tblThemeJeu	Base	FINI		SCRIPT A FAIRE		GA
 
@@ -26,7 +26,7 @@
 
 11	tblVersion	Complet	INCOMPLET	SCRIPT A FAIRE				AVEC TAG
 
-12	tblJeuSemblable	Base	FINI		SCRIPT A FAIRE		
+12	tblJeuSemblable	Base	FINI		script terminé		OL
 
 12	tblJeuSemblable Complet	INCOMPLET	SCRIPT A FAIRE
 
