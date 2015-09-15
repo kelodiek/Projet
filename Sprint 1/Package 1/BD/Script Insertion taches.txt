@@ -10,7 +10,7 @@
 
 !6	tblGenre	Complet	FINI		script terminé		OL
 
-7	tblPlateforme	Complet	FINI		SCRIPT A FAIRE		OL		AVEC TAG
+7	tblPlateforme	Complet	INCOMPLET	SCRIPT A FAIRE		OL		AVEC TAG
 
 !8	tblJeu		Base	FINI		SCRIPT A FAIRE		AL		AVEC TAG
 
