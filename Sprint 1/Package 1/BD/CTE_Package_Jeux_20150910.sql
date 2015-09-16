@@ -29,6 +29,10 @@ ALTER TABLE Jeux.tblMode
 ADD CONSTRAINT PK_tblMode_IdMode	PRIMARY KEY(IdMode)
 PRINT '5- Création de la contrainte PK_tblMode_IdMode reussie'
 GO
+ALTER TABLE Jeux.tblMode
+ADD CONSTRAINT UN_tblMode_NomMode	UNIQUE(NomMode)
+PRINT '5- Création de la contrainte UN_tblMode_NomMode reussie'
+GO
 
 ALTER TABLE Jeux.tblGenre
 ADD CONSTRAINT PK_tblGenre_IdGenre	PRIMARY KEY(IdGenre)
