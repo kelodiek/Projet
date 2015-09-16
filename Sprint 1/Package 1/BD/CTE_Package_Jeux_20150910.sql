@@ -15,6 +15,10 @@ ALTER TABLE Jeux.tblTheme
 ADD CONSTRAINT PK_tblTheme_IdTheme	PRIMARY KEY(IdTheme)
 PRINT '3- Création de la contrainte PK_tblTheme_IdTheme reussie'
 GO
+ALTER TABLE Jeux.tblTheme
+ADD CONSTRAINT UN_tblTheme_NomTheme	PRIMARY KEY(NomTheme)
+PRINT '3- Création de la contrainte UN_tblTheme_NomTheme reussie'
+GO
 
 ALTER TABLE Jeux.tblClassification
 ADD CONSTRAINT PK_tblClassification_CoteESRB	PRIMARY KEY(CoteESRB)
@@ -29,6 +33,10 @@ GO
 ALTER TABLE Jeux.tblGenre
 ADD CONSTRAINT PK_tblGenre_IdGenre	PRIMARY KEY(IdGenre)
 PRINT '6- Création de la contrainte PK_tblGenre_IdGenre reussie'
+GO
+ALTER TABLE Jeux.tblGenre
+ADD CONSTRAINT UN_tblGenre_NomGenre	UNIQUE(NomGenre)
+PRINT '6- Création de la contrainte UN_tblGenre_NomGenre reussie'
 GO
 
 ALTER TABLE Jeux.tblPlateforme

@@ -39,7 +39,7 @@ INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Stratégie Grande stratégie');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Stratégie 4X');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Stratégie Wargame');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Sport ');
-INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Course ');
+INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Dessin ', 'Jeux créatifs');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Rythme ');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG FPS');
 USE master;
