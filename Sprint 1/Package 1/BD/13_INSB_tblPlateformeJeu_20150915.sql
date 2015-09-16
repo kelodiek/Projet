@@ -1,4 +1,4 @@
-USE dbProjetE2Test
+USE dbProjetE2Prod
 GO
 INSERT INTO Jeux.tblPlateformeJeu(IdPlateforme,IdJeu) VALUES(1,1);
 INSERT INTO Jeux.tblPlateformeJeu(IdPlateforme,IdJeu) VALUES(2,1);

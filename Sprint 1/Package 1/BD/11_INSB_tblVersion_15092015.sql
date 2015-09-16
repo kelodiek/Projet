@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 
 GO
 INSERT INTO Jeux.tblVersion(CodeVersion, NomVersion, DescVersion, StadeDeveloppement, DateVersion, DateSortiePrevue, IdJeu) values ('DarkDn01','darkest dungeon 1.0','1er version suite au financement kickstarter, version de départ','Alpha','20140214','20151212','1');

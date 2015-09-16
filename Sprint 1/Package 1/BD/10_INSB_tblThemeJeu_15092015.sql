@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 
 GO
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('171','1');

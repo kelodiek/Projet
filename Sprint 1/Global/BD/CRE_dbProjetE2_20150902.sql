@@ -1,7 +1,7 @@
 use master;
 GO
 DECLARE @dbName varchar(20) 
-SET @dbName = 'dbProjetE2Test';
+SET @dbName = 'dbProjetE2Prod';
 
 DECLARE @dbCreate NVARCHAR(MAX)
 DECLARE @TemplateCreate NVARCHAR(MAX)

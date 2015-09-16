@@ -1,3 +1,4 @@
+USE dbProjetE2Prod;
 INSERT INTO Jeux.tblGenre(NomGenre,ComGenre) VALUES('Course ','Les jeux de Vroum vroum');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Action Combat');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Action Beat them all');
@@ -19,7 +20,7 @@ INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Gestion');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG ');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG Gestion');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG d''action');
-INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG Hack'n'slash');
+INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG Hack''n''slash');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG tour par tour');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG Rogue-like');
 INSERT INTO Jeux.tblGenre(NomGenre,ComGenre) VALUES('RPG Rogue-like tour par tour','Un jeu où vous mourez à chaque tour');
@@ -41,3 +42,4 @@ INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Sport ');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Course ');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('Rythme ');
 INSERT INTO Jeux.tblGenre(NomGenre) VALUES('RPG FPS');
+USE master;

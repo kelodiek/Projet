@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 GO
 IF EXISTS (SELECT * FROM sys.schemas WHERE name = 'Jeux')
 BEGIN
@@ -29,7 +29,8 @@ CodeSysExp		VARCHAR(10)	NOT NULL,
 NomSysExp		VARCHAR(25)	NOT NULL,
 EditionSysExp	VARCHAR(40)	NOT NULL,
 VersionSysExp	VARCHAR(40)	NULL,
-InfoSupSysExp	TEXT		NULL
+InfoSupSysExp	TEXT		NULL,
+Tag				TEXT		NULL
 )
 GO
 PRINT 'Création de Jeux.tblSysExp complétée'
@@ -142,7 +143,7 @@ PRINT 'Création de Jeux.tblThemeJeu complétée'
 GO
 CREATE TABLE Jeux.tblVersion
 (
-CodeVersion			INT			NOT NULL	IDENTITY(1,1),
+CodeVersion			VARCHAR(10)	NOT NULL,
 NomVersion			VARCHAR(50)	NOT NULL,
 DescVersion			VARCHAR(250)NULL,
 StadeDeveloppement	VARCHAR(30)	NOT NULL,
