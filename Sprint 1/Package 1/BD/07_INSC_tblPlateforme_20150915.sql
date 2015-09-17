@@ -18,6 +18,6 @@ INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,St
 INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,Stockage,DescPlateforme,CodeCategorie) VALUES('Xbox360','Xbox 360','triple coeur 64-bit','Winchester','512 Mo de GDDR3','250 Go','Console salon de Microsoft','ConSal');
 INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,Stockage,DescPlateforme,CodeCategorie) VALUES('WiiU','WiiU','multicœur de type IBM Power','Wii U Mainboard PCB','2 Go de DDR3','8-32 Go','Console Nintendo la plus récente','ConSal');
 INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,Stockage,DescPlateforme,CodeCategorie) VALUES('Mac','iMac','Intel Core i5 de quatrième génération','Intel 20" EMC 2133','8 Go','3 To','Ordinateur Apple','PCBur');
-INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,Stockage,DescPlateforme,InfoSupPlateforme,CodeCategorie) VALUES('3DS','3DS','ARM11 MPCore-based dual-core ','3DS motherboard','32 Mo','128 Mo','Console Nintendo qui utilise le 3D','C''est la petite version de 3DS','ConPort');
+INSERT INTO Jeux.tblPlateforme(CodePlateforme,NomPlateforme,CPU,CarteMere,RAM,Stockage,DescPlateforme,InfoSupPlateforme,CodeCategorie) VALUES('3DS','3DS',null,null,null,null,'Console Nintendo qui utilise le 3D',null,null);
 
 USE master;
