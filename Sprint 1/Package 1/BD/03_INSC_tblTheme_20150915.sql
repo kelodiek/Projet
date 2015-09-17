@@ -1,4 +1,4 @@
-USE dbProjetE2Prod
+USE dbProjetE2Test
 GO
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Abeilles');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Abstrait');
@@ -201,7 +201,7 @@ INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Australie');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Autriche');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Belgique');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Caraïbes');
-INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Caraïbes');
+INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Caraïbes Plage');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Ecosse');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Espagne');
 INSERT INTO Jeux.tblTheme(NomTheme) VALUES('Lieu Europe');
