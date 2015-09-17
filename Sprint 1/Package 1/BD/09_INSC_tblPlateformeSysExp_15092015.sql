@@ -1,4 +1,4 @@
-USE dbProjetE2Test
+USE dbProjetE2Prod
 GO
 INSERT INTO Jeux.tblPlateformeSysExp(IdPlateforme,IdSysExp) VALUES('1','52');
 INSERT INTO Jeux.tblPlateformeSysExp(IdPlateforme,IdSysExp) VALUES('1','64');

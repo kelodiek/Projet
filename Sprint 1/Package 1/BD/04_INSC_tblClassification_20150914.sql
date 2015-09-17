@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 
 
 INSERT INTO Jeux.tblClassification(CoteESRB, NomESRB, DescESRB) values ('C','Early childhood','Enfants de 3 ans et plus'); 

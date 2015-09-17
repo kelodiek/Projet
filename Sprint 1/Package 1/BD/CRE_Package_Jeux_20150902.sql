@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 GO
 IF EXISTS (SELECT * FROM sys.schemas WHERE name = 'Jeux')
 BEGIN
@@ -108,14 +108,15 @@ PRINT 'Création de Jeux.tblPlateforme complétée'
 GO
 CREATE TABLE Jeux.tblJeu
 (
-IdJeu			INT			NOT NULL	IDENTITY(1,1),
-NomJeu			VARCHAR(50)	NOT NULL,
-DescJeu			VARCHAR(350)NOT NULL,
-Actif			BIT			NOT NULL,
-Tag				TEXT		NULL,
-CoteESRB		VARCHAR(3)	NULL,
-IdGenre			INT			NULL,
-IdMode			INT			NULL
+IdJeu			INT				NOT NULL	IDENTITY(1,1),
+NomJeu			VARCHAR(50)		NOT NULL,
+DescJeu			VARCHAR(100)	NOT NULL,
+Actif			BIT				NOT NULL,
+InfoSupJeu		TEXT			NULL,
+Tag				TEXT			NULL,
+CoteESRB		VARCHAR(3)		NULL,
+IdGenre			INT				NULL,
+IdMode			INT				NULL
 )
 GO
 PRINT 'Création de Jeux.tblJeu complétée'
