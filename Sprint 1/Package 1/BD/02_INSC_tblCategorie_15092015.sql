@@ -1,4 +1,4 @@
-use dbProjetE2Test;
+use dbProjetE2Prod;
 
 GO
 INSERT INTO Jeux.tblCategorie(CodeCategorie, DescCategorie, ComCategorie) values ('Mobile','Téléphone intelligent','Samsung Galaxy S6, Galaxy Note 5,Iphone 5, Iphone 6');
