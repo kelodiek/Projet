@@ -1,7 +1,7 @@
-USE dbProjetE2Prod
+USE dbProjetE2Test
 GO
 INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('Darkest dungeon','Darkest Dungeon est un jeu dont l"intérêt repose sur le stress provoqué par l"inconnu. Le joueur devra y monter une équipe de héros et les mener dans des lieux toujours plus effrayants pour leur faire combattre des monstres, mais aussi leurs peurs',1,'RP',25,1);
-INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('FTL','Faster than Light. Le joueur a pour objectif de conduire son vaisseau d"un point A à un point B de la galaxie, en faisant face aux situations critiques qui se présentent à lui (attaques de pirates, dangers environnements), sur un mode aléatoire.',1,'RP',20,1);
+INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('FTL','Faster than Light. Le joueur a pour objectif de conduire son vaisseau d"un point A à un point B de la galaxie, en faisant face aux situations critiques qui se présentent à lui (attaques de pirates, dangers environnements), sur un mode aléatoire.',1,null,null,null);
 INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('Halo 4 solo','Halo 4 est un jeu de tir en vue subjective sur Xbox 360. Septième jeu de la franchise Halo',1,'M',6,1);
 INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('Halo 4 Multi local','Halo 4 est un jeu de tir en vue subjective sur Xbox 360. Septième jeu de la franchise Halo',1,'M',6,2);
 INSERT INTO Jeux.tblJeu(NomJeu,DescJeu,Actif,CoteESRB,IdGenre,IdMode)VALUES('Halo 4 Multi en ligne','Halo 4 est un jeu de tir en vue subjective sur Xbox 360. Septième jeu de la franchise Halo',1,'M',6,3);

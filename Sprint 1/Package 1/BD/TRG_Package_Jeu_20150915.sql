@@ -1,4 +1,4 @@
-use dbProjetE2Prod;
+use dbProjetE2Test;
 GO
 
 
@@ -32,9 +32,9 @@ BEGIN
     DROP TRIGGER Jeux.trigInstblVersionTagtblVersion;
 END
 
-IF OBJECT_ID('Jeux.trigInstblVersionSysExpTagtblSysExp', 'TR') IS NOT NULL
+IF OBJECT_ID('Jeux.trigInstblSysExpTagtblSysExp', 'TR') IS NOT NULL
 BEGIN
-    DROP TRIGGER Jeux.trigInstblVersionSysExpTagtblSysExp;
+    DROP TRIGGER Jeux.trigInstblSysExpTagtblSysExp;
 END
 
 
@@ -69,7 +69,7 @@ FROM Jeux.tblMode
 WHERE IdMode = @IdMode
 
 UPDATE Jeux.tblJeu
-SET Tag = @IdJeuText + ' ' +@NomJeu + ' ' + @DescJeu + ' ' + @CoteESRB + ' ' + @NomGenre + ' ' + @NomMode
+SET Tag = @IdJeuText + ' ' +@NomJeu + ' ' + @DescJeu + ' ' + COALESCE(@CoteESRB,'') + ' ' + COALESCE(@NomGenre,'') + ' ' + COALESCE(@NomMode,'')
 WHERE IdJeu = @IdJeu
 
 END;
@@ -108,8 +108,8 @@ WHERE CodeCategorie = @CodeCategorie
 
 
 UPDATE Jeux.tblPlateforme
-SET Tag = @IdPlateformeText + ' ' +@CodePlateforme + ' ' + @NomPlateforme + ' ' + @CPU + ' ' +
- @CarteMere + ' ' + @RAM+ ' ' + @Stockage + ' ' + @DescPlateforme + ' ' + @CodeCategorie + ' ' + @DescCategorie
+SET Tag = @IdPlateformeText + ' ' +@CodePlateforme + ' ' + @NomPlateforme + ' ' + COALESCE(@CPU,'') + ' ' +
+ COALESCE(@CarteMere,'') + ' ' + COALESCE(@RAM,'')+ ' ' + COALESCE(@Stockage,'') + ' ' + @DescPlateforme + ' ' + COALESCE(@CodeCategorie,'') + ' ' + COALESCE(@DescCategorie,'')
 WHERE IdPlateforme = @IdPlateforme
 
 END;
@@ -141,7 +141,7 @@ FROM Jeux.tblJeu
 WHERE IdJeu = @IdJeu
 
 UPDATE Jeux.tblJeu
-SET Tag = (@Tag + ' ' + @NomTheme)
+SET Tag = (COALESCE(@Tag,'Tag null') + ' ' + @NomTheme)
 WHERE IdJeu = @IdJeu
 
 END;
@@ -174,7 +174,7 @@ FROM Jeux.tblJeu
 WHERE IdJeu = @IdJeu
 
 UPDATE Jeux.tblJeu
-SET Tag = (@Tag + ' ' + @CodePlateforme + ' ' + @NomPlateforme + ' ' + @DescPlateforme)
+SET Tag = (COALESCE(@Tag,'Tag null') + ' ' + @CodePlateforme + ' ' + @NomPlateforme + ' ' + @DescPlateforme)
 WHERE IdJeu = @IdJeu
 
 END;
@@ -208,7 +208,7 @@ FROM Jeux.tblPlateforme
 WHERE IdPlateforme = @IdPlateforme
 
 UPDATE Jeux.tblPlateforme
-SET Tag = (@Tag + ' ' + @CodeSysExp + ' ' + @NomSysExp + ' ' + @EditionSysExp + ' ' + @VersionSysExp)
+SET Tag = (COALESCE(@Tag,'Tag null') + ' ' + @CodeSysExp + ' ' + @NomSysExp + ' ' + @EditionSysExp + ' ' + COALESCE(@VersionSysExp,''))
 WHERE IdPlateforme = @IdPlateforme
 
 END;
@@ -240,8 +240,8 @@ FROM Jeux.tblJeu
 WHERE IdJeu = @IdJeu
 
 UPDATE Jeux.tblVersion
-SET Tag = (@CodeVersion + ' ' + @NomVersion + ' ' + @DescVersion + ' ' + @StadeDeveloppement + ' ' + CAST(@DateVersion AS VARCHAR(20)) 
-+ ' ' + CAST(@DateSortiePrevue AS VARCHAR(20)) + ' ' + @NomJeu + ' ' + @DescJeu)
+SET Tag = (@CodeVersion + ' ' + @NomVersion + ' ' + COALESCE(@DescVersion,'') + ' ' + @StadeDeveloppement + ' ' + CAST(@DateVersion AS VARCHAR(20)) 
++ ' ' + COALESCE(CAST(@DateSortiePrevue AS VARCHAR(20)),'') + ' ' + @NomJeu + ' ' + @DescJeu)
 WHERE CodeVersion = @CodeVersion
 
 END;
@@ -249,7 +249,7 @@ GO
 PRINT 'Création du Trigger Jeux.trigInstblVersionTagtblVersion réussie'
 
 GO
-CREATE TRIGGER Jeux.trigInstblVersionSysExpTagtblSysExp	ON Jeux.tblSysExp
+CREATE TRIGGER Jeux.trigInstblSysExpTagtblSysExp	ON Jeux.tblSysExp
 AFTER INSERT
 AS
 BEGIN
@@ -268,12 +268,12 @@ FROM inserted
 SET @IdSysExpText = CONVERT(VARCHAR(250), @IdSysExp)
 
 UPDATE Jeux.tblSysExp
-SET Tag = (@IdSysExpText + ' ' + @CodeSysExp + ' ' + @NomSysExp + ' ' + @EditionSysExp + ' ' + @VersionSysExp)
+SET Tag = (@IdSysExpText + ' ' + @CodeSysExp + ' ' + @NomSysExp + ' ' + @EditionSysExp + ' ' + COALESCE(@VersionSysExp,''))
 WHERE IdSysExp = @IdSysExp
 
 END;
 GO   
-PRINT 'Création du Trigger Jeux.trigInstblVersionSysExpTagtblSysExp réussie'
+PRINT 'Création du Trigger Jeux.trigInstblSysExpTagtblSysExp réussie'
 
 
 

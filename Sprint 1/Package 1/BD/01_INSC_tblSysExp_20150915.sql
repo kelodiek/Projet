@@ -1,4 +1,4 @@
-USE dbProjetE2Prod;
+USE dbProjetE2Test;
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('WinXPFam','Windows XP','Familiale','32bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('WinXPPro','Windows XP','Professionel','32bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('WinXPPro','Windows XP','Professionel','64bit');
@@ -72,7 +72,7 @@ INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VAL
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,VersionSysExp) VALUES('Win10Core','Windows 10','Core','64bit');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('XBoxOS','XBox OS','Xbox One','Système d''exploitation XBox One');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('Ps4OS','Orbis OS','Ps4','Système d''exploitation Ps4');
-INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('Ps3OS','Cell OS','Ps3','Système d''exploitation Ps3');
+INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('Ps3OS','Cell OS','Ps3',null);
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('XBoxDash','Xbox 360 DashBoard','Xbox 360','Système d''exploitation XBox 360');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('WiiUSys','Wii U System Software','Wii U','Système d''exploitation Wii U');
 INSERT INTO Jeux.tblSysExp(CodeSysExp,NomSysExp,EditionSysExp,InfoSupSysExp) VALUES('3DSSys','3DS System Software','3DS','Système d''exploitation 3DS');

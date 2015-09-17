@@ -1,4 +1,4 @@
-use dbProjetE2Prod;
+use dbProjetE2Test;
 GO
 
 ALTER TABLE Jeux.tblSysExp
@@ -15,7 +15,7 @@ ALTER TABLE Jeux.tblTheme
 ADD CONSTRAINT PK_tblTheme_IdTheme	PRIMARY KEY(IdTheme)
 PRINT '3- Création de la contrainte PK_tblTheme_IdTheme reussie'
 GO
-ALTER TABLE Jeux.tblThemes
+ALTER TABLE Jeux.tblTheme
 ADD CONSTRAINT UN_tblTheme_NomTheme	UNIQUE(NomTheme)
 PRINT '3- Création de la contrainte UN_tblTheme_NomTheme reussie'
 GO
