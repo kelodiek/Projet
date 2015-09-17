@@ -1,10 +1,8 @@
-use dbProjetE2Prod;
+use dbProjetE2Test;
 
 GO
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('171','1');
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('163','1');
-INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('288','2');
-INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('320','2');
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('128','3');
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('288','3');
 INSERT INTO Jeux.tblThemeJeu(IdTheme, IdJeu) values ('128','4');
